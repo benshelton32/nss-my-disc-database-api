@@ -8817,5 +8817,36 @@
       "fade": 1
     }
   ],
-  "ownedDiscs": []
+  "ownedDiscs": [
+    {
+      "id": 1,
+      "userId": 1,
+      "discId": 446,
+      "weight": 167
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "discId": 405,
+      "weight": 165
+    },
+    {
+      "id": 3,
+      "userId": 1,
+      "discId": 471,
+      "weight": 171
+    },
+    {
+      "userId": 1,
+      "discId": 416,
+      "weight": 165,
+      "id": 4
+    },
+    {
+      "userId": 1,
+      "discId": 418,
+      "weight": 172,
+      "id": 5
+    }
+  ]
 }
