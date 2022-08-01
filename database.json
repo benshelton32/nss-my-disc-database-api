@@ -65,6 +65,12 @@
       "firstName": "Test",
       "lastName": "Richardson",
       "id": 11
+    },
+    {
+      "email": "bob@bob.com",
+      "firstName": "Bob",
+      "lastName": "West",
+      "id": 12
     }
   ],
   "manufacturers": [
@@ -263,6 +269,1448 @@
     {
       "id": 49,
       "name": "Yikun"
+    }
+  ],
+  "plastics": [
+    {
+      "id": 1,
+      "name": "Shimmer Star",
+      "manufacturerId": 23
+    },
+    {
+      "id": 2,
+      "name": "Star",
+      "manufacturerId": 23
+    },
+    {
+      "id": 3,
+      "name": "StarLite",
+      "manufacturerId": 23
+    },
+    {
+      "id": 4,
+      "name": "EchoStar",
+      "manufacturerId": 23
+    },
+    {
+      "id": 5,
+      "name": "GStar",
+      "manufacturerId": 23
+    },
+    {
+      "id": 6,
+      "name": "Champion",
+      "manufacturerId": 23
+    },
+    {
+      "id": 7,
+      "name": "Blizzard Champion",
+      "manufacturerId": 23
+    },
+    {
+      "id": 8,
+      "name": "Glow Champion",
+      "manufacturerId": 23
+    },
+    {
+      "id": 9,
+      "name": "Gummy Champion",
+      "manufacturerId": 23
+    },
+    {
+      "id": 10,
+      "name": "XT",
+      "manufacturerId": 23
+    },
+    {
+      "id": 11,
+      "name": "Pro",
+      "manufacturerId": 23
+    },
+    {
+      "id": 12,
+      "name": "KC-Pro",
+      "manufacturerId": 23
+    },
+    {
+      "id": 13,
+      "name": "R-Pro",
+      "manufacturerId": 23
+    },
+    {
+      "id": 14,
+      "name": "JK-Pro",
+      "manufacturerId": 23
+    },
+    {
+      "id": 15,
+      "name": "DX",
+      "manufacturerId": 23
+    },
+    {
+      "id": 16,
+      "name": "Glow DX",
+      "manufacturerId": 23
+    },
+    {
+      "id": 17,
+      "name": "S-Line",
+      "manufacturerId": 10
+    },
+    {
+      "id": 18,
+      "name": "G-Line",
+      "manufacturerId": 10
+    },
+    {
+      "id": 19,
+      "name": "Glow C-Line",
+      "manufacturerId": 10
+    },
+    {
+      "id": 20,
+      "name": "C-Line",
+      "manufacturerId": 10
+    },
+    {
+      "id": 21,
+      "name": "P-Line",
+      "manufacturerId": 10
+    },
+    {
+      "id": 22,
+      "name": "X-Line",
+      "manufacturerId": 10
+    },
+    {
+      "id": 23,
+      "name": "Glow D-Line",
+      "manufacturerId": 10
+    },
+    {
+      "id": 24,
+      "name": "D-Line",
+      "manufacturerId": 10
+    },
+    {
+      "id": 25,
+      "name": "R2 Neutron",
+      "manufacturerId": 4
+    },
+    {
+      "id": 26,
+      "name": "Neutron",
+      "manufacturerId": 4
+    },
+    {
+      "id": 27,
+      "name": "Fission",
+      "manufacturerId": 4
+    },
+    {
+      "id": 28,
+      "name": "Plasma",
+      "manufacturerId": 4
+    },
+    {
+      "id": 29,
+      "name": "FX",
+      "manufacturerId": 4
+    },
+    {
+      "id": 30,
+      "name": "Eclipse",
+      "manufacturerId": 4
+    },
+    {
+      "id": 31,
+      "name": "Proton",
+      "manufacturerId": 4
+    },
+    {
+      "id": 32,
+      "name": "Electron Firm",
+      "manufacturerId": 4
+    },
+    {
+      "id": 33,
+      "name": "Electron",
+      "manufacturerId": 4
+    },
+    {
+      "id": 34,
+      "name": "Electron Soft",
+      "manufacturerId": 4
+    },
+    {
+      "id": 35,
+      "name": "R2 Neutron",
+      "manufacturerId": 31
+    },
+    {
+      "id": 36,
+      "name": "Neutron",
+      "manufacturerId": 31
+    },
+    {
+      "id": 37,
+      "name": "Fission",
+      "manufacturerId": 31
+    },
+    {
+      "id": 38,
+      "name": "Plasma",
+      "manufacturerId": 31
+    },
+    {
+      "id": 39,
+      "name": "FX",
+      "manufacturerId": 31
+    },
+    {
+      "id": 40,
+      "name": "Eclipse",
+      "manufacturerId": 31
+    },
+    {
+      "id": 41,
+      "name": "Proton",
+      "manufacturerId": 31
+    },
+    {
+      "id": 42,
+      "name": "Electron Firm",
+      "manufacturerId": 31
+    },
+    {
+      "id": 43,
+      "name": "Electron",
+      "manufacturerId": 31
+    },
+    {
+      "id": 44,
+      "name": "Electron Soft",
+      "manufacturerId": 31
+    },
+    {
+      "id": 45,
+      "name": "R2 Neutron",
+      "manufacturerId": 42
+    },
+    {
+      "id": 46,
+      "name": "Neutron",
+      "manufacturerId": 42
+    },
+    {
+      "id": 47,
+      "name": "Fission",
+      "manufacturerId": 42
+    },
+    {
+      "id": 48,
+      "name": "Plasma",
+      "manufacturerId": 42
+    },
+    {
+      "id": 49,
+      "name": "FX",
+      "manufacturerId": 42
+    },
+    {
+      "id": 50,
+      "name": "Eclipse",
+      "manufacturerId": 42
+    },
+    {
+      "id": 51,
+      "name": "Proton",
+      "manufacturerId": 42
+    },
+    {
+      "id": 52,
+      "name": "Electron Firm",
+      "manufacturerId": 42
+    },
+    {
+      "id": 53,
+      "name": "Electron",
+      "manufacturerId": 42
+    },
+    {
+      "id": 54,
+      "name": "Electron Soft",
+      "manufacturerId": 42
+    },
+    {
+      "id": 55,
+      "name": "S-Blend",
+      "manufacturerId": 22
+    },
+    {
+      "id": 56,
+      "name": "G-Blend",
+      "manufacturerId": 22
+    },
+    {
+      "id": 57,
+      "name": "C-Blend",
+      "manufacturerId": 22
+    },
+    {
+      "id": 58,
+      "name": "Glow C-Blend",
+      "manufacturerId": 22
+    },
+    {
+      "id": 59,
+      "name": "I-Blend",
+      "manufacturerId": 22
+    },
+    {
+      "id": 60,
+      "name": "X-Blend",
+      "manufacturerId": 22
+    },
+    {
+      "id": 61,
+      "name": "P-Blend",
+      "manufacturerId": 22
+    },
+    {
+      "id": 62,
+      "name": "Sirius",
+      "manufacturerId": 32
+    },
+    {
+      "id": 63,
+      "name": "Quantum",
+      "manufacturerId": 32
+    },
+    {
+      "id": 64,
+      "name": "ET",
+      "manufacturerId": 32
+    },
+    {
+      "id": 65,
+      "name": "Millenium Standard",
+      "manufacturerId": 32
+    },
+    {
+      "id": 66,
+      "name": "Delta T",
+      "manufacturerId": 32
+    },
+    {
+      "id": 67,
+      "name": "SuperSoft",
+      "manufacturerId": 32
+    },
+    {
+      "id": 68,
+      "name": "Titanium",
+      "manufacturerId": 11
+    },
+    {
+      "id": 69,
+      "name": "ESP",
+      "manufacturerId": 11
+    },
+    {
+      "id": 70,
+      "name": "ESP FLX",
+      "manufacturerId": 11
+    },
+    {
+      "id": 71,
+      "name": "Elite Z",
+      "manufacturerId": 11
+    },
+    {
+      "id": 72,
+      "name": "Z Lite",
+      "manufacturerId": 11
+    },
+    {
+      "id": 73,
+      "name": "Z Glo",
+      "manufacturerId": 11
+    },
+    {
+      "id": 74,
+      "name": "ESP Glo",
+      "manufacturerId": 11
+    },
+    {
+      "id": 75,
+      "name": "Z FLX",
+      "manufacturerId": 11
+    },
+    {
+      "id": 76,
+      "name": "Jawbreaker",
+      "manufacturerId": 11
+    },
+    {
+      "id": 77,
+      "name": "X",
+      "manufacturerId": 11
+    },
+    {
+      "id": 78,
+      "name": "X Soft",
+      "manufacturerId": 11
+    },
+    {
+      "id": 79,
+      "name": "Tough Jawbreaker",
+      "manufacturerId": 11
+    },
+    {
+      "id": 80,
+      "name": "Pro D Soft",
+      "manufacturerId": 11
+    },
+    {
+      "id": 81,
+      "name": "Pro D",
+      "manufacturerId": 11
+    },
+    {
+      "id": 82,
+      "name": "ProLine",
+      "manufacturerId": 6
+    },
+    {
+      "id": 83,
+      "name": "SP Line",
+      "manufacturerId": 6
+    },
+    {
+      "id": 84,
+      "name": "RDGA",
+      "manufacturerId": 6
+    },
+    {
+      "id": 85,
+      "name": "Glow SP Line",
+      "manufacturerId": 6
+    },
+    {
+      "id": 86,
+      "name": "D-Line",
+      "manufacturerId": 6
+    },
+    {
+      "id": 87,
+      "name": "Signature Line",
+      "manufacturerId": 6
+    },
+    {
+      "id": 88,
+      "name": "Top Line",
+      "manufacturerId": 34
+    },
+    {
+      "id": 89,
+      "name": "Main Line",
+      "manufacturerId": 34
+    },
+    {
+      "id": 90,
+      "name": "Royal Grand",
+      "manufacturerId": 26
+    },
+    {
+      "id": 91,
+      "name": "Royal Sense",
+      "manufacturerId": 26
+    },
+    {
+      "id": 92,
+      "name": "Gold",
+      "manufacturerId": 26
+    },
+    {
+      "id": 93,
+      "name": "Gold-X",
+      "manufacturerId": 26
+    },
+    {
+      "id": 94,
+      "name": "Gold-Ice",
+      "manufacturerId": 26
+    },
+    {
+      "id": 95,
+      "name": "BioGold",
+      "manufacturerId": 26
+    },
+    {
+      "id": 96,
+      "name": "Opto",
+      "manufacturerId": 26
+    },
+    {
+      "id": 97,
+      "name": "Opto-X",
+      "manufacturerId": 26
+    },
+    {
+      "id": 98,
+      "name": "Opto-Ice",
+      "manufacturerId": 26
+    },
+    {
+      "id": 99,
+      "name": "Opto Air",
+      "manufacturerId": 26
+    },
+    {
+      "id": 100,
+      "name": "Opto Moonshine",
+      "manufacturerId": 26
+    },
+    {
+      "id": 101,
+      "name": "Frost Line",
+      "manufacturerId": 26
+    },
+    {
+      "id": 102,
+      "name": "Zero Hard",
+      "manufacturerId": 26
+    },
+    {
+      "id": 103,
+      "name": "Zero Medium",
+      "manufacturerId": 26
+    },
+    {
+      "id": 104,
+      "name": "Zero Soft",
+      "manufacturerId": 26
+    },
+    {
+      "id": 105,
+      "name": "Zero MegaSoft",
+      "manufacturerId": 26
+    },
+    {
+      "id": 106,
+      "name": "Retro",
+      "manufacturerId": 26
+    },
+    {
+      "id": 107,
+      "name": "Lucid X",
+      "manufacturerId": 14
+    },
+    {
+      "id": 108,
+      "name": "Fuzion",
+      "manufacturerId": 14
+    },
+    {
+      "id": 109,
+      "name": "BioFuzion",
+      "manufacturerId": 14
+    },
+    {
+      "id": 110,
+      "name": "Lucid",
+      "manufacturerId": 14
+    },
+    {
+      "id": 111,
+      "name": "Lucid Air",
+      "manufacturerId": 14
+    },
+    {
+      "id": 112,
+      "name": "Moonshine",
+      "manufacturerId": 14
+    },
+    {
+      "id": 113,
+      "name": "Fluid",
+      "manufacturerId": 14
+    },
+    {
+      "id": 114,
+      "name": "Classic",
+      "manufacturerId": 14
+    },
+    {
+      "id": 115,
+      "name": "Classic Blend",
+      "manufacturerId": 14
+    },
+    {
+      "id": 116,
+      "name": "Classic Soft",
+      "manufacturerId": 14
+    },
+    {
+      "id": 117,
+      "name": "Classic SuperSoft",
+      "manufacturerId": 14
+    },
+    {
+      "id": 118,
+      "name": "Prime",
+      "manufacturerId": 14
+    },
+    {
+      "id": 119,
+      "name": "Glow Prime Moonshine",
+      "manufacturerId": 14
+    },
+    {
+      "id": 120,
+      "name": "Tournament",
+      "manufacturerId": 46
+    },
+    {
+      "id": 121,
+      "name": "Revive / Muovi R",
+      "manufacturerId": 46
+    },
+    {
+      "id": 122,
+      "name": "VIP",
+      "manufacturerId": 46
+    },
+    {
+      "id": 123,
+      "name": "VIP Air",
+      "manufacturerId": 46
+    },
+    {
+      "id": 124,
+      "name": "Moonshine",
+      "manufacturerId": 46
+    },
+    {
+      "id": 125,
+      "name": "Elasto",
+      "manufacturerId": 46
+    },
+    {
+      "id": 126,
+      "name": "BT Hard",
+      "manufacturerId": 46
+    },
+    {
+      "id": 127,
+      "name": "BT Medium",
+      "manufacturerId": 46
+    },
+    {
+      "id": 128,
+      "name": "BT Soft",
+      "manufacturerId": 46
+    },
+    {
+      "id": 129,
+      "name": "MegaSoft",
+      "manufacturerId": 46
+    },
+    {
+      "id": 130,
+      "name": "Origio",
+      "manufacturerId": 46
+    },
+    {
+      "id": 131,
+      "name": "Platinum",
+      "manufacturerId": 20
+    },
+    {
+      "id": 132,
+      "name": "Organic",
+      "manufacturerId": 20
+    },
+    {
+      "id": 133,
+      "name": "Diamond",
+      "manufacturerId": 20
+    },
+    {
+      "id": 134,
+      "name": "Glow Diamond",
+      "manufacturerId": 20
+    },
+    {
+      "id": 135,
+      "name": "Pure White",
+      "manufacturerId": 20
+    },
+    {
+      "id": 136,
+      "name": "Firm",
+      "manufacturerId": 20
+    },
+    {
+      "id": 137,
+      "name": "SuperGlow",
+      "manufacturerId": 20
+    },
+    {
+      "id": 138,
+      "name": "Chalk",
+      "manufacturerId": 20
+    },
+    {
+      "id": 139,
+      "name": "Eraser",
+      "manufacturerId": 20
+    },
+    {
+      "id": 140,
+      "name": "Super Soft",
+      "manufacturerId": 20
+    },
+    {
+      "id": 141,
+      "name": "Super Stupid Soft",
+      "manufacturerId": 20
+    },
+    {
+      "id": 142,
+      "name": "Super Stupic Silly Soft",
+      "manufacturerId": 20
+    },
+    {
+      "id": 143,
+      "name": "Special Blend",
+      "manufacturerId": 20
+    },
+    {
+      "id": 144,
+      "name": "Armor",
+      "manufacturerId": 39
+    },
+    {
+      "id": 145,
+      "name": "Amber",
+      "manufacturerId": 39
+    },
+    {
+      "id": 146,
+      "name": "Fossil",
+      "manufacturerId": 39
+    },
+    {
+      "id": 147,
+      "name": "Fossil Flex",
+      "manufacturerId": 39
+    },
+    {
+      "id": 148,
+      "name": "Fossil Super Flex",
+      "manufacturerId": 39
+    },
+    {
+      "id": 149,
+      "name": "Fossil Fuel",
+      "manufacturerId": 39
+    },
+    {
+      "id": 150,
+      "name": "Eraser",
+      "manufacturerId": 39
+    },
+    {
+      "id": 151,
+      "name": "Chalk RFF",
+      "manufacturerId": 39
+    },
+    {
+      "id": 152,
+      "name": "Tar Pit",
+      "manufacturerId": 39
+    },
+    {
+      "id": 153,
+      "name": "Apex",
+      "manufacturerId": 33
+    },
+    {
+      "id": 154,
+      "name": "Sublime",
+      "manufacturerId": 33
+    },
+    {
+      "id": 155,
+      "name": "Eternal",
+      "manufacturerId": 33
+    },
+    {
+      "id": 156,
+      "name": "Nebula",
+      "manufacturerId": 44
+    },
+    {
+      "id": 157,
+      "name": "Aura",
+      "manufacturerId": 44
+    },
+    {
+      "id": 158,
+      "name": "Ethereal",
+      "manufacturerId": 44
+    },
+    {
+      "id": 159,
+      "name": "Ethos",
+      "manufacturerId": 44
+    },
+    {
+      "id": 160,
+      "name": "Ultrium",
+      "manufacturerId": 36
+    },
+    {
+      "id": 161,
+      "name": "Premium",
+      "manufacturerId": 36
+    },
+    {
+      "id": 162,
+      "name": "Basic",
+      "manufacturerId": 36
+    },
+    {
+      "id": 163,
+      "name": "Express",
+      "manufacturerId": 18
+    },
+    {
+      "id": 164,
+      "name": "Priority",
+      "manufacturerId": 18
+    },
+    {
+      "id": 165,
+      "name": "Ground",
+      "manufacturerId": 18
+    },
+    {
+      "id": 166,
+      "name": "Icon",
+      "manufacturerId": 28
+    },
+    {
+      "id": 167,
+      "name": "Legend",
+      "manufacturerId": 28
+    },
+    {
+      "id": 168,
+      "name": "Pinnacle",
+      "manufacturerId": 28
+    },
+    {
+      "id": 169,
+      "name": "Ultralight",
+      "manufacturerId": 28
+    },
+    {
+      "id": 170,
+      "name": "Protege",
+      "manufacturerId": 28
+    },
+    {
+      "id": 171,
+      "name": "Gravity",
+      "manufacturerId": 28
+    },
+    {
+      "id": 172,
+      "name": "Excel",
+      "manufacturerId": 28
+    },
+    {
+      "id": 173,
+      "name": "750G",
+      "manufacturerId": 35
+    },
+    {
+      "id": 174,
+      "name": "750",
+      "manufacturerId": 35
+    },
+    {
+      "id": 175,
+      "name": "500",
+      "manufacturerId": 35
+    },
+    {
+      "id": 176,
+      "name": "400G",
+      "manufacturerId": 35
+    },
+    {
+      "id": 177,
+      "name": "400S",
+      "manufacturerId": 35
+    },
+    {
+      "id": 178,
+      "name": "Air",
+      "manufacturerId": 35
+    },
+    {
+      "id": 179,
+      "name": "400",
+      "manufacturerId": 35
+    },
+    {
+      "id": 180,
+      "name": "Glow 400G",
+      "manufacturerId": 35
+    },
+    {
+      "id": 181,
+      "name": "350G",
+      "manufacturerId": 35
+    },
+    {
+      "id": 182,
+      "name": "350RX",
+      "manufacturerId": 35
+    },
+    {
+      "id": 183,
+      "name": "350",
+      "manufacturerId": 35
+    },
+    {
+      "id": 184,
+      "name": "300S",
+      "manufacturerId": 35
+    },
+    {
+      "id": 185,
+      "name": "300",
+      "manufacturerId": 35
+    },
+    {
+      "id": 186,
+      "name": "200",
+      "manufacturerId": 35
+    },
+    {
+      "id": 187,
+      "name": "Atomic",
+      "manufacturerId": 38
+    },
+    {
+      "id": 188,
+      "name": "Cosmic",
+      "manufacturerId": 38
+    },
+    {
+      "id": 189,
+      "name": "Magma",
+      "manufacturerId": 38
+    },
+    {
+      "id": 190,
+      "name": "Magma Soft",
+      "manufacturerId": 38
+    },
+    {
+      "id": 191,
+      "name": "Strata",
+      "manufacturerId": 38
+    },
+    {
+      "id": 192,
+      "name": "K2",
+      "manufacturerId": 24
+    },
+    {
+      "id": 193,
+      "name": "K1",
+      "manufacturerId": 24
+    },
+    {
+      "id": 194,
+      "name": "Glow K1",
+      "manufacturerId": 24
+    },
+    {
+      "id": 195,
+      "name": "K3",
+      "manufacturerId": 24
+    },
+    {
+      "id": 196,
+      "name": "Alpine",
+      "manufacturerId": 1
+    },
+    {
+      "id": 197,
+      "name": "Treeline",
+      "manufacturerId": 1
+    },
+    {
+      "id": 198,
+      "name": "Woodland",
+      "manufacturerId": 1
+    },
+    {
+      "id": 199,
+      "name": "High Performance",
+      "manufacturerId": 7
+    },
+    {
+      "id": 200,
+      "name": "Flex Performance",
+      "manufacturerId": 7
+    },
+    {
+      "id": 201,
+      "name": "Grip performance",
+      "manufacturerId": 7
+    },
+    {
+      "id": 202,
+      "name": "E Class",
+      "manufacturerId": 19
+    },
+    {
+      "id": 203,
+      "name": "Crystal",
+      "manufacturerId": 2
+    },
+    {
+      "id": 204,
+      "name": "Chrome",
+      "manufacturerId": 2
+    },
+    {
+      "id": 205,
+      "name": "Basic",
+      "manufacturerId": 3
+    },
+    {
+      "id": 206,
+      "name": "Pro Plaztic",
+      "manufacturerId": 5
+    },
+    {
+      "id": 207,
+      "name": "Glow Pro Plaztic",
+      "manufacturerId": 5
+    },
+    {
+      "id": 208,
+      "name": "I-Plaztic",
+      "manufacturerId": 5
+    },
+    {
+      "id": 209,
+      "name": "Ancient",
+      "manufacturerId": 8
+    },
+    {
+      "id": 210,
+      "name": "Extinct",
+      "manufacturerId": 8
+    },
+    {
+      "id": 211,
+      "name": "Fetaher",
+      "manufacturerId": 8
+    },
+    {
+      "id": 212,
+      "name": "Egg Shell",
+      "manufacturerId": 8
+    },
+    {
+      "id": 213,
+      "name": "Glow Egg Shell",
+      "manufacturerId": 8
+    },
+    {
+      "id": 214,
+      "name": "Moss",
+      "manufacturerId": 8
+    },
+    {
+      "id": 215,
+      "name": "Noble",
+      "manufacturerId": 9
+    },
+    {
+      "id": 216,
+      "name": "Safe Fly",
+      "manufacturerId": 9
+    },
+    {
+      "id": 217,
+      "name": "A-Hard",
+      "manufacturerId": 12
+    },
+    {
+      "id": 218,
+      "name": "A-Medium",
+      "manufacturerId": 12
+    },
+    {
+      "id": 219,
+      "name": "A-Soft",
+      "manufacturerId": 12
+    },
+    {
+      "id": 220,
+      "name": "MaxGrip",
+      "manufacturerId": 13
+    },
+    {
+      "id": 221,
+      "name": "Glow MaxGrip",
+      "manufacturerId": 13
+    },
+    {
+      "id": 222,
+      "name": "StayPut",
+      "manufacturerId": 13
+    },
+    {
+      "id": 223,
+      "name": "OG Blend",
+      "manufacturerId": 15
+    },
+    {
+      "id": 224,
+      "name": "OG Firm",
+      "manufacturerId": 15
+    },
+    {
+      "id": 225,
+      "name": "OG Medium",
+      "manufacturerId": 15
+    },
+    {
+      "id": 226,
+      "name": "OG SOft",
+      "manufacturerId": 15
+    },
+    {
+      "id": 227,
+      "name": "Glow OG",
+      "manufacturerId": 15
+    },
+    {
+      "id": 228,
+      "name": "Premium",
+      "manufacturerId": 16
+    },
+    {
+      "id": 229,
+      "name": "Premium",
+      "manufacturerId": 17
+    },
+    {
+      "id": 230,
+      "name": "Ekka",
+      "manufacturerId": 17
+    },
+    {
+      "id": 231,
+      "name": "AU",
+      "manufacturerId": 17
+    },
+    {
+      "id": 232,
+      "name": "EX",
+      "manufacturerId": 17
+    },
+    {
+      "id": 233,
+      "name": "C-Plastic",
+      "manufacturerId": 21
+    },
+    {
+      "id": 234,
+      "name": "S-Plastic",
+      "manufacturerId": 21
+    },
+    {
+      "id": 235,
+      "name": "D-Plastic",
+      "manufacturerId": 21
+    },
+    {
+      "id": 236,
+      "name": "Glacier Line",
+      "manufacturerId": 21
+    },
+    {
+      "id": 237,
+      "name": "Safety Line",
+      "manufacturerId": 21
+    },
+    {
+      "id": 238,
+      "name": "Icon",
+      "manufacturerId": 25
+    },
+    {
+      "id": 239,
+      "name": "Legend",
+      "manufacturerId": 25
+    },
+    {
+      "id": 240,
+      "name": "Pinnacle",
+      "manufacturerId": 25
+    },
+    {
+      "id": 241,
+      "name": "Shatter",
+      "manufacturerId": 25
+    },
+    {
+      "id": 242,
+      "name": "Gravity",
+      "manufacturerId": 25
+    },
+    {
+      "id": 243,
+      "name": "5 Year",
+      "manufacturerId": 25
+    },
+    {
+      "id": 244,
+      "name": "Honey Bee",
+      "manufacturerId": 25
+    },
+    {
+      "id": 245,
+      "name": "Glow Legacy",
+      "manufacturerId": 25
+    },
+    {
+      "id": 246,
+      "name": "Alpha",
+      "manufacturerId": 27
+    },
+    {
+      "id": 247,
+      "name": "Omega",
+      "manufacturerId": 27
+    },
+    {
+      "id": 248,
+      "name": "Prostyle",
+      "manufacturerId": 29
+    },
+    {
+      "id": 249,
+      "name": "Standard",
+      "manufacturerId": 29
+    },
+    {
+      "id": 250,
+      "name": "Glow",
+      "manufacturerId": 29
+    },
+    {
+      "id": 251,
+      "name": "Alpha",
+      "manufacturerId": 30
+    },
+    {
+      "id": 252,
+      "name": "Bravo",
+      "manufacturerId": 30
+    },
+    {
+      "id": 253,
+      "name": "Lima",
+      "manufacturerId": 30
+    },
+    {
+      "id": 254,
+      "name": "V1",
+      "manufacturerId": 30
+    },
+    {
+      "id": 255,
+      "name": "V2",
+      "manufacturerId": 30
+    },
+    {
+      "id": 256,
+      "name": "Glow",
+      "manufacturerId": 30
+    },
+    {
+      "id": 257,
+      "name": "X-Out",
+      "manufacturerId": 30
+    },
+    {
+      "id": 258,
+      "name": "80/20",
+      "manufacturerId": 37
+    },
+    {
+      "id": 259,
+      "name": "Basic",
+      "manufacturerId": 37
+    },
+    {
+      "id": 260,
+      "name": "Gummy",
+      "manufacturerId": 37
+    },
+    {
+      "id": 261,
+      "name": "Premium",
+      "manufacturerId": 40
+    },
+    {
+      "id": 262,
+      "name": "Category 3X",
+      "manufacturerId": 41
+    },
+    {
+      "id": 263,
+      "name": "Category 3",
+      "manufacturerId": 41
+    },
+    {
+      "id": 264,
+      "name": "Category 3 Hemp",
+      "manufacturerId": 41
+    },
+    {
+      "id": 265,
+      "name": "Category 1 Firm",
+      "manufacturerId": 41
+    },
+    {
+      "id": 266,
+      "name": "Category 1 Medium",
+      "manufacturerId": 41
+    },
+    {
+      "id": 267,
+      "name": "Category 1 Soft",
+      "manufacturerId": 41
+    },
+    {
+      "id": 268,
+      "name": "Category 1 Hemp",
+      "manufacturerId": 41
+    },
+    {
+      "id": 269,
+      "name": "Glow Category 1",
+      "manufacturerId": 41
+    },
+    {
+      "id": 270,
+      "name": "S-Plastic",
+      "manufacturerId": 43
+    },
+    {
+      "id": 271,
+      "name": "Safety Line",
+      "manufacturerId": 43
+    },
+    {
+      "id": 272,
+      "name": "Ground",
+      "manufacturerId": 45
+    },
+    {
+      "id": 273,
+      "name": "Storm",
+      "manufacturerId": 45
+    },
+    {
+      "id": 274,
+      "name": "Armor",
+      "manufacturerId": 45
+    },
+    {
+      "id": 275,
+      "name": "Air",
+      "manufacturerId": 45
+    },
+    {
+      "id": 276,
+      "name": "Fire",
+      "manufacturerId": 45
+    },
+    {
+      "id": 277,
+      "name": "Meteor",
+      "manufacturerId": 47
+    },
+    {
+      "id": 278,
+      "name": "Lava",
+      "manufacturerId": 47
+    },
+    {
+      "id": 279,
+      "name": "Ozone",
+      "manufacturerId": 47
+    },
+    {
+      "id": 280,
+      "name": "Nuclear",
+      "manufacturerId": 47
+    },
+    {
+      "id": 281,
+      "name": "Landslide",
+      "manufacturerId": 47
+    },
+    {
+      "id": 282,
+      "name": "Glow Premium",
+      "manufacturerId": 48
+    },
+    {
+      "id": 283,
+      "name": "U-Line Durable",
+      "manufacturerId": 48
+    },
+    {
+      "id": 284,
+      "name": "Basic",
+      "manufacturerId": 48
+    },
+    {
+      "id": 285,
+      "name": "Dragon",
+      "manufacturerId": 49
+    },
+    {
+      "id": 286,
+      "name": "Tortoise",
+      "manufacturerId": 49
+    },
+    {
+      "id": 287,
+      "name": "Phoenix",
+      "manufacturerId": 49
+    },
+    {
+      "id": 288,
+      "name": "Tiger",
+      "manufacturerId": 49
     }
   ],
   "discs": [
@@ -8913,6 +10361,24 @@
       "discId": 910,
       "weight": 176,
       "id": 16
+    },
+    {
+      "userId": 2,
+      "discId": 399,
+      "weight": 173,
+      "id": 20
+    },
+    {
+      "userId": 2,
+      "discId": 413,
+      "weight": 172,
+      "id": 21
+    },
+    {
+      "userId": 2,
+      "discId": 400,
+      "weight": 171,
+      "id": 22
     }
   ]
 }
