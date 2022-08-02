@@ -1718,10 +1718,29 @@
       "manufacturerId": 46
     }
   ],
+  "discTypes": [
+    {
+      "id": 1,
+      "name": "Distance Driver"
+    },
+    {
+      "id": 2,
+      "name": "Fairway Driver"
+    },
+    {
+      "id": 3,
+      "name": "Mid-Range"
+    },
+    {
+      "id": 4,
+      "name": "Putt & Approach"
+    }
+  ],
   "discs": [
     {
       "id": 1,
       "manufacturerId": 1,
+      "discTypeId": 1,
       "name": "Beech",
       "speed": 11.5,
       "glide": 5,
@@ -1731,6 +1750,7 @@
     {
       "id": 2,
       "manufacturerId": 1,
+      "discTypeId": 1,
       "name": "Cedar",
       "speed": 11,
       "glide": 4.9,
@@ -1740,6 +1760,7 @@
     {
       "id": 3,
       "manufacturerId": 1,
+      "discTypeId": 1,
       "name": "Cypress",
       "speed": 12,
       "glide": 4.8,
@@ -1749,6 +1770,7 @@
     {
       "id": 4,
       "manufacturerId": 1,
+      "discTypeId": 1,
       "name": "Locust",
       "speed": 9,
       "glide": 4,
@@ -1758,6 +1780,7 @@
     {
       "id": 5,
       "manufacturerId": 1,
+      "discTypeId": 2,
       "name": "Sycamore",
       "speed": 7,
       "glide": 4.9,
@@ -1767,6 +1790,7 @@
     {
       "id": 6,
       "manufacturerId": 1,
+      "discTypeId": 3,
       "name": "Magnolia",
       "speed": 5,
       "glide": 4.1,
@@ -1776,6 +1800,7 @@
     {
       "id": 7,
       "manufacturerId": 1,
+      "discTypeId": 3,
       "name": "Baobab",
       "speed": 4,
       "glide": 1,
@@ -1785,6 +1810,7 @@
     {
       "id": 8,
       "manufacturerId": 1,
+      "discTypeId": 4,
       "name": "Madrone",
       "speed": 3,
       "glide": 3,
@@ -1794,6 +1820,7 @@
     {
       "id": 9,
       "manufacturerId": 1,
+      "discTypeId": 4,
       "name": "Manzanita",
       "speed": 2.9,
       "glide": 2.8,
@@ -1803,6 +1830,7 @@
     {
       "id": 10,
       "manufacturerId": 1,
+      "discTypeId": 4,
       "name": "Ponderosa",
       "speed": 2,
       "glide": 4,
@@ -1812,6 +1840,7 @@
     {
       "id": 11,
       "manufacturerId": 2,
+      "discTypeId": 3,
       "name": "Apollo",
       "speed": 5,
       "glide": 5,
@@ -1821,6 +1850,7 @@
     {
       "id": 12,
       "manufacturerId": 3,
+      "discTypeId": 1,
       "name": "Osprey",
       "speed": 12,
       "glide": 4,
@@ -1830,6 +1860,7 @@
     {
       "id": 13,
       "manufacturerId": 3,
+      "discTypeId": 2,
       "name": "Pelican",
       "speed": 6,
       "glide": 5,
@@ -1839,6 +1870,7 @@
     {
       "id": 14,
       "manufacturerId": 3,
+      "discTypeId": 2,
       "name": "Swift",
       "speed": 8.4,
       "glide": 5,
@@ -1848,6 +1880,7 @@
     {
       "id": 15,
       "manufacturerId": 3,
+      "discTypeId": 3,
       "name": "Dragonfly",
       "speed": 5,
       "glide": 4,
@@ -1857,6 +1890,7 @@
     {
       "id": 16,
       "manufacturerId": 3,
+      "discTypeId": 4,
       "name": "Peace Frog",
       "speed": 3,
       "glide": 3,
@@ -1866,6 +1900,7 @@
     {
       "id": 17,
       "manufacturerId": 4,
+      "discTypeId": 1,
       "name": "Defy",
       "speed": 11.2,
       "glide": 4.2,
@@ -1875,6 +1910,7 @@
     {
       "id": 18,
       "manufacturerId": 4,
+      "discTypeId": 1,
       "name": "Delirium",
       "speed": 14.4,
       "glide": 4.9,
@@ -1884,6 +1920,7 @@
     {
       "id": 19,
       "manufacturerId": 4,
+      "discTypeId": 1,
       "name": "Excite",
       "speed": 14,
       "glide": 5.3,
@@ -1893,6 +1930,7 @@
     {
       "id": 20,
       "manufacturerId": 4,
+      "discTypeId": 1,
       "name": "Fireball",
       "speed": 9.7,
       "glide": 3,
@@ -1902,6 +1940,7 @@
     {
       "id": 21,
       "manufacturerId": 4,
+      "discTypeId": 1,
       "name": "Mayhem",
       "speed": 13,
       "glide": 5,
@@ -1911,6 +1950,7 @@
     {
       "id": 22,
       "manufacturerId": 4,
+      "discTypeId": 1,
       "name": "Panic",
       "speed": 13,
       "glide": 4.2,
@@ -1920,6 +1960,7 @@
     {
       "id": 23,
       "manufacturerId": 4,
+      "discTypeId": 1,
       "name": "Tantrum",
       "speed": 14,
       "glide": 5,
@@ -1929,6 +1970,7 @@
     {
       "id": 24,
       "manufacturerId": 4,
+      "discTypeId": 1,
       "name": "Tenacity",
       "speed": 13,
       "glide": 5,
@@ -1938,6 +1980,7 @@
     {
       "id": 25,
       "manufacturerId": 4,
+      "discTypeId": 1,
       "name": "Thrill",
       "speed": 11,
       "glide": 3.9,
@@ -1947,6 +1990,7 @@
     {
       "id": 26,
       "manufacturerId": 4,
+      "discTypeId": 1,
       "name": "Vanish",
       "speed": 11.5,
       "glide": 5,
@@ -1956,6 +2000,7 @@
     {
       "id": 27,
       "manufacturerId": 4,
+      "discTypeId": 1,
       "name": "Virus",
       "speed": 9.6,
       "glide": 5,
@@ -1965,6 +2010,7 @@
     {
       "id": 28,
       "manufacturerId": 4,
+      "discTypeId": 2,
       "name": "Clash",
       "speed": 7,
       "glide": 4.5,
@@ -1974,6 +2020,7 @@
     {
       "id": 29,
       "manufacturerId": 4,
+      "discTypeId": 2,
       "name": "Crave",
       "speed": 6.6,
       "glide": 5,
@@ -1983,6 +2030,7 @@
     {
       "id": 30,
       "manufacturerId": 4,
+      "discTypeId": 1,
       "name": "Insanity",
       "speed": 9.8,
       "glide": 4.9,
@@ -1992,6 +2040,7 @@
     {
       "id": 31,
       "manufacturerId": 4,
+      "discTypeId": 2,
       "name": "Inspire",
       "speed": 6.5,
       "glide": 4.5,
@@ -2001,6 +2050,7 @@
     {
       "id": 32,
       "manufacturerId": 4,
+      "discTypeId": 4,
       "name": "Rhythm",
       "speed": 1,
       "glide": 1,
@@ -2010,6 +2060,7 @@
     {
       "id": 33,
       "manufacturerId": 4,
+      "discTypeId": 1,
       "name": "Wrath",
       "speed": 10.1,
       "glide": 4.3,
@@ -2019,6 +2070,7 @@
     {
       "id": 34,
       "manufacturerId": 4,
+      "discTypeId": 3,
       "name": "Alias",
       "speed": 4.2,
       "glide": 4.2,
@@ -2028,6 +2080,7 @@
     {
       "id": 35,
       "manufacturerId": 4,
+      "discTypeId": 3,
       "name": "Hex",
       "speed": 5,
       "glide": 5,
@@ -2037,6 +2090,7 @@
     {
       "id": 36,
       "manufacturerId": 4,
+      "discTypeId": 3,
       "name": "Paradox",
       "speed": 5,
       "glide": 4,
@@ -2046,6 +2100,7 @@
     {
       "id": 37,
       "manufacturerId": 4,
+      "discTypeId": 3,
       "name": "Pyro",
       "speed": 5.1,
       "glide": 3.8,
@@ -2055,6 +2110,7 @@
     {
       "id": 38,
       "manufacturerId": 4,
+      "discTypeId": 3,
       "name": "Theory",
       "speed": 4.6,
       "glide": 4.6,
@@ -2064,6 +2120,7 @@
     {
       "id": 39,
       "manufacturerId": 4,
+      "discTypeId": 4,
       "name": "Envy",
       "speed": 2.8,
       "glide": 3.1,
@@ -2073,6 +2130,7 @@
     {
       "id": 40,
       "manufacturerId": 4,
+      "discTypeId": 4,
       "name": "Proxy",
       "speed": 3,
       "glide": 3.2,
@@ -2082,6 +2140,7 @@
     {
       "id": 41,
       "manufacturerId": 5,
+      "discTypeId": 3,
       "name": "I One",
       "speed": 4.9,
       "glide": 5,
@@ -2091,6 +2150,7 @@
     {
       "id": 42,
       "manufacturerId": 5,
+      "discTypeId": 4,
       "name": "Zingback",
       "speed": 2,
       "glide": 3,
@@ -2100,6 +2160,7 @@
     {
       "id": 43,
       "manufacturerId": 6,
+      "discTypeId": 1,
       "name": "Hurricane",
       "speed": 12,
       "glide": 4.8,
@@ -2109,6 +2170,7 @@
     {
       "id": 44,
       "manufacturerId": 6,
+      "discTypeId": 1,
       "name": "Hypercane",
       "speed": 12.9,
       "glide": 4,
@@ -2118,6 +2180,7 @@
     {
       "id": 45,
       "manufacturerId": 6,
+      "discTypeId": 1,
       "name": "Riptide",
       "speed": 9,
       "glide": 4,
@@ -2127,6 +2190,7 @@
     {
       "id": 46,
       "manufacturerId": 6,
+      "discTypeId": 1,
       "name": "Rogue",
       "speed": 11,
       "glide": 4,
@@ -2136,6 +2200,7 @@
     {
       "id": 47,
       "manufacturerId": 6,
+      "discTypeId": 1,
       "name": "Sail",
       "speed": 10.4,
       "glide": 6.2,
@@ -2145,6 +2210,7 @@
     {
       "id": 48,
       "manufacturerId": 6,
+      "discTypeId": 1,
       "name": "Tempest",
       "speed": 12.9,
       "glide": 5.1,
@@ -2154,6 +2220,7 @@
     {
       "id": 49,
       "manufacturerId": 6,
+      "discTypeId": 1,
       "name": "Torrent",
       "speed": 13.9,
       "glide": 5,
@@ -2163,6 +2230,7 @@
     {
       "id": 50,
       "manufacturerId": 6,
+      "discTypeId": 1,
       "name": "Tsunami",
       "speed": 9.9,
       "glide": 3.1,
@@ -2172,6 +2240,7 @@
     {
       "id": 51,
       "manufacturerId": 6,
+      "discTypeId": 1,
       "name": "Undertow",
       "speed": 10,
       "glide": 4.1,
@@ -2181,6 +2250,7 @@
     {
       "id": 52,
       "manufacturerId": 6,
+      "discTypeId": 2,
       "name": "Banzai",
       "speed": 8.1,
       "glide": 4.1,
@@ -2190,6 +2260,7 @@
     {
       "id": 53,
       "manufacturerId": 6,
+      "discTypeId": 2,
       "name": "Flathead Cyclone",
       "speed": 7,
       "glide": 4,
@@ -2199,6 +2270,7 @@
     {
       "id": 54,
       "manufacturerId": 6,
+      "discTypeId": 1,
       "name": "Hellfire",
       "speed": 10.1,
       "glide": 3.1,
@@ -2208,6 +2280,7 @@
     {
       "id": 55,
       "manufacturerId": 6,
+      "discTypeId": 2,
       "name": "Pipeline",
       "speed": 8.1,
       "glide": 5,
@@ -2217,6 +2290,7 @@
     {
       "id": 56,
       "manufacturerId": 6,
+      "discTypeId": 3,
       "name": "Aftershock",
       "speed": 4,
       "glide": 3.1,
@@ -2226,6 +2300,7 @@
     {
       "id": 57,
       "manufacturerId": 6,
+      "discTypeId": 3,
       "name": "Quake",
       "speed": 5,
       "glide": 3.2,
@@ -2235,6 +2310,7 @@
     {
       "id": 58,
       "manufacturerId": 6,
+      "discTypeId": 3,
       "name": "Rift",
       "speed": 5,
       "glide": 4.2,
@@ -2244,6 +2320,7 @@
     {
       "id": 59,
       "manufacturerId": 6,
+      "discTypeId": 3,
       "name": "Shockwave",
       "speed": 4,
       "glide": 2,
@@ -2253,6 +2330,7 @@
     {
       "id": 60,
       "manufacturerId": 6,
+      "discTypeId": 2,
       "name": "Squall",
       "speed": 5.9,
       "glide": 4.1,
@@ -2262,6 +2340,7 @@
     {
       "id": 61,
       "manufacturerId": 6,
+      "discTypeId": 2,
       "name": "Tremor",
       "speed": 6,
       "glide": 5,
@@ -2271,6 +2350,7 @@
     {
       "id": 62,
       "manufacturerId": 6,
+      "discTypeId": 4,
       "name": "Blowfly I",
       "speed": 2,
       "glide": 2.1,
@@ -2280,6 +2360,7 @@
     {
       "id": 63,
       "manufacturerId": 6,
+      "discTypeId": 4,
       "name": "Blowfly II",
       "speed": 3,
       "glide": 2,
@@ -2289,6 +2370,7 @@
     {
       "id": 64,
       "manufacturerId": 6,
+      "discTypeId": 4,
       "name": "Blunt Gumbputt",
       "speed": 2,
       "glide": 2.1,
@@ -2298,6 +2380,7 @@
     {
       "id": 65,
       "manufacturerId": 6,
+      "discTypeId": 3,
       "name": "Breaker",
       "speed": 3.8,
       "glide": 3,
@@ -2307,6 +2390,7 @@
     {
       "id": 66,
       "manufacturerId": 6,
+      "discTypeId": 4,
       "name": "PowerDrive Gumbputt",
       "speed": 2,
       "glide": 2.1,
@@ -2316,6 +2400,7 @@
     {
       "id": 67,
       "manufacturerId": 6,
+      "discTypeId": 4,
       "name": "Reef",
       "speed": 2,
       "glide": 2.1,
@@ -2325,6 +2410,7 @@
     {
       "id": 68,
       "manufacturerId": 6,
+      "discTypeId": 4,
       "name": "Steady",
       "speed": 2.1,
       "glide": 3.1,
@@ -2334,6 +2420,7 @@
     {
       "id": 69,
       "manufacturerId": 6,
+      "discTypeId": 4,
       "name": "Steady BL",
       "speed": 2,
       "glide": 4,
@@ -2343,6 +2430,7 @@
     {
       "id": 70,
       "manufacturerId": 6,
+      "discTypeId": 4,
       "name": "Titanic",
       "speed": 2,
       "glide": 2,
@@ -2352,6 +2440,7 @@
     {
       "id": 71,
       "manufacturerId": 7,
+      "discTypeId": 1,
       "name": "Albatross",
       "speed": 14,
       "glide": 5.3,
@@ -2361,6 +2450,7 @@
     {
       "id": 72,
       "manufacturerId": 7,
+      "discTypeId": 1,
       "name": "Big Foot",
       "speed": 13,
       "glide": 4.9,
@@ -2370,6 +2460,7 @@
     {
       "id": 73,
       "manufacturerId": 7,
+      "discTypeId": 1,
       "name": "Buffalo",
       "speed": 9,
       "glide": 4,
@@ -2379,6 +2470,7 @@
     {
       "id": 74,
       "manufacturerId": 7,
+      "discTypeId": 1,
       "name": "Gray Jay",
       "speed": 14,
       "glide": 4,
@@ -2388,6 +2480,7 @@
     {
       "id": 75,
       "manufacturerId": 7,
+      "discTypeId": 1,
       "name": "Mammoth",
       "speed": 9,
       "glide": 4,
@@ -2397,6 +2490,7 @@
     {
       "id": 76,
       "manufacturerId": 7,
+      "discTypeId": 1,
       "name": "Merlin",
       "speed": 13.8,
       "glide": 4,
@@ -2406,6 +2500,7 @@
     {
       "id": 77,
       "manufacturerId": 7,
+      "discTypeId": 1,
       "name": "Ogopogo",
       "speed": 9,
       "glide": 4,
@@ -2415,6 +2510,7 @@
     {
       "id": 78,
       "manufacturerId": 7,
+      "discTypeId": 1,
       "name": "Sasquatch",
       "speed": 12,
       "glide": 5,
@@ -2424,6 +2520,7 @@
     {
       "id": 79,
       "manufacturerId": 7,
+      "discTypeId": 1,
       "name": "Yeti",
       "speed": 13,
       "glide": 5.1,
@@ -2433,6 +2530,7 @@
     {
       "id": 80,
       "manufacturerId": 7,
+      "discTypeId": 1,
       "name": "Sabertooth",
       "speed": 9,
       "glide": 3.9,
@@ -2442,6 +2540,7 @@
     {
       "id": 81,
       "manufacturerId": 7,
+      "discTypeId": 2,
       "name": "Swift Fox",
       "speed": 7.2,
       "glide": 5,
@@ -2451,6 +2550,7 @@
     {
       "id": 82,
       "manufacturerId": 7,
+      "discTypeId": 2,
       "name": "Timberwolf",
       "speed": 8.1,
       "glide": 5.1,
@@ -2460,6 +2560,7 @@
     {
       "id": 83,
       "manufacturerId": 7,
+      "discTypeId": 2,
       "name": "Wolverine",
       "speed": 8.1,
       "glide": 4.9,
@@ -2469,6 +2570,7 @@
     {
       "id": 84,
       "manufacturerId": 7,
+      "discTypeId": 3,
       "name": "Caribou",
       "speed": 4,
       "glide": 5,
@@ -2478,6 +2580,7 @@
     {
       "id": 85,
       "manufacturerId": 7,
+      "discTypeId": 3,
       "name": "Grizzly",
       "speed": 4.1,
       "glide": 4,
@@ -2487,6 +2590,7 @@
     {
       "id": 86,
       "manufacturerId": 7,
+      "discTypeId": 3,
       "name": "Moose",
       "speed": 4,
       "glide": 5,
@@ -2496,6 +2600,7 @@
     {
       "id": 87,
       "manufacturerId": 7,
+      "discTypeId": 3,
       "name": "Pteranodon",
       "speed": 4,
       "glide": 6,
@@ -2505,6 +2610,7 @@
     {
       "id": 88,
       "manufacturerId": 7,
+      "discTypeId": 3,
       "name": "Walrus",
       "speed": 4,
       "glide": 5,
@@ -2514,6 +2620,7 @@
     {
       "id": 89,
       "manufacturerId": 7,
+      "discTypeId": 4,
       "name": "Beaver",
       "speed": 2,
       "glide": 3,
@@ -2523,6 +2630,7 @@
     {
       "id": 90,
       "manufacturerId": 7,
+      "discTypeId": 4,
       "name": "Bighorn",
       "speed": 2.1,
       "glide": 3,
@@ -2532,6 +2640,7 @@
     {
       "id": 91,
       "manufacturerId": 7,
+      "discTypeId": 4,
       "name": "Great Horned Owl",
       "speed": 2,
       "glide": 3,
@@ -2541,6 +2650,7 @@
     {
       "id": 92,
       "manufacturerId": 7,
+      "discTypeId": 4,
       "name": "Polar Bear",
       "speed": 2.1,
       "glide": 3.1,
@@ -2550,6 +2660,7 @@
     {
       "id": 93,
       "manufacturerId": 7,
+      "discTypeId": 4,
       "name": "Woodchuck",
       "speed": 2,
       "glide": 3,
@@ -2559,6 +2670,7 @@
     {
       "id": 94,
       "manufacturerId": 8,
+      "discTypeId": 1,
       "name": "Allosaurus",
       "speed": 12,
       "glide": 6,
@@ -2568,6 +2680,7 @@
     {
       "id": 95,
       "manufacturerId": 8,
+      "discTypeId": 1,
       "name": "Pterodactylus",
       "speed": 10,
       "glide": 5,
@@ -2577,6 +2690,7 @@
     {
       "id": 96,
       "manufacturerId": 8,
+      "discTypeId": 1,
       "name": "Tyrannosaurus Rex",
       "speed": 14,
       "glide": 5,
@@ -2586,6 +2700,7 @@
     {
       "id": 97,
       "manufacturerId": 8,
+      "discTypeId": 1,
       "name": "Spinosaurus",
       "speed": 9,
       "glide": 6,
@@ -2595,6 +2710,7 @@
     {
       "id": 98,
       "manufacturerId": 8,
+      "discTypeId": 2,
       "name": "Brachiosaurus",
       "speed": 6,
       "glide": 5,
@@ -2604,6 +2720,7 @@
     {
       "id": 99,
       "manufacturerId": 8,
+      "discTypeId": 3,
       "name": "Brontosaurus",
       "speed": 5,
       "glide": 5,
@@ -2613,6 +2730,7 @@
     {
       "id": 100,
       "manufacturerId": 8,
+      "discTypeId": 3,
       "name": "Diplodocus",
       "speed": 5,
       "glide": 5,
@@ -2622,6 +2740,7 @@
     {
       "id": 101,
       "manufacturerId": 8,
+      "discTypeId": 3,
       "name": "Stegosaurus",
       "speed": 4,
       "glide": 5,
@@ -2631,6 +2750,7 @@
     {
       "id": 102,
       "manufacturerId": 8,
+      "discTypeId": 4,
       "name": "Ankylosaurus",
       "speed": 2,
       "glide": 3,
@@ -2640,6 +2760,7 @@
     {
       "id": 103,
       "manufacturerId": 8,
+      "discTypeId": 4,
       "name": "Triceratops",
       "speed": 3,
       "glide": 3,
@@ -2649,6 +2770,7 @@
     {
       "id": 104,
       "manufacturerId": 9,
+      "discTypeId": 2,
       "name": "The Count",
       "speed": 7,
       "glide": 4,
@@ -2658,6 +2780,7 @@
     {
       "id": 105,
       "manufacturerId": 9,
+      "discTypeId": 3,
       "name": "The Baron",
       "speed": 4,
       "glide": 3,
@@ -2667,6 +2790,7 @@
     {
       "id": 106,
       "manufacturerId": 9,
+      "discTypeId": 3,
       "name": "The Duchess",
       "speed": 5,
       "glide": 4,
@@ -2676,6 +2800,7 @@
     {
       "id": 107,
       "manufacturerId": 9,
+      "discTypeId": 2,
       "name": "The Duke",
       "speed": 6,
       "glide": 4,
@@ -2685,6 +2810,7 @@
     {
       "id": 108,
       "manufacturerId": 10,
+      "discTypeId": 1,
       "name": "Astronaut",
       "speed": 12,
       "glide": 6,
@@ -2694,6 +2820,7 @@
     {
       "id": 109,
       "manufacturerId": 10,
+      "discTypeId": 1,
       "name": "CD",
       "speed": 10,
       "glide": 4.8,
@@ -2703,6 +2830,7 @@
     {
       "id": 110,
       "manufacturerId": 10,
+      "discTypeId": 1,
       "name": "CD3",
       "speed": 10.9,
       "glide": 5,
@@ -2712,6 +2840,7 @@
     {
       "id": 111,
       "manufacturerId": 10,
+      "discTypeId": 1,
       "name": "DD",
       "speed": 11.1,
       "glide": 4.8,
@@ -2721,6 +2850,7 @@
     {
       "id": 112,
       "manufacturerId": 10,
+      "discTypeId": 1,
       "name": "DD2",
       "speed": 12.9,
       "glide": 4.9,
@@ -2730,6 +2860,7 @@
     {
       "id": 113,
       "manufacturerId": 10,
+      "discTypeId": 1,
       "name": "DD3",
       "speed": 12,
       "glide": 5,
@@ -2739,6 +2870,7 @@
     {
       "id": 114,
       "manufacturerId": 10,
+      "discTypeId": 1,
       "name": "DDx",
       "speed": 12,
       "glide": 5.8,
@@ -2748,6 +2880,7 @@
     {
       "id": 115,
       "manufacturerId": 10,
+      "discTypeId": 1,
       "name": "Enigma",
       "speed": 12.1,
       "glide": 5.1,
@@ -2757,6 +2890,7 @@
     {
       "id": 116,
       "manufacturerId": 10,
+      "discTypeId": 1,
       "name": "Majesty",
       "speed": 13,
       "glide": 5,
@@ -2766,6 +2900,7 @@
     {
       "id": 117,
       "manufacturerId": 10,
+      "discTypeId": 1,
       "name": "Mentor",
       "speed": 11,
       "glide": 5,
@@ -2775,6 +2910,7 @@
     {
       "id": 118,
       "manufacturerId": 10,
+      "discTypeId": 1,
       "name": "PD",
       "speed": 9.9,
       "glide": 4.1,
@@ -2784,6 +2920,7 @@
     {
       "id": 119,
       "manufacturerId": 10,
+      "discTypeId": 1,
       "name": "PD2",
       "speed": 12,
       "glide": 4.1,
@@ -2793,6 +2930,7 @@
     {
       "id": 120,
       "manufacturerId": 10,
+      "discTypeId": 1,
       "name": "PD3",
       "speed": 11,
       "glide": 3,
@@ -2802,6 +2940,7 @@
     {
       "id": 121,
       "manufacturerId": 10,
+      "discTypeId": 1,
       "name": "PDx",
       "speed": 10.9,
       "glide": 4,
@@ -2811,6 +2950,7 @@
     {
       "id": 122,
       "manufacturerId": 10,
+      "discTypeId": 1,
       "name": "TD",
       "speed": 10,
       "glide": 5.8,
@@ -2820,6 +2960,7 @@
     {
       "id": 123,
       "manufacturerId": 10,
+      "discTypeId": 1,
       "name": "TD2 Fever",
       "speed": 9.9,
       "glide": 5.1,
@@ -2829,6 +2970,7 @@
     {
       "id": 124,
       "manufacturerId": 10,
+      "discTypeId": 1,
       "name": "TDx",
       "speed": 9,
       "glide": 5,
@@ -2838,6 +2980,7 @@
     {
       "id": 125,
       "manufacturerId": 10,
+      "discTypeId": 1,
       "name": "CD2",
       "speed": 9.1,
       "glide": 5,
@@ -2847,6 +2990,7 @@
     {
       "id": 126,
       "manufacturerId": 10,
+      "discTypeId": 2,
       "name": "Essence",
       "speed": 8,
       "glide": 6,
@@ -2856,6 +3000,7 @@
     {
       "id": 127,
       "manufacturerId": 10,
+      "discTypeId": 2,
       "name": "FD",
       "speed": 7,
       "glide": 5.9,
@@ -2865,6 +3010,7 @@
     {
       "id": 128,
       "manufacturerId": 10,
+      "discTypeId": 2,
       "name": "FD2",
       "speed": 7,
       "glide": 4.1,
@@ -2874,6 +3020,7 @@
     {
       "id": 129,
       "manufacturerId": 10,
+      "discTypeId": 1,
       "name": "FD3",
       "speed": 9,
       "glide": 4.1,
@@ -2883,6 +3030,7 @@
     {
       "id": 130,
       "manufacturerId": 10,
+      "discTypeId": 2,
       "name": "Genius",
       "speed": 7.2,
       "glide": 4.9,
@@ -2892,6 +3040,7 @@
     {
       "id": 131,
       "manufacturerId": 10,
+      "discTypeId": 2,
       "name": "Instinct",
       "speed": 7.1,
       "glide": 5.2,
@@ -2901,6 +3050,7 @@
     {
       "id": 132,
       "manufacturerId": 10,
+      "discTypeId": 2,
       "name": "Magician",
       "speed": 6.1,
       "glide": 4,
@@ -2910,6 +3060,7 @@
     {
       "id": 133,
       "manufacturerId": 10,
+      "discTypeId": 2,
       "name": "Rockstar",
       "speed": 8.1,
       "glide": 5,
@@ -2919,6 +3070,7 @@
     {
       "id": 134,
       "manufacturerId": 10,
+      "discTypeId": 4,
       "name": "Splice",
       "speed": 1,
       "glide": 1,
@@ -2928,6 +3080,7 @@
     {
       "id": 135,
       "manufacturerId": 10,
+      "discTypeId": 1,
       "name": "Tilt",
       "speed": 9,
       "glide": 1,
@@ -2937,6 +3090,7 @@
     {
       "id": 136,
       "manufacturerId": 10,
+      "discTypeId": 3,
       "name": "Gremlin GM",
       "speed": 5.1,
       "glide": 4,
@@ -2946,6 +3100,7 @@
     {
       "id": 137,
       "manufacturerId": 10,
+      "discTypeId": 4,
       "name": "Logic",
       "speed": 3,
       "glide": 3,
@@ -2955,6 +3110,7 @@
     {
       "id": 138,
       "manufacturerId": 10,
+      "discTypeId": 3,
       "name": "Maestro",
       "speed": 4,
       "glide": 2.9,
@@ -2964,6 +3120,7 @@
     {
       "id": 139,
       "manufacturerId": 10,
+      "discTypeId": 3,
       "name": "MD",
       "speed": 4,
       "glide": 5.1,
@@ -2973,6 +3130,7 @@
     {
       "id": 140,
       "manufacturerId": 10,
+      "discTypeId": 3,
       "name": "MD1",
       "speed": 4,
       "glide": 4,
@@ -2982,6 +3140,7 @@
     {
       "id": 141,
       "manufacturerId": 10,
+      "discTypeId": 3,
       "name": "MD2",
       "speed": 4,
       "glide": 5,
@@ -2991,6 +3150,7 @@
     {
       "id": 142,
       "manufacturerId": 10,
+      "discTypeId": 3,
       "name": "MD3",
       "speed": 5,
       "glide": 5,
@@ -3000,6 +3160,7 @@
     {
       "id": 143,
       "manufacturerId": 10,
+      "discTypeId": 3,
       "name": "MD4",
       "speed": 5,
       "glide": 4.1,
@@ -3009,6 +3170,7 @@
     {
       "id": 144,
       "manufacturerId": 10,
+      "discTypeId": 3,
       "name": "MD5",
       "speed": 5,
       "glide": 3.1,
@@ -3018,6 +3180,7 @@
     {
       "id": 145,
       "manufacturerId": 10,
+      "discTypeId": 3,
       "name": "Method",
       "speed": 5,
       "glide": 5,
@@ -3027,6 +3190,7 @@
     {
       "id": 146,
       "manufacturerId": 10,
+      "discTypeId": 3,
       "name": "Mutant",
       "speed": 5,
       "glide": 3,
@@ -3036,6 +3200,7 @@
     {
       "id": 147,
       "manufacturerId": 10,
+      "discTypeId": 3,
       "name": "Origin",
       "speed": 5,
       "glide": 5.2,
@@ -3045,6 +3210,7 @@
     {
       "id": 148,
       "manufacturerId": 10,
+      "discTypeId": 4,
       "name": "Link",
       "speed": 2,
       "glide": 3,
@@ -3054,6 +3220,7 @@
     {
       "id": 149,
       "manufacturerId": 10,
+      "discTypeId": 4,
       "name": "P1",
       "speed": 2.1,
       "glide": 3.1,
@@ -3063,6 +3230,7 @@
     {
       "id": 150,
       "manufacturerId": 10,
+      "discTypeId": 4,
       "name": "P1X",
       "speed": 2.1,
       "glide": 3,
@@ -3072,6 +3240,7 @@
     {
       "id": 151,
       "manufacturerId": 10,
+      "discTypeId": 4,
       "name": "P2",
       "speed": 2,
       "glide": 3.1,
@@ -3081,6 +3250,7 @@
     {
       "id": 152,
       "manufacturerId": 10,
+      "discTypeId": 4,
       "name": "P3",
       "speed": 3,
       "glide": 4.3,
@@ -3090,6 +3260,7 @@
     {
       "id": 153,
       "manufacturerId": 10,
+      "discTypeId": 4,
       "name": "P3x",
       "speed": 3,
       "glide": 2.2,
@@ -3099,6 +3270,7 @@
     {
       "id": 154,
       "manufacturerId": 10,
+      "discTypeId": 3,
       "name": "Razor Claw Tactic",
       "speed": 4,
       "glide": 2,
@@ -3108,6 +3280,7 @@
     {
       "id": 155,
       "manufacturerId": 10,
+      "discTypeId": 4,
       "name": "Sensei",
       "speed": 2.9,
       "glide": 3,
@@ -3117,6 +3290,7 @@
     {
       "id": 156,
       "manufacturerId": 10,
+      "discTypeId": 4,
       "name": "Shogun",
       "speed": 2,
       "glide": 4,
@@ -3126,6 +3300,7 @@
     {
       "id": 157,
       "manufacturerId": 10,
+      "discTypeId": 3,
       "name": "Tactic",
       "speed": 4,
       "glide": 2.1,
@@ -3135,6 +3310,7 @@
     {
       "id": 158,
       "manufacturerId": 11,
+      "discTypeId": 1,
       "name": "Avenger",
       "speed": 9.9,
       "glide": 4.8,
@@ -3144,6 +3320,7 @@
     {
       "id": 159,
       "manufacturerId": 11,
+      "discTypeId": 1,
       "name": "Avenger SS",
       "speed": 9.8,
       "glide": 4.9,
@@ -3153,6 +3330,7 @@
     {
       "id": 160,
       "manufacturerId": 11,
+      "discTypeId": 1,
       "name": "Crank",
       "speed": 12.4,
       "glide": 5,
@@ -3162,6 +3340,7 @@
     {
       "id": 161,
       "manufacturerId": 11,
+      "discTypeId": 1,
       "name": "Crank SS",
       "speed": 12.6,
       "glide": 4.7,
@@ -3171,6 +3350,7 @@
     {
       "id": 162,
       "manufacturerId": 11,
+      "discTypeId": 1,
       "name": "Crush",
       "speed": 11.1,
       "glide": 5,
@@ -3180,6 +3360,7 @@
     {
       "id": 163,
       "manufacturerId": 11,
+      "discTypeId": 1,
       "name": "Flash",
       "speed": 10,
       "glide": 5,
@@ -3189,6 +3370,7 @@
     {
       "id": 164,
       "manufacturerId": 11,
+      "discTypeId": 1,
       "name": "Flick",
       "speed": 10.1,
       "glide": 3.4,
@@ -3198,6 +3380,7 @@
     {
       "id": 165,
       "manufacturerId": 11,
+      "discTypeId": 1,
       "name": "Force",
       "speed": 12,
       "glide": 4.9,
@@ -3207,6 +3390,7 @@
     {
       "id": 166,
       "manufacturerId": 11,
+      "discTypeId": 1,
       "name": "Hades",
       "speed": 11.9,
       "glide": 6,
@@ -3216,6 +3400,7 @@
     {
       "id": 167,
       "manufacturerId": 11,
+      "discTypeId": 1,
       "name": "Machete",
       "speed": 10.6,
       "glide": 3.7,
@@ -3225,6 +3410,7 @@
     {
       "id": 168,
       "manufacturerId": 11,
+      "discTypeId": 1,
       "name": "Nuke",
       "speed": 13,
       "glide": 4.9,
@@ -3234,6 +3420,7 @@
     {
       "id": 169,
       "manufacturerId": 11,
+      "discTypeId": 1,
       "name": "Nuke OS",
       "speed": 13,
       "glide": 4,
@@ -3243,6 +3430,7 @@
     {
       "id": 170,
       "manufacturerId": 11,
+      "discTypeId": 1,
       "name": "Nuke SS",
       "speed": 13,
       "glide": 5,
@@ -3252,6 +3440,7 @@
     {
       "id": 171,
       "manufacturerId": 11,
+      "discTypeId": 1,
       "name": "Pulse",
       "speed": 10.9,
       "glide": 3.9,
@@ -3261,6 +3450,7 @@
     {
       "id": 172,
       "manufacturerId": 11,
+      "discTypeId": 1,
       "name": "Punisher",
       "speed": 11.9,
       "glide": 4.9,
@@ -3270,6 +3460,7 @@
     {
       "id": 173,
       "manufacturerId": 11,
+      "discTypeId": 1,
       "name": "Scorch",
       "speed": 11,
       "glide": 6,
@@ -3279,6 +3470,7 @@
     {
       "id": 174,
       "manufacturerId": 11,
+      "discTypeId": 1,
       "name": "Spectra",
       "speed": 11.8,
       "glide": 4.9,
@@ -3288,6 +3480,7 @@
     {
       "id": 175,
       "manufacturerId": 11,
+      "discTypeId": 1,
       "name": "Surge",
       "speed": 11,
       "glide": 5,
@@ -3297,6 +3490,7 @@
     {
       "id": 176,
       "manufacturerId": 11,
+      "discTypeId": 1,
       "name": "Surge SS",
       "speed": 11,
       "glide": 4.9,
@@ -3306,6 +3500,7 @@
     {
       "id": 177,
       "manufacturerId": 11,
+      "discTypeId": 1,
       "name": "Thrasher",
       "speed": 11.9,
       "glide": 5,
@@ -3315,6 +3510,7 @@
     {
       "id": 178,
       "manufacturerId": 11,
+      "discTypeId": 1,
       "name": "Venom",
       "speed": 12,
       "glide": 4.1,
@@ -3324,6 +3520,7 @@
     {
       "id": 179,
       "manufacturerId": 11,
+      "discTypeId": 1,
       "name": "Wildcat",
       "speed": 11,
       "glide": 5,
@@ -3333,6 +3530,7 @@
     {
       "id": 180,
       "manufacturerId": 11,
+      "discTypeId": 1,
       "name": "Zeus",
       "speed": 12,
       "glide": 5,
@@ -3342,6 +3540,7 @@
     {
       "id": 181,
       "manufacturerId": 11,
+      "discTypeId": 1,
       "name": "Anax",
       "speed": 10,
       "glide": 5.8,
@@ -3351,6 +3550,7 @@
     {
       "id": 182,
       "manufacturerId": 11,
+      "discTypeId": 2,
       "name": "Cyclone",
       "speed": 7,
       "glide": 4.2,
@@ -3360,6 +3560,7 @@
     {
       "id": 183,
       "manufacturerId": 11,
+      "discTypeId": 2,
       "name": "Eclipse",
       "speed": 6.8,
       "glide": 5,
@@ -3369,6 +3570,7 @@
     {
       "id": 184,
       "manufacturerId": 11,
+      "discTypeId": 1,
       "name": "Heat",
       "speed": 9,
       "glide": 5.7,
@@ -3378,6 +3580,7 @@
     {
       "id": 185,
       "manufacturerId": 11,
+      "discTypeId": 2,
       "name": "Mantis",
       "speed": 8,
       "glide": 4.5,
@@ -3387,6 +3590,7 @@
     {
       "id": 186,
       "manufacturerId": 11,
+      "discTypeId": 2,
       "name": "Passion",
       "speed": 8,
       "glide": 5,
@@ -3396,6 +3600,7 @@
     {
       "id": 187,
       "manufacturerId": 11,
+      "discTypeId": 1,
       "name": "Predator",
       "speed": 9,
       "glide": 4,
@@ -3405,6 +3610,7 @@
     {
       "id": 188,
       "manufacturerId": 11,
+      "discTypeId": 1,
       "name": "Raptor",
       "speed": 9,
       "glide": 4,
@@ -3414,6 +3620,7 @@
     {
       "id": 189,
       "manufacturerId": 11,
+      "discTypeId": 2,
       "name": "Reaper",
       "speed": 8,
       "glide": 3.2,
@@ -3423,6 +3630,7 @@
     {
       "id": 190,
       "manufacturerId": 11,
+      "discTypeId": 2,
       "name": "Stalker",
       "speed": 7.2,
       "glide": 4.9,
@@ -3432,6 +3640,7 @@
     {
       "id": 191,
       "manufacturerId": 11,
+      "discTypeId": 2,
       "name": "Sting",
       "speed": 6.8,
       "glide": 4.9,
@@ -3441,6 +3650,7 @@
     {
       "id": 192,
       "manufacturerId": 11,
+      "discTypeId": 2,
       "name": "Talon",
       "speed": 8,
       "glide": 3,
@@ -3450,6 +3660,7 @@
     {
       "id": 193,
       "manufacturerId": 11,
+      "discTypeId": 2,
       "name": "Tracker",
       "speed": 7.9,
       "glide": 4.4,
@@ -3459,6 +3670,7 @@
     {
       "id": 194,
       "manufacturerId": 11,
+      "discTypeId": 1,
       "name": "Undertaker",
       "speed": 8.9,
       "glide": 5,
@@ -3468,6 +3680,7 @@
     {
       "id": 195,
       "manufacturerId": 11,
+      "discTypeId": 1,
       "name": "Vulture",
       "speed": 9.7,
       "glide": 4.8,
@@ -3477,6 +3690,7 @@
     {
       "id": 196,
       "manufacturerId": 11,
+      "discTypeId": 2,
       "name": "XL",
       "speed": 7.9,
       "glide": 5,
@@ -3486,6 +3700,7 @@
     {
       "id": 197,
       "manufacturerId": 11,
+      "discTypeId": 2,
       "name": "Xpress",
       "speed": 7.9,
       "glide": 4.9,
@@ -3495,6 +3710,7 @@
     {
       "id": 198,
       "manufacturerId": 11,
+      "discTypeId": 2,
       "name": "XS",
       "speed": 8,
       "glide": 4.9,
@@ -3504,6 +3720,7 @@
     {
       "id": 199,
       "manufacturerId": 11,
+      "discTypeId": 2,
       "name": "Xtreme",
       "speed": 6,
       "glide": 3,
@@ -3513,6 +3730,7 @@
     {
       "id": 200,
       "manufacturerId": 11,
+      "discTypeId": 2,
       "name": "Zombee",
       "speed": 6,
       "glide": 5,
@@ -3522,6 +3740,7 @@
     {
       "id": 201,
       "manufacturerId": 11,
+      "discTypeId": 2,
       "name": "Archer",
       "speed": 5.7,
       "glide": 4.8,
@@ -3531,6 +3750,7 @@
     {
       "id": 202,
       "manufacturerId": 11,
+      "discTypeId": 3,
       "name": "Buzzz",
       "speed": 5,
       "glide": 4.3,
@@ -3540,6 +3760,7 @@
     {
       "id": 203,
       "manufacturerId": 11,
+      "discTypeId": 3,
       "name": "Buzzz GT",
       "speed": 5,
       "glide": 4.9,
@@ -3549,6 +3770,7 @@
     {
       "id": 204,
       "manufacturerId": 11,
+      "discTypeId": 3,
       "name": "Buzzz OS",
       "speed": 5,
       "glide": 3.9,
@@ -3558,6 +3780,7 @@
     {
       "id": 205,
       "manufacturerId": 11,
+      "discTypeId": 3,
       "name": "Buzzz SS",
       "speed": 5,
       "glide": 4.1,
@@ -3567,6 +3790,7 @@
     {
       "id": 206,
       "manufacturerId": 11,
+      "discTypeId": 3,
       "name": "Comet",
       "speed": 4,
       "glide": 5.2,
@@ -3576,6 +3800,7 @@
     {
       "id": 207,
       "manufacturerId": 11,
+      "discTypeId": 3,
       "name": "Drone",
       "speed": 5,
       "glide": 3.4,
@@ -3585,6 +3810,7 @@
     {
       "id": 208,
       "manufacturerId": 11,
+      "discTypeId": 2,
       "name": "glide",
       "speed": 5.9,
       "glide": 5,
@@ -3594,6 +3820,7 @@
     {
       "id": 209,
       "manufacturerId": 11,
+      "discTypeId": 3,
       "name": "Hawk",
       "speed": 4,
       "glide": 5,
@@ -3603,6 +3830,7 @@
     {
       "id": 210,
       "manufacturerId": 11,
+      "discTypeId": 3,
       "name": "Hornet",
       "speed": 5,
       "glide": 4.9,
@@ -3612,6 +3840,7 @@
     {
       "id": 211,
       "manufacturerId": 11,
+      "discTypeId": 3,
       "name": "Impact",
       "speed": 5.1,
       "glide": 5,
@@ -3621,6 +3850,7 @@
     {
       "id": 212,
       "manufacturerId": 11,
+      "discTypeId": 3,
       "name": "Malta",
       "speed": 5,
       "glide": 4,
@@ -3630,6 +3860,7 @@
     {
       "id": 213,
       "manufacturerId": 11,
+      "discTypeId": 3,
       "name": "Meteor",
       "speed": 4.4,
       "glide": 5,
@@ -3639,6 +3870,7 @@
     {
       "id": 214,
       "manufacturerId": 11,
+      "discTypeId": 3,
       "name": "Nebula",
       "speed": 5,
       "glide": 4,
@@ -3648,6 +3880,7 @@
     {
       "id": 215,
       "manufacturerId": 11,
+      "discTypeId": 3,
       "name": "Sol",
       "speed": 4.1,
       "glide": 4.8,
@@ -3657,6 +3890,7 @@
     {
       "id": 216,
       "manufacturerId": 11,
+      "discTypeId": 3,
       "name": "Stratus",
       "speed": 5,
       "glide": 4.9,
@@ -3666,6 +3900,7 @@
     {
       "id": 217,
       "manufacturerId": 11,
+      "discTypeId": 3,
       "name": "Wasp",
       "speed": 5,
       "glide": 4,
@@ -3675,6 +3910,7 @@
     {
       "id": 218,
       "manufacturerId": 11,
+      "discTypeId": 4,
       "name": "APX",
       "speed": 2,
       "glide": 3,
@@ -3684,6 +3920,7 @@
     {
       "id": 219,
       "manufacturerId": 11,
+      "discTypeId": 4,
       "name": "Banger GT",
       "speed": 2,
       "glide": 3,
@@ -3693,6 +3930,7 @@
     {
       "id": 220,
       "manufacturerId": 11,
+      "discTypeId": 4,
       "name": "Challenger",
       "speed": 2,
       "glide": 3,
@@ -3702,6 +3940,7 @@
     {
       "id": 221,
       "manufacturerId": 11,
+      "discTypeId": 4,
       "name": "Challenger OS",
       "speed": 2.9,
       "glide": 4.8,
@@ -3711,6 +3950,7 @@
     {
       "id": 222,
       "manufacturerId": 11,
+      "discTypeId": 4,
       "name": "Challenger SS",
       "speed": 2,
       "glide": 3.9,
@@ -3720,6 +3960,7 @@
     {
       "id": 223,
       "manufacturerId": 11,
+      "discTypeId": 4,
       "name": "Fierce",
       "speed": 3,
       "glide": 4,
@@ -3729,6 +3970,7 @@
     {
       "id": 224,
       "manufacturerId": 11,
+      "discTypeId": 4,
       "name": "Focus",
       "speed": 2,
       "glide": 3,
@@ -3738,6 +3980,7 @@
     {
       "id": 225,
       "manufacturerId": 11,
+      "discTypeId": 4,
       "name": "Luna",
       "speed": 3,
       "glide": 3,
@@ -3747,6 +3990,7 @@
     {
       "id": 226,
       "manufacturerId": 11,
+      "discTypeId": 4,
       "name": "Magnet",
       "speed": 2,
       "glide": 3,
@@ -3756,6 +4000,7 @@
     {
       "id": 227,
       "manufacturerId": 11,
+      "discTypeId": 4,
       "name": "Putt'r",
       "speed": 2,
       "glide": 3.1,
@@ -3765,6 +4010,7 @@
     {
       "id": 228,
       "manufacturerId": 11,
+      "discTypeId": 4,
       "name": "Rattler",
       "speed": 2,
       "glide": 3.1,
@@ -3774,6 +4020,7 @@
     {
       "id": 229,
       "manufacturerId": 11,
+      "discTypeId": 4,
       "name": "Ringer",
       "speed": 3,
       "glide": 3.8,
@@ -3783,6 +4030,7 @@
     {
       "id": 230,
       "manufacturerId": 11,
+      "discTypeId": 4,
       "name": "Ringer GT",
       "speed": 3,
       "glide": 2.9,
@@ -3792,6 +4040,7 @@
     {
       "id": 231,
       "manufacturerId": 11,
+      "discTypeId": 4,
       "name": "Roach",
       "speed": 2.1,
       "glide": 4,
@@ -3801,6 +4050,7 @@
     {
       "id": 232,
       "manufacturerId": 11,
+      "discTypeId": 4,
       "name": "Soft Magnet",
       "speed": 2,
       "glide": 3.1,
@@ -3810,6 +4060,7 @@
     {
       "id": 233,
       "manufacturerId": 11,
+      "discTypeId": 4,
       "name": "Zeppelin",
       "speed": 2.5,
       "glide": 6,
@@ -3819,6 +4070,7 @@
     {
       "id": 234,
       "manufacturerId": 11,
+      "discTypeId": 3,
       "name": "Zone",
       "speed": 3.9,
       "glide": 3,
@@ -3828,6 +4080,7 @@
     {
       "id": 235,
       "manufacturerId": 12,
+      "discTypeId": 1,
       "name": "Starling",
       "speed": 12.9,
       "glide": 5,
@@ -3837,6 +4090,7 @@
     {
       "id": 236,
       "manufacturerId": 12,
+      "discTypeId": 2,
       "name": "Stork",
       "speed": 8,
       "glide": 5,
@@ -3846,6 +4100,7 @@
     {
       "id": 237,
       "manufacturerId": 12,
+      "discTypeId": 3,
       "name": "Skylark",
       "speed": 5,
       "glide": 4,
@@ -3855,6 +4110,7 @@
     {
       "id": 238,
       "manufacturerId": 12,
+      "discTypeId": 4,
       "name": "Sparrow",
       "speed": 3,
       "glide": 3,
@@ -3864,6 +4120,7 @@
     {
       "id": 239,
       "manufacturerId": 13,
+      "discTypeId": 1,
       "name": "Basilisk",
       "speed": 12,
       "glide": 5.9,
@@ -3873,6 +4130,7 @@
     {
       "id": 240,
       "manufacturerId": 13,
+      "discTypeId": 2,
       "name": "Kraken",
       "speed": 6.1,
       "glide": 5,
@@ -3882,6 +4140,7 @@
     {
       "id": 241,
       "manufacturerId": 13,
+      "discTypeId": 3,
       "name": "Kapre",
       "speed": 5,
       "glide": 5.1,
@@ -3891,6 +4150,7 @@
     {
       "id": 242,
       "manufacturerId": 13,
+      "discTypeId": 3,
       "name": "Leviathan",
       "speed": 5,
       "glide": 4,
@@ -3900,6 +4160,7 @@
     {
       "id": 243,
       "manufacturerId": 13,
+      "discTypeId": 3,
       "name": "Alpas",
       "speed": 3.7,
       "glide": 3.9,
@@ -3909,6 +4170,7 @@
     {
       "id": 244,
       "manufacturerId": 13,
+      "discTypeId": 4,
       "name": "Narwhal",
       "speed": 3,
       "glide": 3.1,
@@ -3918,6 +4180,7 @@
     {
       "id": 245,
       "manufacturerId": 13,
+      "discTypeId": 4,
       "name": "Nuno",
       "speed": 3,
       "glide": 3.9,
@@ -3927,6 +4190,7 @@
     {
       "id": 246,
       "manufacturerId": 14,
+      "discTypeId": 1,
       "name": "Captain",
       "speed": 12.7,
       "glide": 4.9,
@@ -3936,6 +4200,7 @@
     {
       "id": 247,
       "manufacturerId": 14,
+      "discTypeId": 1,
       "name": "Criminal",
       "speed": 10,
       "glide": 3.1,
@@ -3945,6 +4210,7 @@
     {
       "id": 248,
       "manufacturerId": 14,
+      "discTypeId": 1,
       "name": "Defender",
       "speed": 13,
       "glide": 4.9,
@@ -3954,6 +4220,7 @@
     {
       "id": 249,
       "manufacturerId": 14,
+      "discTypeId": 1,
       "name": "Enforcer",
       "speed": 12,
       "glide": 4.1,
@@ -3963,6 +4230,7 @@
     {
       "id": 250,
       "manufacturerId": 14,
+      "discTypeId": 1,
       "name": "Freedom",
       "speed": 13.8,
       "glide": 5,
@@ -3972,6 +4240,7 @@
     {
       "id": 251,
       "manufacturerId": 14,
+      "discTypeId": 1,
       "name": "Raider",
       "speed": 12.9,
       "glide": 5,
@@ -3981,6 +4250,7 @@
     {
       "id": 252,
       "manufacturerId": 14,
+      "discTypeId": 1,
       "name": "Renegade",
       "speed": 10.9,
       "glide": 5,
@@ -3990,6 +4260,7 @@
     {
       "id": 253,
       "manufacturerId": 14,
+      "discTypeId": 1,
       "name": "Sergeant",
       "speed": 11,
       "glide": 4,
@@ -3999,6 +4270,7 @@
     {
       "id": 254,
       "manufacturerId": 14,
+      "discTypeId": 1,
       "name": "Sheriff",
       "speed": 12.9,
       "glide": 5.1,
@@ -4008,6 +4280,7 @@
     {
       "id": 255,
       "manufacturerId": 14,
+      "discTypeId": 1,
       "name": "Trespass",
       "speed": 11.9,
       "glide": 5,
@@ -4017,6 +4290,7 @@
     {
       "id": 256,
       "manufacturerId": 14,
+      "discTypeId": 2,
       "name": "Breakout",
       "speed": 8,
       "glide": 5.1,
@@ -4026,6 +4300,7 @@
     {
       "id": 257,
       "manufacturerId": 14,
+      "discTypeId": 1,
       "name": "Convict",
       "speed": 9,
       "glide": 4,
@@ -4035,6 +4310,7 @@
     {
       "id": 258,
       "manufacturerId": 14,
+      "discTypeId": 1,
       "name": "Escape",
       "speed": 9,
       "glide": 5.2,
@@ -4044,6 +4320,7 @@
     {
       "id": 259,
       "manufacturerId": 14,
+      "discTypeId": 2,
       "name": "Evader",
       "speed": 7,
       "glide": 4.1,
@@ -4053,6 +4330,7 @@
     {
       "id": 260,
       "manufacturerId": 14,
+      "discTypeId": 1,
       "name": "Felon",
       "speed": 9,
       "glide": 3.6,
@@ -4062,6 +4340,7 @@
     {
       "id": 261,
       "manufacturerId": 14,
+      "discTypeId": 1,
       "name": "Getaway",
       "speed": 9,
       "glide": 5.1,
@@ -4071,6 +4350,7 @@
     {
       "id": 262,
       "manufacturerId": 14,
+      "discTypeId": 2,
       "name": "Maverick",
       "speed": 7,
       "glide": 4.3,
@@ -4080,6 +4360,7 @@
     {
       "id": 263,
       "manufacturerId": 14,
+      "discTypeId": 2,
       "name": "Thief",
       "speed": 8,
       "glide": 5,
@@ -4089,6 +4370,7 @@
     {
       "id": 264,
       "manufacturerId": 14,
+      "discTypeId": 1,
       "name": "Vandal",
       "speed": 9,
       "glide": 5,
@@ -4098,6 +4380,7 @@
     {
       "id": 265,
       "manufacturerId": 14,
+      "discTypeId": 2,
       "name": "Witness",
       "speed": 8,
       "glide": 6,
@@ -4107,6 +4390,7 @@
     {
       "id": 266,
       "manufacturerId": 14,
+      "discTypeId": 3,
       "name": "Bounty",
       "speed": 4,
       "glide": 5.1,
@@ -4116,6 +4400,7 @@
     {
       "id": 267,
       "manufacturerId": 14,
+      "discTypeId": 3,
       "name": "EMac Truth",
       "speed": 5,
       "glide": 5,
@@ -4125,6 +4410,7 @@
     {
       "id": 268,
       "manufacturerId": 14,
+      "discTypeId": 3,
       "name": "Evidence",
       "speed": 5,
       "glide": 5.1,
@@ -4134,6 +4420,7 @@
     {
       "id": 269,
       "manufacturerId": 14,
+      "discTypeId": 3,
       "name": "Fugitive",
       "speed": 5,
       "glide": 5,
@@ -4143,6 +4430,7 @@
     {
       "id": 270,
       "manufacturerId": 14,
+      "discTypeId": 3,
       "name": "Justice",
       "speed": 5,
       "glide": 2.1,
@@ -4152,6 +4440,7 @@
     {
       "id": 271,
       "manufacturerId": 14,
+      "discTypeId": 3,
       "name": "Patrol",
       "speed": 5,
       "glide": 5,
@@ -4161,6 +4450,7 @@
     {
       "id": 272,
       "manufacturerId": 14,
+      "discTypeId": 3,
       "name": "Proof",
       "speed": 5,
       "glide": 5,
@@ -4170,6 +4460,7 @@
     {
       "id": 273,
       "manufacturerId": 14,
+      "discTypeId": 3,
       "name": "Suspect",
       "speed": 4,
       "glide": 3.1,
@@ -4179,6 +4470,7 @@
     {
       "id": 274,
       "manufacturerId": 14,
+      "discTypeId": 3,
       "name": "Truth",
       "speed": 5,
       "glide": 5.1,
@@ -4188,6 +4480,7 @@
     {
       "id": 275,
       "manufacturerId": 14,
+      "discTypeId": 3,
       "name": "Verdict",
       "speed": 5.1,
       "glide": 4.1,
@@ -4197,6 +4490,7 @@
     {
       "id": 276,
       "manufacturerId": 14,
+      "discTypeId": 3,
       "name": "Warrant",
       "speed": 5,
       "glide": 5,
@@ -4206,6 +4500,7 @@
     {
       "id": 277,
       "manufacturerId": 14,
+      "discTypeId": 4,
       "name": "Deputy",
       "speed": 3,
       "glide": 4,
@@ -4215,6 +4510,7 @@
     {
       "id": 278,
       "manufacturerId": 14,
+      "discTypeId": 4,
       "name": "EMac Judge ",
       "speed": 2,
       "glide": 4,
@@ -4224,6 +4520,7 @@
     {
       "id": 279,
       "manufacturerId": 14,
+      "discTypeId": 4,
       "name": "Gavel",
       "speed": 3,
       "glide": 5,
@@ -4233,6 +4530,7 @@
     {
       "id": 280,
       "manufacturerId": 14,
+      "discTypeId": 4,
       "name": "Guard",
       "speed": 2,
       "glide": 5,
@@ -4242,6 +4540,7 @@
     {
       "id": 281,
       "manufacturerId": 14,
+      "discTypeId": 4,
       "name": "Judge ",
       "speed": 2,
       "glide": 4,
@@ -4251,6 +4550,7 @@
     {
       "id": 282,
       "manufacturerId": 14,
+      "discTypeId": 4,
       "name": "Marshal",
       "speed": 3,
       "glide": 3.6,
@@ -4260,6 +4560,7 @@
     {
       "id": 283,
       "manufacturerId": 14,
+      "discTypeId": 4,
       "name": "Slammer",
       "speed": 2.6,
       "glide": 2.1,
@@ -4269,6 +4570,7 @@
     {
       "id": 284,
       "manufacturerId": 14,
+      "discTypeId": 4,
       "name": "Warden",
       "speed": 2.1,
       "glide": 3.6,
@@ -4278,6 +4580,7 @@
     {
       "id": 285,
       "manufacturerId": 15,
+      "discTypeId": 4,
       "name": "Penrose",
       "speed": 2,
       "glide": 4,
@@ -4287,6 +4590,7 @@
     {
       "id": 286,
       "manufacturerId": 15,
+      "discTypeId": 4,
       "name": "Phi",
       "speed": 1.4,
       "glide": 1.6,
@@ -4296,6 +4600,7 @@
     {
       "id": 287,
       "manufacturerId": 16,
+      "discTypeId": 3,
       "name": "Interceptor",
       "speed": 4.8,
       "glide": 3.6,
@@ -4305,6 +4610,7 @@
     {
       "id": 288,
       "manufacturerId": 16,
+      "discTypeId": 4,
       "name": "Koi",
       "speed": 2.9,
       "glide": 3.9,
@@ -4314,6 +4620,7 @@
     {
       "id": 289,
       "manufacturerId": 17,
+      "discTypeId": 2,
       "name": "Firehawk",
       "speed": 8,
       "glide": 5,
@@ -4323,6 +4630,7 @@
     {
       "id": 290,
       "manufacturerId": 17,
+      "discTypeId": 1,
       "name": "Taipan",
       "speed": 13,
       "glide": 5,
@@ -4332,6 +4640,7 @@
     {
       "id": 291,
       "manufacturerId": 17,
+      "discTypeId": 3,
       "name": "Dingo",
       "speed": 5,
       "glide": 4.8,
@@ -4341,6 +4650,7 @@
     {
       "id": 292,
       "manufacturerId": 17,
+      "discTypeId": 4,
       "name": "Huntsman",
       "speed": 2,
       "glide": 3,
@@ -4350,6 +4660,7 @@
     {
       "id": 293,
       "manufacturerId": 18,
+      "discTypeId": 1,
       "name": "Cruise",
       "speed": 12.8,
       "glide": 4,
@@ -4359,6 +4670,7 @@
     {
       "id": 294,
       "manufacturerId": 18,
+      "discTypeId": 1,
       "name": "Traveler",
       "speed": 9,
       "glide": 3.9,
@@ -4368,6 +4680,7 @@
     {
       "id": 295,
       "manufacturerId": 18,
+      "discTypeId": 1,
       "name": "Voyage",
       "speed": 12.2,
       "glide": 4.9,
@@ -4377,6 +4690,7 @@
     {
       "id": 296,
       "manufacturerId": 18,
+      "discTypeId": 1,
       "name": "Drifter",
       "speed": 8.9,
       "glide": 4,
@@ -4386,6 +4700,7 @@
     {
       "id": 297,
       "manufacturerId": 18,
+      "discTypeId": 2,
       "name": "Shortcut",
       "speed": 7,
       "glide": 3,
@@ -4395,6 +4710,7 @@
     {
       "id": 298,
       "manufacturerId": 18,
+      "discTypeId": 4,
       "name": "Expedition",
       "speed": 1,
       "glide": 1,
@@ -4404,6 +4720,7 @@
     {
       "id": 299,
       "manufacturerId": 18,
+      "discTypeId": 3,
       "name": "Navigator",
       "speed": 5,
       "glide": 4,
@@ -4413,6 +4730,7 @@
     {
       "id": 300,
       "manufacturerId": 18,
+      "discTypeId": 4,
       "name": "Manifest",
       "speed": 1,
       "glide": 1,
@@ -4422,6 +4740,7 @@
     {
       "id": 301,
       "manufacturerId": 18,
+      "discTypeId": 3,
       "name": "Passport",
       "speed": 3.9,
       "glide": 3.9,
@@ -4431,6 +4750,7 @@
     {
       "id": 302,
       "manufacturerId": 19,
+      "discTypeId": 1,
       "name": "Meteorite",
       "speed": 11,
       "glide": 3.1,
@@ -4440,6 +4760,7 @@
     {
       "id": 303,
       "manufacturerId": 19,
+      "discTypeId": 2,
       "name": "Shooting Star",
       "speed": 7,
       "glide": 5,
@@ -4449,6 +4770,7 @@
     {
       "id": 304,
       "manufacturerId": 19,
+      "discTypeId": 3,
       "name": "Orbit",
       "speed": 4.9,
       "glide": 4,
@@ -4458,6 +4780,7 @@
     {
       "id": 305,
       "manufacturerId": 19,
+      "discTypeId": 4,
       "name": "Magneton",
       "speed": 2.1,
       "glide": 3.1,
@@ -4467,6 +4790,7 @@
     {
       "id": 306,
       "manufacturerId": 20,
+      "discTypeId": 1,
       "name": "Apache",
       "speed": 9.1,
       "glide": 4.2,
@@ -4476,6 +4800,7 @@
     {
       "id": 307,
       "manufacturerId": 20,
+      "discTypeId": 1,
       "name": "Apex",
       "speed": 12,
       "glide": 6,
@@ -4485,6 +4810,7 @@
     {
       "id": 308,
       "manufacturerId": 20,
+      "discTypeId": 1,
       "name": "Diablo",
       "speed": 9.3,
       "glide": 5.1,
@@ -4494,6 +4820,7 @@
     {
       "id": 309,
       "manufacturerId": 20,
+      "discTypeId": 1,
       "name": "Illusion",
       "speed": 11,
       "glide": 4.9,
@@ -4503,6 +4830,7 @@
     {
       "id": 310,
       "manufacturerId": 20,
+      "discTypeId": 1,
       "name": "Journey",
       "speed": 12.2,
       "glide": 6,
@@ -4512,6 +4840,7 @@
     {
       "id": 311,
       "manufacturerId": 20,
+      "discTypeId": 1,
       "name": "Ninja",
       "speed": 10.6,
       "glide": 4.9,
@@ -4521,6 +4850,7 @@
     {
       "id": 312,
       "manufacturerId": 20,
+      "discTypeId": 1,
       "name": "Rage",
       "speed": 10,
       "glide": 5,
@@ -4530,6 +4860,7 @@
     {
       "id": 313,
       "manufacturerId": 20,
+      "discTypeId": 1,
       "name": "Samurai",
       "speed": 13,
       "glide": 5.8,
@@ -4539,6 +4870,7 @@
     {
       "id": 314,
       "manufacturerId": 20,
+      "discTypeId": 1,
       "name": "Siren",
       "speed": 12.8,
       "glide": 4.9,
@@ -4548,6 +4880,7 @@
     {
       "id": 315,
       "manufacturerId": 20,
+      "discTypeId": 1,
       "name": "Slayer",
       "speed": 12.8,
       "glide": 4.9,
@@ -4557,6 +4890,7 @@
     {
       "id": 316,
       "manufacturerId": 20,
+      "discTypeId": 1,
       "name": "speed Demon",
       "speed": 12,
       "glide": 3,
@@ -4566,6 +4900,7 @@
     {
       "id": 317,
       "manufacturerId": 20,
+      "discTypeId": 1,
       "name": "Spirit",
       "speed": 11.7,
       "glide": 3.9,
@@ -4575,6 +4910,7 @@
     {
       "id": 318,
       "manufacturerId": 20,
+      "discTypeId": 1,
       "name": "Assassin",
       "speed": 8.9,
       "glide": 6,
@@ -4584,6 +4920,7 @@
     {
       "id": 319,
       "manufacturerId": 20,
+      "discTypeId": 1,
       "name": "Blade",
       "speed": 9,
       "glide": 4.7,
@@ -4593,6 +4930,7 @@
     {
       "id": 320,
       "manufacturerId": 20,
+      "discTypeId": 2,
       "name": "Blaze",
       "speed": 7,
       "glide": 4.8,
@@ -4602,6 +4940,7 @@
     {
       "id": 321,
       "manufacturerId": 20,
+      "discTypeId": 2,
       "name": "Hybrid",
       "speed": 7,
       "glide": 4,
@@ -4611,6 +4950,7 @@
     {
       "id": 322,
       "manufacturerId": 20,
+      "discTypeId": 2,
       "name": "Sabre",
       "speed": 8,
       "glide": 5,
@@ -4620,6 +4960,7 @@
     {
       "id": 323,
       "manufacturerId": 20,
+      "discTypeId": 1,
       "name": "Spear",
       "speed": 9,
       "glide": 6,
@@ -4629,6 +4970,7 @@
     {
       "id": 324,
       "manufacturerId": 20,
+      "discTypeId": 2,
       "name": "Demon",
       "speed": 5.9,
       "glide": 3,
@@ -4638,6 +4980,7 @@
     {
       "id": 325,
       "manufacturerId": 20,
+      "discTypeId": 3,
       "name": "Element",
       "speed": 5,
       "glide": 5,
@@ -4647,6 +4990,7 @@
     {
       "id": 326,
       "manufacturerId": 20,
+      "discTypeId": 2,
       "name": "Karma",
       "speed": 6.2,
       "glide": 4.8,
@@ -4656,6 +5000,7 @@
     {
       "id": 327,
       "manufacturerId": 20,
+      "discTypeId": 3,
       "name": "Mystic",
       "speed": 5,
       "glide": 4.9,
@@ -4665,6 +5010,7 @@
     {
       "id": 328,
       "manufacturerId": 20,
+      "discTypeId": 3,
       "name": "Prophecy",
       "speed": 5,
       "glide": 5.1,
@@ -4674,6 +5020,7 @@
     {
       "id": 329,
       "manufacturerId": 20,
+      "discTypeId": 2,
       "name": "Scout",
       "speed": 6,
       "glide": 5,
@@ -4683,6 +5030,7 @@
     {
       "id": 330,
       "manufacturerId": 20,
+      "discTypeId": 3,
       "name": "Warrior",
       "speed": 5,
       "glide": 4,
@@ -4692,6 +5040,7 @@
     {
       "id": 331,
       "manufacturerId": 20,
+      "discTypeId": 4,
       "name": "Chief",
       "speed": 3,
       "glide": 3.1,
@@ -4701,6 +5050,7 @@
     {
       "id": 332,
       "manufacturerId": 20,
+      "discTypeId": 4,
       "name": "Chief OS",
       "speed": 3.1,
       "glide": 3,
@@ -4710,6 +5060,7 @@
     {
       "id": 333,
       "manufacturerId": 20,
+      "discTypeId": 4,
       "name": "Devil Hawk",
       "speed": 3,
       "glide": 2.9,
@@ -4719,6 +5070,7 @@
     {
       "id": 334,
       "manufacturerId": 20,
+      "discTypeId": 4,
       "name": "Magic",
       "speed": 2.3,
       "glide": 3.6,
@@ -4728,6 +5080,7 @@
     {
       "id": 335,
       "manufacturerId": 20,
+      "discTypeId": 4,
       "name": "Shaman",
       "speed": 3.1,
       "glide": 3.2,
@@ -4737,6 +5090,7 @@
     {
       "id": 336,
       "manufacturerId": 20,
+      "discTypeId": 4,
       "name": "Training Wizard",
       "speed": 3,
       "glide": 5,
@@ -4746,6 +5100,7 @@
     {
       "id": 337,
       "manufacturerId": 20,
+      "discTypeId": 4,
       "name": "Voodoo",
       "speed": 2.5,
       "glide": 3.6,
@@ -4755,6 +5110,7 @@
     {
       "id": 338,
       "manufacturerId": 20,
+      "discTypeId": 4,
       "name": "Warlock",
       "speed": 2.3,
       "glide": 3.6,
@@ -4764,6 +5120,7 @@
     {
       "id": 339,
       "manufacturerId": 20,
+      "discTypeId": 4,
       "name": "Warspear",
       "speed": 2.1,
       "glide": 2.6,
@@ -4773,6 +5130,7 @@
     {
       "id": 340,
       "manufacturerId": 20,
+      "discTypeId": 4,
       "name": "Wizard",
       "speed": 2.4,
       "glide": 3.7,
@@ -4782,6 +5140,7 @@
     {
       "id": 341,
       "manufacturerId": 21,
+      "discTypeId": 2,
       "name": "Midgard",
       "speed": 6,
       "glide": 5,
@@ -4791,6 +5150,7 @@
     {
       "id": 342,
       "manufacturerId": 21,
+      "discTypeId": 3,
       "name": "Thor",
       "speed": 4,
       "glide": 4,
@@ -4800,6 +5160,7 @@
     {
       "id": 343,
       "manufacturerId": 21,
+      "discTypeId": 4,
       "name": "Mjolner",
       "speed": 2,
       "glide": 3,
@@ -4809,6 +5170,7 @@
     {
       "id": 344,
       "manufacturerId": 22,
+      "discTypeId": 1,
       "name": "Aztec",
       "speed": 10,
       "glide": 5,
@@ -4818,6 +5180,7 @@
     {
       "id": 345,
       "manufacturerId": 22,
+      "discTypeId": 1,
       "name": "Emperor",
       "speed": 12,
       "glide": 5.1,
@@ -4827,6 +5190,7 @@
     {
       "id": 346,
       "manufacturerId": 22,
+      "discTypeId": 1,
       "name": "Maya",
       "speed": 11.9,
       "glide": 5.1,
@@ -4836,6 +5200,7 @@
     {
       "id": 347,
       "manufacturerId": 22,
+      "discTypeId": 1,
       "name": "Pharaoh",
       "speed": 12.9,
       "glide": 5.8,
@@ -4845,6 +5210,7 @@
     {
       "id": 348,
       "manufacturerId": 22,
+      "discTypeId": 1,
       "name": "Slab",
       "speed": 11.9,
       "glide": 3,
@@ -4854,6 +5220,7 @@
     {
       "id": 349,
       "manufacturerId": 22,
+      "discTypeId": 2,
       "name": "Centurion",
       "speed": 7,
       "glide": 5.1,
@@ -4863,6 +5230,7 @@
     {
       "id": 350,
       "manufacturerId": 22,
+      "discTypeId": 2,
       "name": "Exodus",
       "speed": 7.1,
       "glide": 4.9,
@@ -4872,6 +5240,7 @@
     {
       "id": 351,
       "manufacturerId": 22,
+      "discTypeId": 1,
       "name": "Scepter",
       "speed": 9,
       "glide": 3.8,
@@ -4881,6 +5250,7 @@
     {
       "id": 352,
       "manufacturerId": 22,
+      "discTypeId": 1,
       "name": "Sphinx",
       "speed": 9,
       "glide": 6,
@@ -4890,6 +5260,7 @@
     {
       "id": 353,
       "manufacturerId": 22,
+      "discTypeId": 3,
       "name": "Anubis",
       "speed": 4.9,
       "glide": 5,
@@ -4899,6 +5270,7 @@
     {
       "id": 354,
       "manufacturerId": 22,
+      "discTypeId": 3,
       "name": "Chariot",
       "speed": 5,
       "glide": 5,
@@ -4908,6 +5280,7 @@
     {
       "id": 355,
       "manufacturerId": 22,
+      "discTypeId": 3,
       "name": "Inca",
       "speed": 5,
       "glide": 4.9,
@@ -4917,6 +5290,7 @@
     {
       "id": 356,
       "manufacturerId": 22,
+      "discTypeId": 3,
       "name": "Kon Tiki",
       "speed": 4,
       "glide": 5.2,
@@ -4926,6 +5300,7 @@
     {
       "id": 357,
       "manufacturerId": 22,
+      "discTypeId": 3,
       "name": "Ra",
       "speed": 5,
       "glide": 4.1,
@@ -4935,6 +5310,7 @@
     {
       "id": 358,
       "manufacturerId": 22,
+      "discTypeId": 4,
       "name": "Alpaca",
       "speed": 3,
       "glide": 3,
@@ -4944,6 +5320,7 @@
     {
       "id": 359,
       "manufacturerId": 22,
+      "discTypeId": 3,
       "name": "Cohort",
       "speed": 3.5,
       "glide": 4,
@@ -4953,6 +5330,7 @@
     {
       "id": 360,
       "manufacturerId": 22,
+      "discTypeId": 4,
       "name": "Myth",
       "speed": 2,
       "glide": 3,
@@ -4962,6 +5340,7 @@
     {
       "id": 361,
       "manufacturerId": 22,
+      "discTypeId": 4,
       "name": "Ruin",
       "speed": 3,
       "glide": 3,
@@ -4971,6 +5350,7 @@
     {
       "id": 362,
       "manufacturerId": 22,
+      "discTypeId": 4,
       "name": "Scarab",
       "speed": 2,
       "glide": 4,
@@ -4980,6 +5360,7 @@
     {
       "id": 363,
       "manufacturerId": 22,
+      "discTypeId": 4,
       "name": "Tomb",
       "speed": 3.1,
       "glide": 4,
@@ -4989,6 +5370,7 @@
     {
       "id": 364,
       "manufacturerId": 23,
+      "discTypeId": 1,
       "name": "Ape",
       "speed": 13,
       "glide": 4.8,
@@ -4998,6 +5380,7 @@
     {
       "id": 365,
       "manufacturerId": 23,
+      "discTypeId": 1,
       "name": "Archon",
       "speed": 11,
       "glide": 5,
@@ -5007,6 +5390,7 @@
     {
       "id": 366,
       "manufacturerId": 23,
+      "discTypeId": 1,
       "name": "Beast",
       "speed": 10,
       "glide": 5,
@@ -5016,6 +5400,7 @@
     {
       "id": 367,
       "manufacturerId": 23,
+      "discTypeId": 1,
       "name": "Boss",
       "speed": 13,
       "glide": 5,
@@ -5025,6 +5410,7 @@
     {
       "id": 368,
       "manufacturerId": 23,
+      "discTypeId": 1,
       "name": "Colossus",
       "speed": 14,
       "glide": 5,
@@ -5034,6 +5420,7 @@
     {
       "id": 369,
       "manufacturerId": 23,
+      "discTypeId": 1,
       "name": "Corvette",
       "speed": 13.9,
       "glide": 5.9,
@@ -5043,6 +5430,7 @@
     {
       "id": 370,
       "manufacturerId": 23,
+      "discTypeId": 1,
       "name": "Daedalus",
       "speed": 13,
       "glide": 5.9,
@@ -5052,6 +5440,7 @@
     {
       "id": 371,
       "manufacturerId": 23,
+      "discTypeId": 1,
       "name": "Destroyer",
       "speed": 12,
       "glide": 5,
@@ -5061,6 +5450,7 @@
     {
       "id": 372,
       "manufacturerId": 23,
+      "discTypeId": 1,
       "name": "Dominator",
       "speed": 12.9,
       "glide": 4.8,
@@ -5070,6 +5460,7 @@
     {
       "id": 373,
       "manufacturerId": 23,
+      "discTypeId": 1,
       "name": "Firestorm",
       "speed": 13.7,
       "glide": 4.1,
@@ -5079,6 +5470,7 @@
     {
       "id": 374,
       "manufacturerId": 23,
+      "discTypeId": 1,
       "name": "Groove",
       "speed": 12.8,
       "glide": 5.6,
@@ -5088,6 +5480,7 @@
     {
       "id": 375,
       "manufacturerId": 23,
+      "discTypeId": 1,
       "name": "Invictus",
       "speed": 10.3,
       "glide": 4.3,
@@ -5097,6 +5490,7 @@
     {
       "id": 376,
       "manufacturerId": 23,
+      "discTypeId": 1,
       "name": "IT - Innova Tech",
       "speed": 10,
       "glide": 3,
@@ -5106,6 +5500,7 @@
     {
       "id": 377,
       "manufacturerId": 23,
+      "discTypeId": 1,
       "name": "Katana",
       "speed": 13,
       "glide": 5,
@@ -5115,6 +5510,7 @@
     {
       "id": 378,
       "manufacturerId": 23,
+      "discTypeId": 1,
       "name": "Krait",
       "speed": 11,
       "glide": 5,
@@ -5124,6 +5520,7 @@
     {
       "id": 379,
       "manufacturerId": 23,
+      "discTypeId": 1,
       "name": "Mamba",
       "speed": 11,
       "glide": 6,
@@ -5133,6 +5530,7 @@
     {
       "id": 380,
       "manufacturerId": 23,
+      "discTypeId": 1,
       "name": "Max",
       "speed": 11,
       "glide": 3,
@@ -5142,6 +5540,7 @@
     {
       "id": 381,
       "manufacturerId": 23,
+      "discTypeId": 1,
       "name": "Monarch",
       "speed": 10,
       "glide": 5,
@@ -5151,6 +5550,7 @@
     {
       "id": 382,
       "manufacturerId": 23,
+      "discTypeId": 1,
       "name": "Monster",
       "speed": 10.1,
       "glide": 2.9,
@@ -5160,6 +5560,7 @@
     {
       "id": 383,
       "manufacturerId": 23,
+      "discTypeId": 1,
       "name": "Mystere",
       "speed": 11,
       "glide": 6,
@@ -5169,6 +5570,7 @@
     {
       "id": 384,
       "manufacturerId": 23,
+      "discTypeId": 1,
       "name": "Orc",
       "speed": 10,
       "glide": 4.1,
@@ -5178,6 +5580,7 @@
     {
       "id": 385,
       "manufacturerId": 23,
+      "discTypeId": 1,
       "name": "Shryke",
       "speed": 12.9,
       "glide": 6,
@@ -5187,6 +5590,7 @@
     {
       "id": 386,
       "manufacturerId": 23,
+      "discTypeId": 1,
       "name": "SL",
       "speed": 10,
       "glide": 5,
@@ -5196,6 +5600,7 @@
     {
       "id": 387,
       "manufacturerId": 23,
+      "discTypeId": 1,
       "name": "Starfire",
       "speed": 10,
       "glide": 4.5,
@@ -5205,6 +5610,7 @@
     {
       "id": 388,
       "manufacturerId": 23,
+      "discTypeId": 1,
       "name": "TeeDevil",
       "speed": 12,
       "glide": 4.9,
@@ -5214,6 +5620,7 @@
     {
       "id": 389,
       "manufacturerId": 23,
+      "discTypeId": 1,
       "name": "TeeRex",
       "speed": 11,
       "glide": 4,
@@ -5223,6 +5630,7 @@
     {
       "id": 390,
       "manufacturerId": 23,
+      "discTypeId": 1,
       "name": "Tern",
       "speed": 12,
       "glide": 6,
@@ -5232,6 +5640,7 @@
     {
       "id": 391,
       "manufacturerId": 23,
+      "discTypeId": 1,
       "name": "Vulcan",
       "speed": 13,
       "glide": 5,
@@ -5241,6 +5650,7 @@
     {
       "id": 392,
       "manufacturerId": 23,
+      "discTypeId": 1,
       "name": "Wahoo",
       "speed": 11.9,
       "glide": 6,
@@ -5250,6 +5660,7 @@
     {
       "id": 393,
       "manufacturerId": 23,
+      "discTypeId": 1,
       "name": "Wraith",
       "speed": 11,
       "glide": 5,
@@ -5259,6 +5670,7 @@
     {
       "id": 394,
       "manufacturerId": 23,
+      "discTypeId": 1,
       "name": "X-Caliber",
       "speed": 12,
       "glide": 4.8,
@@ -5268,6 +5680,7 @@
     {
       "id": 395,
       "manufacturerId": 23,
+      "discTypeId": 2,
       "name": "Archangel",
       "speed": 8,
       "glide": 5.9,
@@ -5277,6 +5690,7 @@
     {
       "id": 396,
       "manufacturerId": 23,
+      "discTypeId": 2,
       "name": "Banshee",
       "speed": 7,
       "glide": 3.1,
@@ -5286,6 +5700,7 @@
     {
       "id": 397,
       "manufacturerId": 23,
+      "discTypeId": 2,
       "name": "Cheetah",
       "speed": 6,
       "glide": 4,
@@ -5295,6 +5710,7 @@
     {
       "id": 398,
       "manufacturerId": 23,
+      "discTypeId": 2,
       "name": "Dragon",
       "speed": 7.9,
       "glide": 4.9,
@@ -5304,6 +5720,7 @@
     {
       "id": 399,
       "manufacturerId": 23,
+      "discTypeId": 2,
       "name": "Eagle",
       "speed": 7.1,
       "glide": 4.1,
@@ -5313,6 +5730,7 @@
     {
       "id": 400,
       "manufacturerId": 23,
+      "discTypeId": 1,
       "name": "Firebird",
       "speed": 9,
       "glide": 3.1,
@@ -5322,6 +5740,7 @@
     {
       "id": 401,
       "manufacturerId": 23,
+      "discTypeId": 1,
       "name": "FL",
       "speed": 9,
       "glide": 3.2,
@@ -5331,6 +5750,7 @@
     {
       "id": 402,
       "manufacturerId": 23,
+      "discTypeId": 2,
       "name": "Gargoyle",
       "speed": 6,
       "glide": 3,
@@ -5340,6 +5760,7 @@
     {
       "id": 403,
       "manufacturerId": 23,
+      "discTypeId": 2,
       "name": "Gazelle",
       "speed": 6,
       "glide": 4,
@@ -5349,6 +5770,7 @@
     {
       "id": 404,
       "manufacturerId": 23,
+      "discTypeId": 2,
       "name": "Grenade",
       "speed": 7,
       "glide": 5,
@@ -5358,6 +5780,7 @@
     {
       "id": 405,
       "manufacturerId": 23,
+      "discTypeId": 2,
       "name": "Leopard",
       "speed": 6,
       "glide": 5,
@@ -5367,6 +5790,7 @@
     {
       "id": 406,
       "manufacturerId": 23,
+      "discTypeId": 2,
       "name": "Leopard3",
       "speed": 7,
       "glide": 5.1,
@@ -5376,6 +5800,7 @@
     {
       "id": 407,
       "manufacturerId": 23,
+      "discTypeId": 2,
       "name": "Pegasus",
       "speed": 7,
       "glide": 3.9,
@@ -5385,6 +5810,7 @@
     {
       "id": 408,
       "manufacturerId": 23,
+      "discTypeId": 2,
       "name": "Python",
       "speed": 7,
       "glide": 3,
@@ -5394,6 +5820,7 @@
     {
       "id": 409,
       "manufacturerId": 23,
+      "discTypeId": 2,
       "name": "Ram",
       "speed": 6.3,
       "glide": 4,
@@ -5403,6 +5830,7 @@
     {
       "id": 410,
       "manufacturerId": 23,
+      "discTypeId": 2,
       "name": "Raven",
       "speed": 6,
       "glide": 4,
@@ -5412,6 +5840,7 @@
     {
       "id": 411,
       "manufacturerId": 23,
+      "discTypeId": 1,
       "name": "Roadrunner",
       "speed": 9,
       "glide": 5.1,
@@ -5421,6 +5850,7 @@
     {
       "id": 412,
       "manufacturerId": 23,
+      "discTypeId": 1,
       "name": "Savant",
       "speed": 8.9,
       "glide": 5,
@@ -5430,6 +5860,7 @@
     {
       "id": 413,
       "manufacturerId": 23,
+      "discTypeId": 1,
       "name": "Sidewinder",
       "speed": 9,
       "glide": 5,
@@ -5439,6 +5870,7 @@
     {
       "id": 414,
       "manufacturerId": 23,
+      "discTypeId": 2,
       "name": "Teebird",
       "speed": 7,
       "glide": 5,
@@ -5448,6 +5880,7 @@
     {
       "id": 415,
       "manufacturerId": 23,
+      "discTypeId": 2,
       "name": "TeeBird +",
       "speed": 7,
       "glide": 5,
@@ -5457,6 +5890,7 @@
     {
       "id": 416,
       "manufacturerId": 23,
+      "discTypeId": 2,
       "name": "TeeBird3",
       "speed": 8,
       "glide": 4.1,
@@ -5466,6 +5900,7 @@
     {
       "id": 417,
       "manufacturerId": 23,
+      "discTypeId": 1,
       "name": "Thunderbird",
       "speed": 9,
       "glide": 5,
@@ -5475,6 +5910,7 @@
     {
       "id": 418,
       "manufacturerId": 23,
+      "discTypeId": 2,
       "name": "TL",
       "speed": 7,
       "glide": 5,
@@ -5484,6 +5920,7 @@
     {
       "id": 419,
       "manufacturerId": 23,
+      "discTypeId": 2,
       "name": "TL3",
       "speed": 8,
       "glide": 4.1,
@@ -5493,6 +5930,7 @@
     {
       "id": 420,
       "manufacturerId": 23,
+      "discTypeId": 1,
       "name": "Valkyrie",
       "speed": 8.9,
       "glide": 4.1,
@@ -5502,6 +5940,7 @@
     {
       "id": 421,
       "manufacturerId": 23,
+      "discTypeId": 1,
       "name": "Viking",
       "speed": 9,
       "glide": 4,
@@ -5511,6 +5950,7 @@
     {
       "id": 422,
       "manufacturerId": 23,
+      "discTypeId": 2,
       "name": "Viper",
       "speed": 6.1,
       "glide": 4.1,
@@ -5520,6 +5960,7 @@
     {
       "id": 423,
       "manufacturerId": 23,
+      "discTypeId": 2,
       "name": "Whippet",
       "speed": 6,
       "glide": 3.1,
@@ -5529,6 +5970,7 @@
     {
       "id": 424,
       "manufacturerId": 23,
+      "discTypeId": 3,
       "name": "Atlas",
       "speed": 5,
       "glide": 4.8,
@@ -5538,6 +5980,7 @@
     {
       "id": 425,
       "manufacturerId": 23,
+      "discTypeId": 3,
       "name": "Avatar",
       "speed": 5,
       "glide": 4.1,
@@ -5547,6 +5990,7 @@
     {
       "id": 426,
       "manufacturerId": 23,
+      "discTypeId": 3,
       "name": "Barracuda",
       "speed": 5,
       "glide": 4,
@@ -5556,6 +6000,7 @@
     {
       "id": 427,
       "manufacturerId": 23,
+      "discTypeId": 3,
       "name": "Bulldog",
       "speed": 4,
       "glide": 3,
@@ -5565,6 +6010,7 @@
     {
       "id": 428,
       "manufacturerId": 23,
+      "discTypeId": 3,
       "name": "Caiman",
       "speed": 5,
       "glide": 2.4,
@@ -5574,6 +6020,7 @@
     {
       "id": 429,
       "manufacturerId": 23,
+      "discTypeId": 3,
       "name": "Cobra",
       "speed": 4,
       "glide": 5,
@@ -5583,6 +6030,7 @@
     {
       "id": 430,
       "manufacturerId": 23,
+      "discTypeId": 3,
       "name": "Commander",
       "speed": 5.2,
       "glide": 3.2,
@@ -5592,6 +6040,7 @@
     {
       "id": 431,
       "manufacturerId": 23,
+      "discTypeId": 4,
       "name": "Condor",
       "speed": 3,
       "glide": 4.2,
@@ -5601,6 +6050,7 @@
     {
       "id": 432,
       "manufacturerId": 23,
+      "discTypeId": 3,
       "name": "Coyote",
       "speed": 4,
       "glide": 4.6,
@@ -5610,6 +6060,7 @@
     {
       "id": 433,
       "manufacturerId": 23,
+      "discTypeId": 3,
       "name": "Cro",
       "speed": 4.9,
       "glide": 3.1,
@@ -5619,6 +6070,7 @@
     {
       "id": 434,
       "manufacturerId": 23,
+      "discTypeId": 3,
       "name": "Croc",
       "speed": 5.4,
       "glide": 2.1,
@@ -5628,6 +6080,7 @@
     {
       "id": 435,
       "manufacturerId": 23,
+      "discTypeId": 3,
       "name": "Foxbat",
       "speed": 5,
       "glide": 5.9,
@@ -5637,6 +6090,7 @@
     {
       "id": 436,
       "manufacturerId": 23,
+      "discTypeId": 3,
       "name": "Gator",
       "speed": 5,
       "glide": 2.1,
@@ -5646,6 +6100,7 @@
     {
       "id": 437,
       "manufacturerId": 23,
+      "discTypeId": 3,
       "name": "Gator3",
       "speed": 4.9,
       "glide": 2.1,
@@ -5655,6 +6110,7 @@
     {
       "id": 438,
       "manufacturerId": 23,
+      "discTypeId": 3,
       "name": "Griffin",
       "speed": 5,
       "glide": 3,
@@ -5664,6 +6120,7 @@
     {
       "id": 439,
       "manufacturerId": 23,
+      "discTypeId": 2,
       "name": "Jaguar",
       "speed": 5.5,
       "glide": 6,
@@ -5673,6 +6130,7 @@
     {
       "id": 440,
       "manufacturerId": 23,
+      "discTypeId": 3,
       "name": "King Cobra",
       "speed": 4.1,
       "glide": 5,
@@ -5682,6 +6140,7 @@
     {
       "id": 441,
       "manufacturerId": 23,
+      "discTypeId": 3,
       "name": "Kite",
       "speed": 5,
       "glide": 6,
@@ -5691,6 +6150,7 @@
     {
       "id": 442,
       "manufacturerId": 23,
+      "discTypeId": 3,
       "name": "Lion",
       "speed": 5,
       "glide": 4,
@@ -5700,6 +6160,7 @@
     {
       "id": 443,
       "manufacturerId": 23,
+      "discTypeId": 3,
       "name": "Lycan",
       "speed": 4,
       "glide": 5,
@@ -5709,6 +6170,7 @@
     {
       "id": 444,
       "manufacturerId": 23,
+      "discTypeId": 4,
       "name": "Makani",
       "speed": 2,
       "glide": 7,
@@ -5718,6 +6180,7 @@
     {
       "id": 445,
       "manufacturerId": 23,
+      "discTypeId": 3,
       "name": "Mako",
       "speed": 4,
       "glide": 5,
@@ -5727,6 +6190,7 @@
     {
       "id": 446,
       "manufacturerId": 23,
+      "discTypeId": 3,
       "name": "Mako3",
       "speed": 5,
       "glide": 4.2,
@@ -5736,6 +6200,7 @@
     {
       "id": 447,
       "manufacturerId": 23,
+      "discTypeId": 3,
       "name": "Manta",
       "speed": 5,
       "glide": 5,
@@ -5745,6 +6210,7 @@
     {
       "id": 448,
       "manufacturerId": 23,
+      "discTypeId": 3,
       "name": "Panther",
       "speed": 5,
       "glide": 4,
@@ -5754,6 +6220,7 @@
     {
       "id": 449,
       "manufacturerId": 23,
+      "discTypeId": 3,
       "name": "Rancho Roc",
       "speed": 4,
       "glide": 4,
@@ -5763,6 +6230,7 @@
     {
       "id": 450,
       "manufacturerId": 23,
+      "discTypeId": 3,
       "name": "Rat",
       "speed": 4,
       "glide": 2.4,
@@ -5772,6 +6240,7 @@
     {
       "id": 451,
       "manufacturerId": 23,
+      "discTypeId": 3,
       "name": "Roc",
       "speed": 4,
       "glide": 4.1,
@@ -5781,6 +6250,7 @@
     {
       "id": 452,
       "manufacturerId": 23,
+      "discTypeId": 3,
       "name": "Roc +",
       "speed": 4,
       "glide": 5,
@@ -5790,6 +6260,7 @@
     {
       "id": 453,
       "manufacturerId": 23,
+      "discTypeId": 3,
       "name": "Roc3",
       "speed": 5,
       "glide": 4.1,
@@ -5799,6 +6270,7 @@
     {
       "id": 454,
       "manufacturerId": 23,
+      "discTypeId": 3,
       "name": "RocX3",
       "speed": 5,
       "glide": 4,
@@ -5808,6 +6280,7 @@
     {
       "id": 455,
       "manufacturerId": 23,
+      "discTypeId": 3,
       "name": "Scorpion",
       "speed": 5,
       "glide": 5,
@@ -5817,6 +6290,7 @@
     {
       "id": 456,
       "manufacturerId": 23,
+      "discTypeId": 3,
       "name": "Shark",
       "speed": 4,
       "glide": 4.1,
@@ -5826,6 +6300,7 @@
     {
       "id": 457,
       "manufacturerId": 23,
+      "discTypeId": 3,
       "name": "Shark3",
       "speed": 5,
       "glide": 4.1,
@@ -5835,6 +6310,7 @@
     {
       "id": 458,
       "manufacturerId": 23,
+      "discTypeId": 3,
       "name": "Skeeter",
       "speed": 4.8,
       "glide": 5,
@@ -5844,6 +6320,7 @@
     {
       "id": 459,
       "manufacturerId": 23,
+      "discTypeId": 3,
       "name": "Spider",
       "speed": 5,
       "glide": 3.1,
@@ -5853,6 +6330,7 @@
     {
       "id": 460,
       "manufacturerId": 23,
+      "discTypeId": 3,
       "name": "Stingray",
       "speed": 4,
       "glide": 5,
@@ -5862,6 +6340,7 @@
     {
       "id": 461,
       "manufacturerId": 23,
+      "discTypeId": 3,
       "name": "Super Stingray",
       "speed": 4,
       "glide": 5,
@@ -5871,6 +6350,7 @@
     {
       "id": 462,
       "manufacturerId": 23,
+      "discTypeId": 3,
       "name": "VCobra",
       "speed": 5,
       "glide": 5.1,
@@ -5880,6 +6360,7 @@
     {
       "id": 463,
       "manufacturerId": 23,
+      "discTypeId": 3,
       "name": "VRoc",
       "speed": 4,
       "glide": 3.9,
@@ -5889,6 +6370,7 @@
     {
       "id": 464,
       "manufacturerId": 23,
+      "discTypeId": 3,
       "name": "Wedge",
       "speed": 4,
       "glide": 3.1,
@@ -5898,6 +6380,7 @@
     {
       "id": 465,
       "manufacturerId": 23,
+      "discTypeId": 3,
       "name": "Wolf",
       "speed": 4,
       "glide": 3.1,
@@ -5907,6 +6390,7 @@
     {
       "id": 466,
       "manufacturerId": 23,
+      "discTypeId": 3,
       "name": "Wombat",
       "speed": 5,
       "glide": 6,
@@ -5916,6 +6400,7 @@
     {
       "id": 467,
       "manufacturerId": 23,
+      "discTypeId": 3,
       "name": "Wombat3",
       "speed": 5,
       "glide": 5.9,
@@ -5925,6 +6410,7 @@
     {
       "id": 468,
       "manufacturerId": 23,
+      "discTypeId": 4,
       "name": "Ace",
       "speed": 2,
       "glide": 3,
@@ -5934,6 +6420,7 @@
     {
       "id": 469,
       "manufacturerId": 23,
+      "discTypeId": 4,
       "name": "Aero",
       "speed": 3,
       "glide": 6,
@@ -5943,6 +6430,7 @@
     {
       "id": 470,
       "manufacturerId": 23,
+      "discTypeId": 4,
       "name": "Animal",
       "speed": 1,
       "glide": 1,
@@ -5952,6 +6440,7 @@
     {
       "id": 471,
       "manufacturerId": 23,
+      "discTypeId": 4,
       "name": "Aviar",
       "speed": 2.1,
       "glide": 3,
@@ -5961,6 +6450,7 @@
     {
       "id": 472,
       "manufacturerId": 23,
+      "discTypeId": 4,
       "name": "Aviar Classic",
       "speed": 2,
       "glide": 3,
@@ -5970,6 +6460,7 @@
     {
       "id": 473,
       "manufacturerId": 23,
+      "discTypeId": 4,
       "name": "Aviar Driver",
       "speed": 2,
       "glide": 3,
@@ -5979,6 +6470,7 @@
     {
       "id": 474,
       "manufacturerId": 23,
+      "discTypeId": 4,
       "name": "Aviar Yeti",
       "speed": 2,
       "glide": 2.9,
@@ -5988,6 +6480,7 @@
     {
       "id": 475,
       "manufacturerId": 23,
+      "discTypeId": 4,
       "name": "Aviar-X (JK)",
       "speed": 2,
       "glide": 3,
@@ -5997,6 +6490,7 @@
     {
       "id": 476,
       "manufacturerId": 23,
+      "discTypeId": 4,
       "name": "Aviar3",
       "speed": 3,
       "glide": 2.1,
@@ -6006,6 +6500,7 @@
     {
       "id": 477,
       "manufacturerId": 23,
+      "discTypeId": 4,
       "name": "AviarX3",
       "speed": 3,
       "glide": 2.1,
@@ -6015,6 +6510,7 @@
     {
       "id": 478,
       "manufacturerId": 23,
+      "discTypeId": 4,
       "name": "Birdie",
       "speed": 1,
       "glide": 2,
@@ -6024,6 +6520,7 @@
     {
       "id": 479,
       "manufacturerId": 23,
+      "discTypeId": 4,
       "name": "Bullfrog",
       "speed": 3,
       "glide": 1.2,
@@ -6033,6 +6530,7 @@
     {
       "id": 480,
       "manufacturerId": 23,
+      "discTypeId": 4,
       "name": "Classic Roc",
       "speed": 3.1,
       "glide": 3.1,
@@ -6042,6 +6540,7 @@
     {
       "id": 481,
       "manufacturerId": 23,
+      "discTypeId": 4,
       "name": "Colt",
       "speed": 3.1,
       "glide": 3.3,
@@ -6051,6 +6550,7 @@
     {
       "id": 482,
       "manufacturerId": 23,
+      "discTypeId": 4,
       "name": "Coupe",
       "speed": 2,
       "glide": 3,
@@ -6060,6 +6560,7 @@
     {
       "id": 483,
       "manufacturerId": 23,
+      "discTypeId": 4,
       "name": "Dart",
       "speed": 3.1,
       "glide": 4.1,
@@ -6069,6 +6570,7 @@
     {
       "id": 484,
       "manufacturerId": 23,
+      "discTypeId": 4,
       "name": "Firefly",
       "speed": 2,
       "glide": 3,
@@ -6078,6 +6580,7 @@
     {
       "id": 485,
       "manufacturerId": 23,
+      "discTypeId": 4,
       "name": "Hammer",
       "speed": 2.2,
       "glide": 2,
@@ -6087,6 +6590,7 @@
     {
       "id": 486,
       "manufacturerId": 23,
+      "discTypeId": 4,
       "name": "Hawg",
       "speed": 2,
       "glide": 1.1,
@@ -6096,6 +6600,7 @@
     {
       "id": 487,
       "manufacturerId": 23,
+      "discTypeId": 4,
       "name": "Hydra",
       "speed": 3,
       "glide": 3,
@@ -6105,6 +6610,7 @@
     {
       "id": 488,
       "manufacturerId": 23,
+      "discTypeId": 4,
       "name": "Invader",
       "speed": 3,
       "glide": 2,
@@ -6114,6 +6620,7 @@
     {
       "id": 489,
       "manufacturerId": 23,
+      "discTypeId": 4,
       "name": "KC Aviar",
       "speed": 2,
       "glide": 3,
@@ -6123,6 +6630,7 @@
     {
       "id": 490,
       "manufacturerId": 23,
+      "discTypeId": 4,
       "name": "Mirage",
       "speed": 3.1,
       "glide": 4.1,
@@ -6132,6 +6640,7 @@
     {
       "id": 491,
       "manufacturerId": 23,
+      "discTypeId": 4,
       "name": "Nova",
       "speed": 2,
       "glide": 3,
@@ -6141,6 +6650,7 @@
     {
       "id": 492,
       "manufacturerId": 23,
+      "discTypeId": 4,
       "name": "Pig",
       "speed": 3,
       "glide": 1,
@@ -6150,6 +6660,7 @@
     {
       "id": 493,
       "manufacturerId": 23,
+      "discTypeId": 4,
       "name": "Polecat",
       "speed": 1,
       "glide": 3,
@@ -6159,6 +6670,7 @@
     {
       "id": 494,
       "manufacturerId": 23,
+      "discTypeId": 4,
       "name": "Rhyno",
       "speed": 2,
       "glide": 1.2,
@@ -6168,6 +6680,7 @@
     {
       "id": 495,
       "manufacturerId": 23,
+      "discTypeId": 4,
       "name": "RhynoX",
       "speed": 2.1,
       "glide": 1.1,
@@ -6177,6 +6690,7 @@
     {
       "id": 496,
       "manufacturerId": 23,
+      "discTypeId": 4,
       "name": "Sonic",
       "speed": 1,
       "glide": 2.1,
@@ -6186,6 +6700,7 @@
     {
       "id": 497,
       "manufacturerId": 23,
+      "discTypeId": 4,
       "name": "Stud",
       "speed": 3,
       "glide": 3,
@@ -6195,6 +6710,7 @@
     {
       "id": 498,
       "manufacturerId": 23,
+      "discTypeId": 4,
       "name": "Toro",
       "speed": 1,
       "glide": 1,
@@ -6204,6 +6720,7 @@
     {
       "id": 499,
       "manufacturerId": 23,
+      "discTypeId": 4,
       "name": "Warhog",
       "speed": 3,
       "glide": 3,
@@ -6213,6 +6730,7 @@
     {
       "id": 500,
       "manufacturerId": 23,
+      "discTypeId": 4,
       "name": "Whale",
       "speed": 2,
       "glide": 3.1,
@@ -6222,6 +6740,7 @@
     {
       "id": 501,
       "manufacturerId": 23,
+      "discTypeId": 4,
       "name": "XD",
       "speed": 3,
       "glide": 4,
@@ -6231,6 +6750,7 @@
     {
       "id": 502,
       "manufacturerId": 23,
+      "discTypeId": 4,
       "name": "XD +",
       "speed": 3,
       "glide": 4,
@@ -6240,6 +6760,7 @@
     {
       "id": 503,
       "manufacturerId": 23,
+      "discTypeId": 4,
       "name": "Zephyr",
       "speed": 1.9,
       "glide": 3.2,
@@ -6249,6 +6770,7 @@
     {
       "id": 504,
       "manufacturerId": 24,
+      "discTypeId": 1,
       "name": "Grym",
       "speed": 13,
       "glide": 5,
@@ -6258,6 +6780,7 @@
     {
       "id": 505,
       "manufacturerId": 24,
+      "discTypeId": 1,
       "name": "Grym X",
       "speed": 12.4,
       "glide": 5,
@@ -6267,6 +6790,7 @@
     {
       "id": 506,
       "manufacturerId": 24,
+      "discTypeId": 1,
       "name": "Rask",
       "speed": 13.7,
       "glide": 3.1,
@@ -6276,6 +6800,7 @@
     {
       "id": 507,
       "manufacturerId": 24,
+      "discTypeId": 1,
       "name": "Falk",
       "speed": 9,
       "glide": 5.8,
@@ -6285,6 +6810,7 @@
     {
       "id": 508,
       "manufacturerId": 24,
+      "discTypeId": 1,
       "name": "Lots",
       "speed": 9,
       "glide": 5,
@@ -6294,6 +6820,7 @@
     {
       "id": 509,
       "manufacturerId": 24,
+      "discTypeId": 1,
       "name": "Stal",
       "speed": 9,
       "glide": 4,
@@ -6303,6 +6830,7 @@
     {
       "id": 510,
       "manufacturerId": 24,
+      "discTypeId": 3,
       "name": "Gote",
       "speed": 4,
       "glide": 5,
@@ -6312,6 +6840,7 @@
     {
       "id": 511,
       "manufacturerId": 24,
+      "discTypeId": 2,
       "name": "Kaxe",
       "speed": 6,
       "glide": 4.2,
@@ -6321,6 +6850,7 @@
     {
       "id": 512,
       "manufacturerId": 24,
+      "discTypeId": 2,
       "name": "Kaxe Z",
       "speed": 6,
       "glide": 5,
@@ -6330,6 +6860,7 @@
     {
       "id": 513,
       "manufacturerId": 24,
+      "discTypeId": 3,
       "name": "Svea",
       "speed": 5,
       "glide": 6,
@@ -6339,6 +6870,7 @@
     {
       "id": 514,
       "manufacturerId": 24,
+      "discTypeId": 4,
       "name": "Berg",
       "speed": 1.1,
       "glide": 1.4,
@@ -6348,6 +6880,7 @@
     {
       "id": 515,
       "manufacturerId": 24,
+      "discTypeId": 4,
       "name": "Reko",
       "speed": 3,
       "glide": 3.2,
@@ -6357,6 +6890,7 @@
     {
       "id": 516,
       "manufacturerId": 25,
+      "discTypeId": 1,
       "name": "Kaufinator Aftermath",
       "speed": 13,
       "glide": 5,
@@ -6366,6 +6900,7 @@
     {
       "id": 517,
       "manufacturerId": 25,
+      "discTypeId": 1,
       "name": "Kaufinator Cannon",
       "speed": 14,
       "glide": 5,
@@ -6375,6 +6910,7 @@
     {
       "id": 518,
       "manufacturerId": 25,
+      "discTypeId": 1,
       "name": "Kaufinator Nemesis",
       "speed": 10,
       "glide": 6,
@@ -6384,6 +6920,7 @@
     {
       "id": 519,
       "manufacturerId": 25,
+      "discTypeId": 1,
       "name": "Kaufinator Outlaw",
       "speed": 12,
       "glide": 5,
@@ -6393,6 +6930,7 @@
     {
       "id": 520,
       "manufacturerId": 25,
+      "discTypeId": 1,
       "name": "Kaufinator Rampage",
       "speed": 14,
       "glide": 5,
@@ -6402,6 +6940,7 @@
     {
       "id": 521,
       "manufacturerId": 25,
+      "discTypeId": 1,
       "name": "Kaufinator Vengeance",
       "speed": 10,
       "glide": 5,
@@ -6411,6 +6950,7 @@
     {
       "id": 522,
       "manufacturerId": 25,
+      "discTypeId": 1,
       "name": "Kaufinator Bandit",
       "speed": 9,
       "glide": 5,
@@ -6420,6 +6960,7 @@
     {
       "id": 523,
       "manufacturerId": 25,
+      "discTypeId": 1,
       "name": "Kaufinator Enemy",
       "speed": 9,
       "glide": 3,
@@ -6429,6 +6970,7 @@
     {
       "id": 524,
       "manufacturerId": 25,
+      "discTypeId": 1,
       "name": "Kaufinator Mongoose",
       "speed": 9,
       "glide": 5,
@@ -6438,6 +6980,7 @@
     {
       "id": 525,
       "manufacturerId": 25,
+      "discTypeId": 2,
       "name": "Kaufinator Phenom",
       "speed": 8,
       "glide": 5,
@@ -6447,6 +6990,7 @@
     {
       "id": 526,
       "manufacturerId": 25,
+      "discTypeId": 2,
       "name": "Kaufinator Rival",
       "speed": 7,
       "glide": 5,
@@ -6456,6 +7000,7 @@
     {
       "id": 527,
       "manufacturerId": 25,
+      "discTypeId": 3,
       "name": "Kaufinator Gauge",
       "speed": 5,
       "glide": 5,
@@ -6465,6 +7010,7 @@
     {
       "id": 528,
       "manufacturerId": 25,
+      "discTypeId": 3,
       "name": "Kaufinator Ghost",
       "speed": 4,
       "glide": 5,
@@ -6474,6 +7020,7 @@
     {
       "id": 529,
       "manufacturerId": 25,
+      "discTypeId": 3,
       "name": "Kaufinator Pursuit",
       "speed": 5,
       "glide": 3,
@@ -6483,6 +7030,7 @@
     {
       "id": 530,
       "manufacturerId": 26,
+      "discTypeId": 1,
       "name": "Ballista",
       "speed": 13.9,
       "glide": 4.8,
@@ -6492,6 +7040,7 @@
     {
       "id": 531,
       "manufacturerId": 26,
+      "discTypeId": 1,
       "name": "Ballista Pro",
       "speed": 13.9,
       "glide": 4.4,
@@ -6501,6 +7050,7 @@
     {
       "id": 532,
       "manufacturerId": 26,
+      "discTypeId": 1,
       "name": "Blitz",
       "speed": 11.9,
       "glide": 3.3,
@@ -6510,6 +7060,7 @@
     {
       "id": 533,
       "manufacturerId": 26,
+      "discTypeId": 1,
       "name": "Bolt",
       "speed": 13,
       "glide": 6,
@@ -6519,6 +7070,7 @@
     {
       "id": 534,
       "manufacturerId": 26,
+      "discTypeId": 1,
       "name": "Cutlass",
       "speed": 12.9,
       "glide": 4.9,
@@ -6528,6 +7080,7 @@
     {
       "id": 535,
       "manufacturerId": 26,
+      "discTypeId": 1,
       "name": "Flow",
       "speed": 11,
       "glide": 5.9,
@@ -6537,6 +7090,7 @@
     {
       "id": 536,
       "manufacturerId": 26,
+      "discTypeId": 1,
       "name": "Gladiator",
       "speed": 13,
       "glide": 5,
@@ -6546,6 +7100,7 @@
     {
       "id": 537,
       "manufacturerId": 26,
+      "discTypeId": 1,
       "name": "Grace",
       "speed": 11,
       "glide": 6,
@@ -6555,6 +7110,7 @@
     {
       "id": 538,
       "manufacturerId": 26,
+      "discTypeId": 1,
       "name": "Halo",
       "speed": 12.9,
       "glide": 5,
@@ -6564,6 +7120,7 @@
     {
       "id": 539,
       "manufacturerId": 26,
+      "discTypeId": 1,
       "name": "Havoc",
       "speed": 12.9,
       "glide": 5,
@@ -6573,6 +7130,7 @@
     {
       "id": 540,
       "manufacturerId": 26,
+      "discTypeId": 1,
       "name": "Knight",
       "speed": 14,
       "glide": 4.2,
@@ -6582,6 +7140,7 @@
     {
       "id": 541,
       "manufacturerId": 26,
+      "discTypeId": 1,
       "name": "Missilen",
       "speed": 14.9,
       "glide": 3.2,
@@ -6591,6 +7150,7 @@
     {
       "id": 542,
       "manufacturerId": 26,
+      "discTypeId": 1,
       "name": "Musket",
       "speed": 10,
       "glide": 4.9,
@@ -6600,6 +7160,7 @@
     {
       "id": 543,
       "manufacturerId": 26,
+      "discTypeId": 1,
       "name": "Raketen",
       "speed": 14.5,
       "glide": 3.6,
@@ -6609,6 +7170,7 @@
     {
       "id": 544,
       "manufacturerId": 26,
+      "discTypeId": 1,
       "name": "Recoil",
       "speed": 12,
       "glide": 4.1,
@@ -6618,6 +7180,7 @@
     {
       "id": 545,
       "manufacturerId": 26,
+      "discTypeId": 1,
       "name": "Riot",
       "speed": 11,
       "glide": 4,
@@ -6627,6 +7190,7 @@
     {
       "id": 546,
       "manufacturerId": 26,
+      "discTypeId": 1,
       "name": "Rive",
       "speed": 13,
       "glide": 5.1,
@@ -6636,6 +7200,7 @@
     {
       "id": 547,
       "manufacturerId": 26,
+      "discTypeId": 1,
       "name": "Sapphire",
       "speed": 10,
       "glide": 6,
@@ -6645,6 +7210,7 @@
     {
       "id": 548,
       "manufacturerId": 26,
+      "discTypeId": 1,
       "name": "Scythe",
       "speed": 12,
       "glide": 3.2,
@@ -6654,6 +7220,7 @@
     {
       "id": 549,
       "manufacturerId": 26,
+      "discTypeId": 1,
       "name": "SPZ3",
       "speed": 9,
       "glide": 5.7,
@@ -6663,6 +7230,7 @@
     {
       "id": 550,
       "manufacturerId": 26,
+      "discTypeId": 1,
       "name": "Stiletto",
       "speed": 13,
       "glide": 2.7,
@@ -6672,6 +7240,7 @@
     {
       "id": 551,
       "manufacturerId": 26,
+      "discTypeId": 1,
       "name": "Villain",
       "speed": 12,
       "glide": 4,
@@ -6681,6 +7250,7 @@
     {
       "id": 552,
       "manufacturerId": 26,
+      "discTypeId": 1,
       "name": "Bryce",
       "speed": 9,
       "glide": 6,
@@ -6690,6 +7260,7 @@
     {
       "id": 553,
       "manufacturerId": 26,
+      "discTypeId": 1,
       "name": "Culverin",
       "speed": 9,
       "glide": 5,
@@ -6699,6 +7270,7 @@
     {
       "id": 554,
       "manufacturerId": 26,
+      "discTypeId": 2,
       "name": "Diamond",
       "speed": 8,
       "glide": 6,
@@ -6708,6 +7280,7 @@
     {
       "id": 555,
       "manufacturerId": 26,
+      "discTypeId": 2,
       "name": "Explorer",
       "speed": 7,
       "glide": 5.1,
@@ -6717,6 +7290,7 @@
     {
       "id": 556,
       "manufacturerId": 26,
+      "discTypeId": 1,
       "name": "Falchion",
       "speed": 8.5,
       "glide": 5.6,
@@ -6726,6 +7300,7 @@
     {
       "id": 557,
       "manufacturerId": 26,
+      "discTypeId": 1,
       "name": "Fury",
       "speed": 8.9,
       "glide": 6.5,
@@ -6735,6 +7310,7 @@
     {
       "id": 558,
       "manufacturerId": 26,
+      "discTypeId": 1,
       "name": "Jade",
       "speed": 9,
       "glide": 5,
@@ -6744,6 +7320,7 @@
     {
       "id": 559,
       "manufacturerId": 26,
+      "discTypeId": 2,
       "name": "Maul",
       "speed": 7,
       "glide": 6.9,
@@ -6753,6 +7330,7 @@
     {
       "id": 560,
       "manufacturerId": 26,
+      "discTypeId": 1,
       "name": "Pioneer",
       "speed": 8.9,
       "glide": 3.1,
@@ -6762,6 +7340,7 @@
     {
       "id": 561,
       "manufacturerId": 26,
+      "discTypeId": 1,
       "name": "Primitus",
       "speed": 9,
       "glide": 5,
@@ -6771,6 +7350,7 @@
     {
       "id": 562,
       "manufacturerId": 26,
+      "discTypeId": 2,
       "name": "River",
       "speed": 7,
       "glide": 6.9,
@@ -6780,6 +7360,7 @@
     {
       "id": 563,
       "manufacturerId": 26,
+      "discTypeId": 2,
       "name": "River Pro",
       "speed": 6.4,
       "glide": 5,
@@ -6789,6 +7370,7 @@
     {
       "id": 564,
       "manufacturerId": 26,
+      "discTypeId": 1,
       "name": "Saint",
       "speed": 9,
       "glide": 6.8,
@@ -6798,6 +7380,7 @@
     {
       "id": 565,
       "manufacturerId": 26,
+      "discTypeId": 2,
       "name": "Saint Pro",
       "speed": 8.4,
       "glide": 6,
@@ -6807,6 +7390,7 @@
     {
       "id": 566,
       "manufacturerId": 26,
+      "discTypeId": 2,
       "name": "Spark",
       "speed": 7.1,
       "glide": 4.1,
@@ -6816,6 +7400,7 @@
     {
       "id": 567,
       "manufacturerId": 26,
+      "discTypeId": 2,
       "name": "Striker",
       "speed": 8.2,
       "glide": 5,
@@ -6825,6 +7410,7 @@
     {
       "id": 568,
       "manufacturerId": 26,
+      "discTypeId": 2,
       "name": "Trident",
       "speed": 5.8,
       "glide": 3.2,
@@ -6834,6 +7420,7 @@
     {
       "id": 569,
       "manufacturerId": 26,
+      "discTypeId": 2,
       "name": "Vision",
       "speed": 8,
       "glide": 6.1,
@@ -6843,6 +7430,7 @@
     {
       "id": 570,
       "manufacturerId": 26,
+      "discTypeId": 2,
       "name": "XXX",
       "speed": 7.2,
       "glide": 2.8,
@@ -6852,6 +7440,7 @@
     {
       "id": 571,
       "manufacturerId": 26,
+      "discTypeId": 1,
       "name": "Zion",
       "speed": 9,
       "glide": 3.8,
@@ -6861,6 +7450,7 @@
     {
       "id": 572,
       "manufacturerId": 26,
+      "discTypeId": 3,
       "name": "Anchor",
       "speed": 5,
       "glide": 4,
@@ -6870,6 +7460,7 @@
     {
       "id": 573,
       "manufacturerId": 26,
+      "discTypeId": 3,
       "name": "Claymore",
       "speed": 5,
       "glide": 5,
@@ -6879,6 +7470,7 @@
     {
       "id": 574,
       "manufacturerId": 26,
+      "discTypeId": 3,
       "name": "Compass",
       "speed": 4.9,
       "glide": 4.9,
@@ -6888,6 +7480,7 @@
     {
       "id": 575,
       "manufacturerId": 26,
+      "discTypeId": 3,
       "name": "Core",
       "speed": 5.4,
       "glide": 5,
@@ -6897,6 +7490,7 @@
     {
       "id": 576,
       "manufacturerId": 26,
+      "discTypeId": 3,
       "name": "Fuji",
       "speed": 4.1,
       "glide": 4.1,
@@ -6906,6 +7500,7 @@
     {
       "id": 577,
       "manufacturerId": 26,
+      "discTypeId": 3,
       "name": "Fuse",
       "speed": 5,
       "glide": 6.1,
@@ -6915,6 +7510,7 @@
     {
       "id": 578,
       "manufacturerId": 26,
+      "discTypeId": 2,
       "name": "Gobi",
       "speed": 5.7,
       "glide": 5.2,
@@ -6924,6 +7520,7 @@
     {
       "id": 579,
       "manufacturerId": 26,
+      "discTypeId": 3,
       "name": "Mace",
       "speed": 5,
       "glide": 5,
@@ -6933,6 +7530,7 @@
     {
       "id": 580,
       "manufacturerId": 26,
+      "discTypeId": 3,
       "name": "Medius",
       "speed": 5,
       "glide": 5,
@@ -6942,6 +7540,7 @@
     {
       "id": 581,
       "manufacturerId": 26,
+      "discTypeId": 3,
       "name": "Pain",
       "speed": 4.1,
       "glide": 4,
@@ -6951,6 +7550,7 @@
     {
       "id": 582,
       "manufacturerId": 26,
+      "discTypeId": 3,
       "name": "Pearl",
       "speed": 4.1,
       "glide": 6,
@@ -6960,6 +7560,7 @@
     {
       "id": 583,
       "manufacturerId": 26,
+      "discTypeId": 3,
       "name": "Trust",
       "speed": 5,
       "glide": 5,
@@ -6969,6 +7570,7 @@
     {
       "id": 584,
       "manufacturerId": 26,
+      "discTypeId": 4,
       "name": "Beetle",
       "speed": 1,
       "glide": 6.9,
@@ -6978,6 +7580,7 @@
     {
       "id": 585,
       "manufacturerId": 26,
+      "discTypeId": 4,
       "name": "Caltrop",
       "speed": 2,
       "glide": 2.1,
@@ -6987,6 +7590,7 @@
     {
       "id": 586,
       "manufacturerId": 26,
+      "discTypeId": 4,
       "name": "Dagger",
       "speed": 2,
       "glide": 4.7,
@@ -6996,6 +7600,7 @@
     {
       "id": 587,
       "manufacturerId": 26,
+      "discTypeId": 4,
       "name": "Faith",
       "speed": 2,
       "glide": 3,
@@ -7005,6 +7610,7 @@
     {
       "id": 588,
       "manufacturerId": 26,
+      "discTypeId": 4,
       "name": "Gauntlet",
       "speed": 2.1,
       "glide": 4.2,
@@ -7014,6 +7620,7 @@
     {
       "id": 589,
       "manufacturerId": 26,
+      "discTypeId": 4,
       "name": "Keystone",
       "speed": 2.1,
       "glide": 5,
@@ -7023,6 +7630,7 @@
     {
       "id": 590,
       "manufacturerId": 26,
+      "discTypeId": 4,
       "name": "Macana",
       "speed": 2,
       "glide": 5,
@@ -7032,6 +7640,7 @@
     {
       "id": 591,
       "manufacturerId": 26,
+      "discTypeId": 4,
       "name": "Mercy",
       "speed": 2.1,
       "glide": 4,
@@ -7041,6 +7650,7 @@
     {
       "id": 592,
       "manufacturerId": 26,
+      "discTypeId": 4,
       "name": "Pure",
       "speed": 3,
       "glide": 3.2,
@@ -7050,6 +7660,7 @@
     {
       "id": 593,
       "manufacturerId": 26,
+      "discTypeId": 4,
       "name": "Ruby",
       "speed": 3,
       "glide": 4.8,
@@ -7059,6 +7670,7 @@
     {
       "id": 594,
       "manufacturerId": 26,
+      "discTypeId": 4,
       "name": "Sarek",
       "speed": 2.1,
       "glide": 4.2,
@@ -7068,6 +7680,7 @@
     {
       "id": 595,
       "manufacturerId": 26,
+      "discTypeId": 4,
       "name": "Sinus",
       "speed": 2.1,
       "glide": 1.9,
@@ -7077,6 +7690,7 @@
     {
       "id": 596,
       "manufacturerId": 26,
+      "discTypeId": 3,
       "name": "Spike",
       "speed": 3.9,
       "glide": 2.7,
@@ -7086,6 +7700,7 @@
     {
       "id": 597,
       "manufacturerId": 27,
+      "discTypeId": 1,
       "name": "Frontier",
       "speed": 10.5,
       "glide": 3,
@@ -7095,6 +7710,7 @@
     {
       "id": 598,
       "manufacturerId": 27,
+      "discTypeId": 2,
       "name": "Cipher",
       "speed": 8,
       "glide": 4,
@@ -7104,6 +7720,7 @@
     {
       "id": 599,
       "manufacturerId": 27,
+      "discTypeId": 2,
       "name": "Horizon",
       "speed": 7,
       "glide": 3,
@@ -7113,6 +7730,7 @@
     {
       "id": 600,
       "manufacturerId": 27,
+      "discTypeId": 2,
       "name": "Code",
       "speed": 5.5,
       "glide": 4,
@@ -7122,6 +7740,7 @@
     {
       "id": 601,
       "manufacturerId": 27,
+      "discTypeId": 2,
       "name": "Code X",
       "speed": 5.5,
       "glide": 3,
@@ -7131,6 +7750,7 @@
     {
       "id": 602,
       "manufacturerId": 27,
+      "discTypeId": 4,
       "name": "Lander",
       "speed": 3,
       "glide": 4,
@@ -7140,6 +7760,7 @@
     {
       "id": 603,
       "manufacturerId": 28,
+      "discTypeId": 1,
       "name": "Aftermath",
       "speed": 13,
       "glide": 5,
@@ -7149,6 +7770,7 @@
     {
       "id": 604,
       "manufacturerId": 28,
+      "discTypeId": 1,
       "name": "Cannon",
       "speed": 14,
       "glide": 5,
@@ -7158,6 +7780,7 @@
     {
       "id": 605,
       "manufacturerId": 28,
+      "discTypeId": 1,
       "name": "Nemesis",
       "speed": 9.9,
       "glide": 6,
@@ -7167,6 +7790,7 @@
     {
       "id": 606,
       "manufacturerId": 28,
+      "discTypeId": 1,
       "name": "Outlaw",
       "speed": 12,
       "glide": 4.9,
@@ -7176,6 +7800,7 @@
     {
       "id": 607,
       "manufacturerId": 28,
+      "discTypeId": 1,
       "name": "Rampage",
       "speed": 14,
       "glide": 4.9,
@@ -7185,6 +7810,7 @@
     {
       "id": 608,
       "manufacturerId": 28,
+      "discTypeId": 1,
       "name": "Recon",
       "speed": 13,
       "glide": 5,
@@ -7194,6 +7820,7 @@
     {
       "id": 609,
       "manufacturerId": 28,
+      "discTypeId": 1,
       "name": "Vengeance",
       "speed": 9.9,
       "glide": 5,
@@ -7203,6 +7830,7 @@
     {
       "id": 610,
       "manufacturerId": 28,
+      "discTypeId": 1,
       "name": "Bandit",
       "speed": 9,
       "glide": 5,
@@ -7212,6 +7840,7 @@
     {
       "id": 611,
       "manufacturerId": 28,
+      "discTypeId": 1,
       "name": "Enemy",
       "speed": 9,
       "glide": 3.2,
@@ -7221,6 +7850,7 @@
     {
       "id": 612,
       "manufacturerId": 28,
+      "discTypeId": 1,
       "name": "Fighter",
       "speed": 10,
       "glide": 3,
@@ -7230,6 +7860,7 @@
     {
       "id": 613,
       "manufacturerId": 28,
+      "discTypeId": 1,
       "name": "Mongoose",
       "speed": 9,
       "glide": 5,
@@ -7239,6 +7870,7 @@
     {
       "id": 614,
       "manufacturerId": 28,
+      "discTypeId": 2,
       "name": "Patriot",
       "speed": 7.1,
       "glide": 5.1,
@@ -7248,6 +7880,7 @@
     {
       "id": 615,
       "manufacturerId": 28,
+      "discTypeId": 2,
       "name": "Phantom Warrior",
       "speed": 7,
       "glide": 5,
@@ -7257,6 +7890,7 @@
     {
       "id": 616,
       "manufacturerId": 28,
+      "discTypeId": 2,
       "name": "Phenom",
       "speed": 8,
       "glide": 5,
@@ -7266,6 +7900,7 @@
     {
       "id": 617,
       "manufacturerId": 28,
+      "discTypeId": 2,
       "name": "Rival",
       "speed": 7.1,
       "glide": 4.9,
@@ -7275,6 +7910,7 @@
     {
       "id": 618,
       "manufacturerId": 28,
+      "discTypeId": 3,
       "name": "Badger",
       "speed": 5,
       "glide": 3,
@@ -7284,6 +7920,7 @@
     {
       "id": 619,
       "manufacturerId": 28,
+      "discTypeId": 3,
       "name": "Gauge",
       "speed": 5,
       "glide": 5.1,
@@ -7293,6 +7930,7 @@
     {
       "id": 620,
       "manufacturerId": 28,
+      "discTypeId": 3,
       "name": "Ghost",
       "speed": 4,
       "glide": 5,
@@ -7302,6 +7940,7 @@
     {
       "id": 621,
       "manufacturerId": 28,
+      "discTypeId": 3,
       "name": "Pursuit",
       "speed": 5,
       "glide": 3.2,
@@ -7311,6 +7950,7 @@
     {
       "id": 622,
       "manufacturerId": 28,
+      "discTypeId": 3,
       "name": "Recluse",
       "speed": 4,
       "glide": 3,
@@ -7320,6 +7960,7 @@
     {
       "id": 623,
       "manufacturerId": 28,
+      "discTypeId": 3,
       "name": "Valor",
       "speed": 5,
       "glide": 5,
@@ -7329,6 +7970,7 @@
     {
       "id": 624,
       "manufacturerId": 28,
+      "discTypeId": 4,
       "name": "Clozer",
       "speed": 2,
       "glide": 3,
@@ -7338,6 +7980,7 @@
     {
       "id": 625,
       "manufacturerId": 28,
+      "discTypeId": 4,
       "name": "Clutch",
       "speed": 2.1,
       "glide": 3.2,
@@ -7347,6 +7990,7 @@
     {
       "id": 626,
       "manufacturerId": 28,
+      "discTypeId": 4,
       "name": "Hunter",
       "speed": 2.3,
       "glide": 3.8,
@@ -7356,6 +8000,7 @@
     {
       "id": 627,
       "manufacturerId": 28,
+      "discTypeId": 4,
       "name": "Prowler",
       "speed": 2,
       "glide": 3.1,
@@ -7365,6 +8010,7 @@
     {
       "id": 628,
       "manufacturerId": 29,
+      "discTypeId": 1,
       "name": "MX-1",
       "speed": 9,
       "glide": 4,
@@ -7374,6 +8020,7 @@
     {
       "id": 629,
       "manufacturerId": 29,
+      "discTypeId": 2,
       "name": "#1 Driver",
       "speed": 7.1,
       "glide": 4,
@@ -7383,6 +8030,7 @@
     {
       "id": 630,
       "manufacturerId": 29,
+      "discTypeId": 2,
       "name": "#1 Flyer",
       "speed": 8,
       "glide": 5,
@@ -7392,6 +8040,7 @@
     {
       "id": 631,
       "manufacturerId": 29,
+      "discTypeId": 2,
       "name": "#1 Helix",
       "speed": 8,
       "glide": 4,
@@ -7401,6 +8050,7 @@
     {
       "id": 632,
       "manufacturerId": 29,
+      "discTypeId": 2,
       "name": "#1 Hookshot",
       "speed": 6,
       "glide": 4,
@@ -7410,6 +8060,7 @@
     {
       "id": 633,
       "manufacturerId": 29,
+      "discTypeId": 2,
       "name": "#1 Hyzer",
       "speed": 7,
       "glide": 3,
@@ -7419,6 +8070,7 @@
     {
       "id": 634,
       "manufacturerId": 29,
+      "discTypeId": 2,
       "name": "#1 Roller",
       "speed": 7,
       "glide": 4,
@@ -7428,6 +8080,7 @@
     {
       "id": 635,
       "manufacturerId": 29,
+      "discTypeId": 2,
       "name": "#1 Slice",
       "speed": 7,
       "glide": 4,
@@ -7437,6 +8090,7 @@
     {
       "id": 636,
       "manufacturerId": 29,
+      "discTypeId": 2,
       "name": "#2 Driver",
       "speed": 7.8,
       "glide": 5,
@@ -7446,6 +8100,7 @@
     {
       "id": 637,
       "manufacturerId": 29,
+      "discTypeId": 2,
       "name": "#2 Flyer",
       "speed": 8,
       "glide": 5,
@@ -7455,6 +8110,7 @@
     {
       "id": 638,
       "manufacturerId": 29,
+      "discTypeId": 2,
       "name": "#2 Helix",
       "speed": 8,
       "glide": 5,
@@ -7464,6 +8120,7 @@
     {
       "id": 639,
       "manufacturerId": 29,
+      "discTypeId": 2,
       "name": "#2 Helix",
       "speed": 7.8,
       "glide": 4.8,
@@ -7473,6 +8130,7 @@
     {
       "id": 640,
       "manufacturerId": 29,
+      "discTypeId": 2,
       "name": "#2 Roller",
       "speed": 6,
       "glide": 6,
@@ -7482,6 +8140,7 @@
     {
       "id": 641,
       "manufacturerId": 29,
+      "discTypeId": 2,
       "name": "#2 Slice",
       "speed": 6,
       "glide": 5,
@@ -7491,6 +8150,7 @@
     {
       "id": 642,
       "manufacturerId": 29,
+      "discTypeId": 2,
       "name": "#3 Driver",
       "speed": 6,
       "glide": 5,
@@ -7500,6 +8160,7 @@
     {
       "id": 643,
       "manufacturerId": 29,
+      "discTypeId": 2,
       "name": "#3 Flyer",
       "speed": 7,
       "glide": 4.1,
@@ -7509,6 +8170,7 @@
     {
       "id": 644,
       "manufacturerId": 29,
+      "discTypeId": 2,
       "name": "#4 Driver",
       "speed": 7.1,
       "glide": 4,
@@ -7518,6 +8180,7 @@
     {
       "id": 645,
       "manufacturerId": 29,
+      "discTypeId": 3,
       "name": "#2 Hookshot",
       "speed": 5,
       "glide": 5,
@@ -7527,6 +8190,7 @@
     {
       "id": 646,
       "manufacturerId": 29,
+      "discTypeId": 3,
       "name": "#2 Hyzer",
       "speed": 5,
       "glide": 5,
@@ -7536,6 +8200,7 @@
     {
       "id": 647,
       "manufacturerId": 29,
+      "discTypeId": 3,
       "name": "#3 Hookshot",
       "speed": 4,
       "glide": 5,
@@ -7545,6 +8210,7 @@
     {
       "id": 648,
       "manufacturerId": 29,
+      "discTypeId": 3,
       "name": "#3 Hyzer",
       "speed": 4,
       "glide": 4,
@@ -7554,6 +8220,7 @@
     {
       "id": 649,
       "manufacturerId": 29,
+      "discTypeId": 2,
       "name": "#3 Slice",
       "speed": 6,
       "glide": 5,
@@ -7563,6 +8230,7 @@
     {
       "id": 650,
       "manufacturerId": 29,
+      "discTypeId": 4,
       "name": "#2 Putter",
       "speed": 1,
       "glide": 2,
@@ -7572,6 +8240,7 @@
     {
       "id": 651,
       "manufacturerId": 29,
+      "discTypeId": 4,
       "name": "#2 Upshot",
       "speed": 2,
       "glide": 3,
@@ -7581,6 +8250,7 @@
     {
       "id": 652,
       "manufacturerId": 29,
+      "discTypeId": 4,
       "name": "Rubber Putter",
       "speed": 2,
       "glide": 3.1,
@@ -7590,6 +8260,7 @@
     {
       "id": 653,
       "manufacturerId": 29,
+      "discTypeId": 4,
       "name": "Upshot",
       "speed": 1,
       "glide": 3,
@@ -7599,6 +8270,7 @@
     {
       "id": 654,
       "manufacturerId": 30,
+      "discTypeId": 1,
       "name": "Bowie",
       "speed": 13,
       "glide": 4.9,
@@ -7608,6 +8280,7 @@
     {
       "id": 655,
       "manufacturerId": 30,
+      "discTypeId": 1,
       "name": "Curl",
       "speed": 11,
       "glide": 6,
@@ -7617,6 +8290,7 @@
     {
       "id": 656,
       "manufacturerId": 30,
+      "discTypeId": 1,
       "name": "Mad Cat",
       "speed": 9,
       "glide": 4.8,
@@ -7626,6 +8300,7 @@
     {
       "id": 657,
       "manufacturerId": 30,
+      "discTypeId": 2,
       "name": "Mockingbird",
       "speed": 7,
       "glide": 5,
@@ -7635,6 +8310,7 @@
     {
       "id": 658,
       "manufacturerId": 30,
+      "discTypeId": 3,
       "name": "BB6",
       "speed": 5,
       "glide": 3,
@@ -7644,6 +8320,7 @@
     {
       "id": 659,
       "manufacturerId": 30,
+      "discTypeId": 3,
       "name": "Harpoon",
       "speed": 4,
       "glide": 3,
@@ -7653,6 +8330,7 @@
     {
       "id": 660,
       "manufacturerId": 30,
+      "discTypeId": 3,
       "name": "Middy",
       "speed": 5,
       "glide": 5,
@@ -7662,6 +8340,7 @@
     {
       "id": 661,
       "manufacturerId": 30,
+      "discTypeId": 4,
       "name": "Penny Putter",
       "speed": 3,
       "glide": 3,
@@ -7671,6 +8350,7 @@
     {
       "id": 662,
       "manufacturerId": 31,
+      "discTypeId": 4,
       "name": "Beam",
       "speed": 1,
       "glide": 1,
@@ -7680,6 +8360,7 @@
     {
       "id": 663,
       "manufacturerId": 31,
+      "discTypeId": 1,
       "name": "Catalyst",
       "speed": 13,
       "glide": 5.5,
@@ -7689,6 +8370,7 @@
     {
       "id": 664,
       "manufacturerId": 31,
+      "discTypeId": 1,
       "name": "Dimension",
       "speed": 14,
       "glide": 4.9,
@@ -7698,6 +8380,7 @@
     {
       "id": 665,
       "manufacturerId": 31,
+      "discTypeId": 1,
       "name": "Energy",
       "speed": 13.1,
       "glide": 4.1,
@@ -7707,6 +8390,7 @@
     {
       "id": 666,
       "manufacturerId": 31,
+      "discTypeId": 1,
       "name": "Impulse",
       "speed": 10,
       "glide": 4.9,
@@ -7716,6 +8400,7 @@
     {
       "id": 667,
       "manufacturerId": 31,
+      "discTypeId": 1,
       "name": "Inertia",
       "speed": 10.2,
       "glide": 4.9,
@@ -7725,6 +8410,7 @@
     {
       "id": 668,
       "manufacturerId": 31,
+      "discTypeId": 1,
       "name": "Limit",
       "speed": 14,
       "glide": 4,
@@ -7734,6 +8420,7 @@
     {
       "id": 669,
       "manufacturerId": 31,
+      "discTypeId": 1,
       "name": "Motion",
       "speed": 9.8,
       "glide": 4,
@@ -7743,6 +8430,7 @@
     {
       "id": 670,
       "manufacturerId": 31,
+      "discTypeId": 1,
       "name": "Nitro",
       "speed": 13,
       "glide": 4.4,
@@ -7752,6 +8440,7 @@
     {
       "id": 671,
       "manufacturerId": 31,
+      "discTypeId": 1,
       "name": "Octane",
       "speed": 13,
       "glide": 4.9,
@@ -7761,6 +8450,7 @@
     {
       "id": 672,
       "manufacturerId": 31,
+      "discTypeId": 1,
       "name": "Orbital",
       "speed": 11.5,
       "glide": 5,
@@ -7770,6 +8460,7 @@
     {
       "id": 673,
       "manufacturerId": 31,
+      "discTypeId": 1,
       "name": "Phase",
       "speed": 11.3,
       "glide": 3.6,
@@ -7779,6 +8470,7 @@
     {
       "id": 674,
       "manufacturerId": 31,
+      "discTypeId": 1,
       "name": "Photon",
       "speed": 11.4,
       "glide": 4.8,
@@ -7788,6 +8480,7 @@
     {
       "id": 675,
       "manufacturerId": 31,
+      "discTypeId": 1,
       "name": "Relativity",
       "speed": 13.9,
       "glide": 5.1,
@@ -7797,6 +8490,7 @@
     {
       "id": 676,
       "manufacturerId": 31,
+      "discTypeId": 1,
       "name": "Teleport",
       "speed": 14,
       "glide": 5.1,
@@ -7806,6 +8500,7 @@
     {
       "id": 677,
       "manufacturerId": 31,
+      "discTypeId": 1,
       "name": "Tesla",
       "speed": 10,
       "glide": 4.6,
@@ -7815,6 +8510,7 @@
     {
       "id": 678,
       "manufacturerId": 31,
+      "discTypeId": 1,
       "name": "Wave",
       "speed": 11.3,
       "glide": 5.1,
@@ -7824,6 +8520,7 @@
     {
       "id": 679,
       "manufacturerId": 31,
+      "discTypeId": 2,
       "name": "Amp",
       "speed": 8,
       "glide": 5,
@@ -7833,6 +8530,7 @@
     {
       "id": 680,
       "manufacturerId": 31,
+      "discTypeId": 2,
       "name": "Cypher",
       "speed": 7,
       "glide": 3,
@@ -7842,6 +8540,7 @@
     {
       "id": 681,
       "manufacturerId": 31,
+      "discTypeId": 2,
       "name": "Relay",
       "speed": 6.1,
       "glide": 5,
@@ -7851,6 +8550,7 @@
     {
       "id": 682,
       "manufacturerId": 31,
+      "discTypeId": 2,
       "name": "Resistor",
       "speed": 6.6,
       "glide": 3.8,
@@ -7860,6 +8560,7 @@
     {
       "id": 683,
       "manufacturerId": 31,
+      "discTypeId": 2,
       "name": "Servo",
       "speed": 6.6,
       "glide": 4.9,
@@ -7869,6 +8570,7 @@
     {
       "id": 684,
       "manufacturerId": 31,
+      "discTypeId": 2,
       "name": "Shock",
       "speed": 8,
       "glide": 5,
@@ -7878,6 +8580,7 @@
     {
       "id": 685,
       "manufacturerId": 31,
+      "discTypeId": 2,
       "name": "Signal",
       "speed": 6,
       "glide": 5,
@@ -7887,6 +8590,7 @@
     {
       "id": 686,
       "manufacturerId": 31,
+      "discTypeId": 2,
       "name": "Switch",
       "speed": 6.7,
       "glide": 5,
@@ -7896,6 +8600,7 @@
     {
       "id": 687,
       "manufacturerId": 31,
+      "discTypeId": 2,
       "name": "Volt",
       "speed": 8.1,
       "glide": 4.9,
@@ -7905,6 +8610,7 @@
     {
       "id": 688,
       "manufacturerId": 31,
+      "discTypeId": 3,
       "name": "Axis",
       "speed": 5,
       "glide": 4.9,
@@ -7914,6 +8620,7 @@
     {
       "id": 689,
       "manufacturerId": 31,
+      "discTypeId": 3,
       "name": "Deflector",
       "speed": 5,
       "glide": 3.6,
@@ -7923,6 +8630,7 @@
     {
       "id": 690,
       "manufacturerId": 31,
+      "discTypeId": 3,
       "name": "Matrix",
       "speed": 5,
       "glide": 4.1,
@@ -7932,6 +8640,7 @@
     {
       "id": 691,
       "manufacturerId": 31,
+      "discTypeId": 3,
       "name": "Reactor",
       "speed": 5.1,
       "glide": 5,
@@ -7941,6 +8650,7 @@
     {
       "id": 692,
       "manufacturerId": 31,
+      "discTypeId": 3,
       "name": "Tangent",
       "speed": 4.5,
       "glide": 4.1,
@@ -7950,6 +8660,7 @@
     {
       "id": 693,
       "manufacturerId": 31,
+      "discTypeId": 3,
       "name": "Tensor",
       "speed": 4.4,
       "glide": 4.3,
@@ -7959,6 +8670,7 @@
     {
       "id": 694,
       "manufacturerId": 31,
+      "discTypeId": 3,
       "name": "Uplink",
       "speed": 5,
       "glide": 3,
@@ -7968,6 +8680,7 @@
     {
       "id": 695,
       "manufacturerId": 31,
+      "discTypeId": 3,
       "name": "Vector",
       "speed": 5,
       "glide": 4,
@@ -7977,6 +8690,7 @@
     {
       "id": 696,
       "manufacturerId": 31,
+      "discTypeId": 3,
       "name": "Vertex",
       "speed": 4.2,
       "glide": 4,
@@ -7986,6 +8700,7 @@
     {
       "id": 697,
       "manufacturerId": 31,
+      "discTypeId": 4,
       "name": "Anode",
       "speed": 3,
       "glide": 3.1,
@@ -7995,6 +8710,7 @@
     {
       "id": 698,
       "manufacturerId": 31,
+      "discTypeId": 4,
       "name": "Atom",
       "speed": 2.7,
       "glide": 3.1,
@@ -8004,6 +8720,7 @@
     {
       "id": 699,
       "manufacturerId": 31,
+      "discTypeId": 3,
       "name": "Entropy",
       "speed": 3.9,
       "glide": 2.9,
@@ -8013,6 +8730,7 @@
     {
       "id": 700,
       "manufacturerId": 31,
+      "discTypeId": 4,
       "name": "Ion",
       "speed": 3,
       "glide": 3.5,
@@ -8022,6 +8740,7 @@
     {
       "id": 701,
       "manufacturerId": 31,
+      "discTypeId": 4,
       "name": "Nomad",
       "speed": 2,
       "glide": 3.9,
@@ -8031,6 +8750,7 @@
     {
       "id": 702,
       "manufacturerId": 31,
+      "discTypeId": 4,
       "name": "Ohm",
       "speed": 2,
       "glide": 5,
@@ -8040,6 +8760,7 @@
     {
       "id": 703,
       "manufacturerId": 31,
+      "discTypeId": 4,
       "name": "Particle",
       "speed": 3,
       "glide": 3,
@@ -8049,6 +8770,7 @@
     {
       "id": 704,
       "manufacturerId": 31,
+      "discTypeId": 4,
       "name": "Spin",
       "speed": 3,
       "glide": 4.1,
@@ -8058,6 +8780,7 @@
     {
       "id": 705,
       "manufacturerId": 32,
+      "discTypeId": 1,
       "name": "Aquarius",
       "speed": 10,
       "glide": 5.1,
@@ -8067,6 +8790,7 @@
     {
       "id": 706,
       "manufacturerId": 32,
+      "discTypeId": 1,
       "name": "Aries",
       "speed": 11,
       "glide": 6,
@@ -8076,6 +8800,7 @@
     {
       "id": 707,
       "manufacturerId": 32,
+      "discTypeId": 1,
       "name": "Astra",
       "speed": 10.9,
       "glide": 5.1,
@@ -8085,6 +8810,7 @@
     {
       "id": 708,
       "manufacturerId": 32,
+      "discTypeId": 1,
       "name": "Astra-X",
       "speed": 11,
       "glide": 4.9,
@@ -8094,6 +8820,7 @@
     {
       "id": 709,
       "manufacturerId": 32,
+      "discTypeId": 1,
       "name": "Falcon",
       "speed": 13,
       "glide": 5.1,
@@ -8103,6 +8830,7 @@
     {
       "id": 710,
       "manufacturerId": 32,
+      "discTypeId": 1,
       "name": "Polaris LF",
       "speed": 9,
       "glide": 5,
@@ -8112,6 +8840,7 @@
     {
       "id": 711,
       "manufacturerId": 32,
+      "discTypeId": 1,
       "name": "Quasar",
       "speed": 12.8,
       "glide": 5,
@@ -8121,6 +8850,7 @@
     {
       "id": 712,
       "manufacturerId": 32,
+      "discTypeId": 1,
       "name": "Scorpius",
       "speed": 12.8,
       "glide": 4.4,
@@ -8130,6 +8860,7 @@
     {
       "id": 713,
       "manufacturerId": 32,
+      "discTypeId": 1,
       "name": "Draco",
       "speed": 9,
       "glide": 3,
@@ -8139,6 +8870,7 @@
     {
       "id": 714,
       "manufacturerId": 32,
+      "discTypeId": 2,
       "name": "EXP-X",
       "speed": 7,
       "glide": 3,
@@ -8148,6 +8880,7 @@
     {
       "id": 715,
       "manufacturerId": 32,
+      "discTypeId": 2,
       "name": "EXP1",
       "speed": 7,
       "glide": 3,
@@ -8157,6 +8890,7 @@
     {
       "id": 716,
       "manufacturerId": 32,
+      "discTypeId": 2,
       "name": "JLS",
       "speed": 7.8,
       "glide": 5,
@@ -8166,6 +8900,7 @@
     {
       "id": 717,
       "manufacturerId": 32,
+      "discTypeId": 1,
       "name": "Orion LF",
       "speed": 9,
       "glide": 5,
@@ -8175,6 +8910,7 @@
     {
       "id": 718,
       "manufacturerId": 32,
+      "discTypeId": 1,
       "name": "Orion LS",
       "speed": 9.1,
       "glide": 4.9,
@@ -8184,6 +8920,7 @@
     {
       "id": 719,
       "manufacturerId": 32,
+      "discTypeId": 2,
       "name": "Polaris LS",
       "speed": 7.8,
       "glide": 5,
@@ -8193,6 +8930,7 @@
     {
       "id": 720,
       "manufacturerId": 32,
+      "discTypeId": 3,
       "name": "Aurora MS",
       "speed": 4.1,
       "glide": 5,
@@ -8202,6 +8940,7 @@
     {
       "id": 721,
       "manufacturerId": 32,
+      "discTypeId": 3,
       "name": "Sentinel MF",
       "speed": 5,
       "glide": 4.1,
@@ -8211,6 +8950,7 @@
     {
       "id": 722,
       "manufacturerId": 32,
+      "discTypeId": 3,
       "name": "Taurus",
       "speed": 4,
       "glide": 4,
@@ -8220,6 +8960,7 @@
     {
       "id": 723,
       "manufacturerId": 32,
+      "discTypeId": 4,
       "name": "Omega",
       "speed": 2,
       "glide": 3,
@@ -8229,6 +8970,7 @@
     {
       "id": 724,
       "manufacturerId": 32,
+      "discTypeId": 4,
       "name": "Omega 4",
       "speed": 2.9,
       "glide": 3,
@@ -8238,6 +8980,7 @@
     {
       "id": 725,
       "manufacturerId": 32,
+      "discTypeId": 4,
       "name": "Omega AP",
       "speed": 2,
       "glide": 3,
@@ -8247,6 +8990,7 @@
     {
       "id": 726,
       "manufacturerId": 32,
+      "discTypeId": 4,
       "name": "Omega AP Big Bead",
       "speed": 2,
       "glide": 3,
@@ -8256,6 +9000,7 @@
     {
       "id": 727,
       "manufacturerId": 32,
+      "discTypeId": 4,
       "name": "Omega Big Bead",
       "speed": 2,
       "glide": 3,
@@ -8265,6 +9010,7 @@
     {
       "id": 728,
       "manufacturerId": 32,
+      "discTypeId": 4,
       "name": "Omega Driver",
       "speed": 3,
       "glide": 2,
@@ -8274,6 +9020,7 @@
     {
       "id": 729,
       "manufacturerId": 32,
+      "discTypeId": 4,
       "name": "Omega SuperSoft",
       "speed": 2,
       "glide": 3,
@@ -8283,6 +9030,7 @@
     {
       "id": 730,
       "manufacturerId": 33,
+      "discTypeId": 1,
       "name": "Freetail",
       "speed": 10,
       "glide": 6,
@@ -8292,6 +9040,7 @@
     {
       "id": 731,
       "manufacturerId": 33,
+      "discTypeId": 1,
       "name": "Longhorn",
       "speed": 11,
       "glide": 4.1,
@@ -8301,6 +9050,7 @@
     {
       "id": 732,
       "manufacturerId": 33,
+      "discTypeId": 4,
       "name": "Phoenix",
       "speed": 1,
       "glide": 1,
@@ -8310,6 +9060,7 @@
     {
       "id": 733,
       "manufacturerId": 33,
+      "discTypeId": 2,
       "name": "Alpha",
       "speed": 8.1,
       "glide": 4.2,
@@ -8319,6 +9070,7 @@
     {
       "id": 734,
       "manufacturerId": 33,
+      "discTypeId": 4,
       "name": "Grackle",
       "speed": 1,
       "glide": 1,
@@ -8328,6 +9080,7 @@
     {
       "id": 735,
       "manufacturerId": 33,
+      "discTypeId": 2,
       "name": "Jackalope",
       "speed": 8,
       "glide": 5,
@@ -8337,6 +9090,7 @@
     {
       "id": 736,
       "manufacturerId": 33,
+      "discTypeId": 3,
       "name": "Bobcat",
       "speed": 5,
       "glide": 4.3,
@@ -8346,6 +9100,7 @@
     {
       "id": 737,
       "manufacturerId": 33,
+      "discTypeId": 3,
       "name": "Mustang",
       "speed": 5,
       "glide": 4.9,
@@ -8355,6 +9110,7 @@
     {
       "id": 738,
       "manufacturerId": 33,
+      "discTypeId": 4,
       "name": "Bullet",
       "speed": 2,
       "glide": 3,
@@ -8364,6 +9120,7 @@
     {
       "id": 739,
       "manufacturerId": 33,
+      "discTypeId": 4,
       "name": "Profit",
       "speed": 3,
       "glide": 3,
@@ -8373,6 +9130,7 @@
     {
       "id": 740,
       "manufacturerId": 34,
+      "discTypeId": 1,
       "name": "Intervention",
       "speed": 12.1,
       "glide": 4.9,
@@ -8382,6 +9140,7 @@
     {
       "id": 741,
       "manufacturerId": 34,
+      "discTypeId": 4,
       "name": "Habit",
       "speed": 3,
       "glide": 5.1,
@@ -8391,6 +9150,7 @@
     {
       "id": 742,
       "manufacturerId": 35,
+      "discTypeId": 1,
       "name": "D Model OS",
       "speed": 13,
       "glide": 5,
@@ -8400,6 +9160,7 @@
     {
       "id": 743,
       "manufacturerId": 35,
+      "discTypeId": 1,
       "name": "D Model S",
       "speed": 13,
       "glide": 5.9,
@@ -8409,6 +9170,7 @@
     {
       "id": 744,
       "manufacturerId": 35,
+      "discTypeId": 1,
       "name": "D Model US",
       "speed": 12.4,
       "glide": 5.9,
@@ -8418,6 +9180,7 @@
     {
       "id": 745,
       "manufacturerId": 35,
+      "discTypeId": 4,
       "name": "D Model US+",
       "speed": 1,
       "glide": 1,
@@ -8427,6 +9190,7 @@
     {
       "id": 746,
       "manufacturerId": 35,
+      "discTypeId": 4,
       "name": "D Model US++",
       "speed": 1,
       "glide": 1,
@@ -8436,6 +9200,7 @@
     {
       "id": 747,
       "manufacturerId": 35,
+      "discTypeId": 1,
       "name": "D1",
       "speed": 12.3,
       "glide": 5.1,
@@ -8445,6 +9210,7 @@
     {
       "id": 748,
       "manufacturerId": 35,
+      "discTypeId": 1,
       "name": "D1 Max",
       "speed": 12,
       "glide": 5,
@@ -8454,6 +9220,7 @@
     {
       "id": 749,
       "manufacturerId": 35,
+      "discTypeId": 1,
       "name": "D2",
       "speed": 12.2,
       "glide": 5.9,
@@ -8463,6 +9230,7 @@
     {
       "id": 750,
       "manufacturerId": 35,
+      "discTypeId": 1,
       "name": "D2 Max",
       "speed": 11.9,
       "glide": 5.8,
@@ -8472,6 +9240,7 @@
     {
       "id": 751,
       "manufacturerId": 35,
+      "discTypeId": 1,
       "name": "D3",
       "speed": 12.4,
       "glide": 5.9,
@@ -8481,6 +9250,7 @@
     {
       "id": 752,
       "manufacturerId": 35,
+      "discTypeId": 1,
       "name": "D3 Max",
       "speed": 12,
       "glide": 5.8,
@@ -8490,6 +9260,7 @@
     {
       "id": 753,
       "manufacturerId": 35,
+      "discTypeId": 1,
       "name": "D4",
       "speed": 12.2,
       "glide": 5.9,
@@ -8499,6 +9270,7 @@
     {
       "id": 754,
       "manufacturerId": 35,
+      "discTypeId": 1,
       "name": "D4 Max",
       "speed": 12,
       "glide": 6,
@@ -8508,6 +9280,7 @@
     {
       "id": 755,
       "manufacturerId": 35,
+      "discTypeId": 1,
       "name": "D5",
       "speed": 12.3,
       "glide": 5.9,
@@ -8517,6 +9290,7 @@
     {
       "id": 756,
       "manufacturerId": 35,
+      "discTypeId": 1,
       "name": "D6",
       "speed": 12.2,
       "glide": 6,
@@ -8526,6 +9300,7 @@
     {
       "id": 757,
       "manufacturerId": 35,
+      "discTypeId": 1,
       "name": "X1",
       "speed": 12.9,
       "glide": 3,
@@ -8535,6 +9310,7 @@
     {
       "id": 758,
       "manufacturerId": 35,
+      "discTypeId": 1,
       "name": "X2",
       "speed": 12.8,
       "glide": 4.3,
@@ -8544,6 +9320,7 @@
     {
       "id": 759,
       "manufacturerId": 35,
+      "discTypeId": 1,
       "name": "X3",
       "speed": 11.9,
       "glide": 5,
@@ -8553,6 +9330,7 @@
     {
       "id": 760,
       "manufacturerId": 35,
+      "discTypeId": 1,
       "name": "X4",
       "speed": 12.7,
       "glide": 5,
@@ -8562,6 +9340,7 @@
     {
       "id": 761,
       "manufacturerId": 35,
+      "discTypeId": 1,
       "name": "X5",
       "speed": 13,
       "glide": 5,
@@ -8571,6 +9350,7 @@
     {
       "id": 762,
       "manufacturerId": 35,
+      "discTypeId": 1,
       "name": "F Model OS",
       "speed": 10,
       "glide": 5,
@@ -8580,6 +9360,7 @@
     {
       "id": 763,
       "manufacturerId": 35,
+      "discTypeId": 4,
       "name": "F Model OS+",
       "speed": 1,
       "glide": 1,
@@ -8589,6 +9370,7 @@
     {
       "id": 764,
       "manufacturerId": 35,
+      "discTypeId": 1,
       "name": "F Model S",
       "speed": 10,
       "glide": 4.9,
@@ -8598,6 +9380,7 @@
     {
       "id": 765,
       "manufacturerId": 35,
+      "discTypeId": 1,
       "name": "F Model US",
       "speed": 10,
       "glide": 4.9,
@@ -8607,6 +9390,7 @@
     {
       "id": 766,
       "manufacturerId": 35,
+      "discTypeId": 2,
       "name": "F1",
       "speed": 7,
       "glide": 4.1,
@@ -8616,6 +9400,7 @@
     {
       "id": 767,
       "manufacturerId": 35,
+      "discTypeId": 2,
       "name": "F2",
       "speed": 7.1,
       "glide": 4.8,
@@ -8625,6 +9410,7 @@
     {
       "id": 768,
       "manufacturerId": 35,
+      "discTypeId": 2,
       "name": "F3",
       "speed": 7,
       "glide": 5,
@@ -8634,6 +9420,7 @@
     {
       "id": 769,
       "manufacturerId": 35,
+      "discTypeId": 2,
       "name": "F5",
       "speed": 7,
       "glide": 5,
@@ -8643,6 +9430,7 @@
     {
       "id": 770,
       "manufacturerId": 35,
+      "discTypeId": 2,
       "name": "F7",
       "speed": 7,
       "glide": 5,
@@ -8652,6 +9440,7 @@
     {
       "id": 771,
       "manufacturerId": 35,
+      "discTypeId": 1,
       "name": "FX-2",
       "speed": 9.1,
       "glide": 4,
@@ -8661,6 +9450,7 @@
     {
       "id": 772,
       "manufacturerId": 35,
+      "discTypeId": 1,
       "name": "H1 V2",
       "speed": 10.8,
       "glide": 4,
@@ -8670,6 +9460,7 @@
     {
       "id": 773,
       "manufacturerId": 35,
+      "discTypeId": 1,
       "name": "H2 V2",
       "speed": 10.9,
       "glide": 4.9,
@@ -8679,6 +9470,7 @@
     {
       "id": 774,
       "manufacturerId": 35,
+      "discTypeId": 1,
       "name": "H3 V2",
       "speed": 10.7,
       "glide": 5,
@@ -8688,6 +9480,7 @@
     {
       "id": 775,
       "manufacturerId": 35,
+      "discTypeId": 1,
       "name": "H4 V2",
       "speed": 10.2,
       "glide": 5,
@@ -8697,6 +9490,7 @@
     {
       "id": 776,
       "manufacturerId": 35,
+      "discTypeId": 1,
       "name": "H5",
       "speed": 9,
       "glide": 5,
@@ -8706,6 +9500,7 @@
     {
       "id": 777,
       "manufacturerId": 35,
+      "discTypeId": 2,
       "name": "M Model OS",
       "speed": 5.9,
       "glide": 4.1,
@@ -8715,6 +9510,7 @@
     {
       "id": 778,
       "manufacturerId": 35,
+      "discTypeId": 2,
       "name": "M Model S",
       "speed": 5.9,
       "glide": 4.1,
@@ -8724,6 +9520,7 @@
     {
       "id": 779,
       "manufacturerId": 35,
+      "discTypeId": 3,
       "name": "M Model US",
       "speed": 4,
       "glide": 5,
@@ -8733,6 +9530,7 @@
     {
       "id": 780,
       "manufacturerId": 35,
+      "discTypeId": 3,
       "name": "M1",
       "speed": 5,
       "glide": 4,
@@ -8742,6 +9540,7 @@
     {
       "id": 781,
       "manufacturerId": 35,
+      "discTypeId": 3,
       "name": "M2",
       "speed": 5,
       "glide": 4,
@@ -8751,6 +9550,7 @@
     {
       "id": 782,
       "manufacturerId": 35,
+      "discTypeId": 3,
       "name": "M3",
       "speed": 5,
       "glide": 5,
@@ -8760,6 +9560,7 @@
     {
       "id": 783,
       "manufacturerId": 35,
+      "discTypeId": 3,
       "name": "M4",
       "speed": 5,
       "glide": 4.9,
@@ -8769,6 +9570,7 @@
     {
       "id": 784,
       "manufacturerId": 35,
+      "discTypeId": 3,
       "name": "M5",
       "speed": 5,
       "glide": 5,
@@ -8778,6 +9580,7 @@
     {
       "id": 785,
       "manufacturerId": 35,
+      "discTypeId": 3,
       "name": "MX-3",
       "speed": 5,
       "glide": 4.1,
@@ -8787,6 +9590,7 @@
     {
       "id": 786,
       "manufacturerId": 35,
+      "discTypeId": 4,
       "name": "A1",
       "speed": 3.2,
       "glide": 2.8,
@@ -8796,6 +9600,7 @@
     {
       "id": 787,
       "manufacturerId": 35,
+      "discTypeId": 3,
       "name": "A2",
       "speed": 4,
       "glide": 3.6,
@@ -8805,6 +9610,7 @@
     {
       "id": 788,
       "manufacturerId": 35,
+      "discTypeId": 3,
       "name": "A3",
       "speed": 4,
       "glide": 3.8,
@@ -8814,6 +9620,7 @@
     {
       "id": 789,
       "manufacturerId": 35,
+      "discTypeId": 3,
       "name": "A4",
       "speed": 4,
       "glide": 3.9,
@@ -8823,6 +9630,7 @@
     {
       "id": 790,
       "manufacturerId": 35,
+      "discTypeId": 4,
       "name": "P Model S",
       "speed": 3,
       "glide": 4.9,
@@ -8832,6 +9640,7 @@
     {
       "id": 791,
       "manufacturerId": 35,
+      "discTypeId": 4,
       "name": "P Model US",
       "speed": 3,
       "glide": 4.7,
@@ -8841,6 +9650,7 @@
     {
       "id": 792,
       "manufacturerId": 35,
+      "discTypeId": 4,
       "name": "PA-1",
       "speed": 3,
       "glide": 3,
@@ -8850,6 +9660,7 @@
     {
       "id": 793,
       "manufacturerId": 35,
+      "discTypeId": 4,
       "name": "PA-2",
       "speed": 3,
       "glide": 3,
@@ -8859,6 +9670,7 @@
     {
       "id": 794,
       "manufacturerId": 35,
+      "discTypeId": 4,
       "name": "PA-3",
       "speed": 3,
       "glide": 4,
@@ -8868,6 +9680,7 @@
     {
       "id": 795,
       "manufacturerId": 35,
+      "discTypeId": 4,
       "name": "PA-4",
       "speed": 3,
       "glide": 3.1,
@@ -8877,6 +9690,7 @@
     {
       "id": 796,
       "manufacturerId": 36,
+      "discTypeId": 1,
       "name": "Fasti",
       "speed": 13,
       "glide": 4.1,
@@ -8886,6 +9700,7 @@
     {
       "id": 797,
       "manufacturerId": 36,
+      "discTypeId": 1,
       "name": "Legenda",
       "speed": 13,
       "glide": 5.1,
@@ -8895,6 +9710,7 @@
     {
       "id": 798,
       "manufacturerId": 36,
+      "discTypeId": 1,
       "name": "Razeri",
       "speed": 12,
       "glide": 5,
@@ -8904,6 +9720,7 @@
     {
       "id": 799,
       "manufacturerId": 36,
+      "discTypeId": 1,
       "name": "Slaidi",
       "speed": 11.9,
       "glide": 5,
@@ -8913,6 +9730,7 @@
     {
       "id": 800,
       "manufacturerId": 36,
+      "discTypeId": 1,
       "name": "Titan",
       "speed": 9.8,
       "glide": 4.1,
@@ -8922,6 +9740,7 @@
     {
       "id": 801,
       "manufacturerId": 36,
+      "discTypeId": 1,
       "name": "Flipperi",
       "speed": 9,
       "glide": 3.1,
@@ -8931,6 +9750,7 @@
     {
       "id": 802,
       "manufacturerId": 36,
+      "discTypeId": 1,
       "name": "Laseri",
       "speed": 9.5,
       "glide": 5.8,
@@ -8940,6 +9760,7 @@
     {
       "id": 803,
       "manufacturerId": 36,
+      "discTypeId": 2,
       "name": "Respecti",
       "speed": 8,
       "glide": 4,
@@ -8949,6 +9770,7 @@
     {
       "id": 804,
       "manufacturerId": 36,
+      "discTypeId": 1,
       "name": "Rocket",
       "speed": 9,
       "glide": 4,
@@ -8958,6 +9780,7 @@
     {
       "id": 805,
       "manufacturerId": 36,
+      "discTypeId": 2,
       "name": "Troija",
       "speed": 7,
       "glide": 3,
@@ -8967,6 +9790,7 @@
     {
       "id": 806,
       "manufacturerId": 36,
+      "discTypeId": 3,
       "name": "Midari",
       "speed": 5,
       "glide": 4.1,
@@ -8976,6 +9800,7 @@
     {
       "id": 807,
       "manufacturerId": 36,
+      "discTypeId": 3,
       "name": "STARi",
       "speed": 5.1,
       "glide": 4,
@@ -8985,6 +9810,7 @@
     {
       "id": 808,
       "manufacturerId": 36,
+      "discTypeId": 3,
       "name": "Jokeri",
       "speed": 4,
       "glide": 3.1,
@@ -8994,6 +9820,7 @@
     {
       "id": 809,
       "manufacturerId": 36,
+      "discTypeId": 4,
       "name": "Sparta",
       "speed": 3,
       "glide": 3.2,
@@ -9003,6 +9830,7 @@
     {
       "id": 810,
       "manufacturerId": 37,
+      "discTypeId": 1,
       "name": "Odyssey Distance Driver",
       "speed": 12,
       "glide": 5,
@@ -9012,6 +9840,7 @@
     {
       "id": 811,
       "manufacturerId": 37,
+      "discTypeId": 1,
       "name": "Raging Inferno",
       "speed": 12.5,
       "glide": 4.1,
@@ -9021,6 +9850,7 @@
     {
       "id": 812,
       "manufacturerId": 37,
+      "discTypeId": 2,
       "name": "T-Bone",
       "speed": 8,
       "glide": 8,
@@ -9030,6 +9860,7 @@
     {
       "id": 813,
       "manufacturerId": 37,
+      "discTypeId": 4,
       "name": "10 Meter Brick",
       "speed": 2,
       "glide": 2,
@@ -9039,6 +9870,7 @@
     {
       "id": 814,
       "manufacturerId": 37,
+      "discTypeId": 4,
       "name": "10 Meter Crossfire",
       "speed": 2.5,
       "glide": 2,
@@ -9048,6 +9880,7 @@
     {
       "id": 815,
       "manufacturerId": 37,
+      "discTypeId": 3,
       "name": "Crossfire",
       "speed": 4,
       "glide": 8,
@@ -9057,6 +9890,7 @@
     {
       "id": 816,
       "manufacturerId": 37,
+      "discTypeId": 3,
       "name": "Turbo Putt",
       "speed": 3.8,
       "glide": 1,
@@ -9066,6 +9900,7 @@
     {
       "id": 817,
       "manufacturerId": 37,
+      "discTypeId": 3,
       "name": "Turbo Putt II",
       "speed": 4,
       "glide": 2,
@@ -9075,6 +9910,7 @@
     {
       "id": 818,
       "manufacturerId": 38,
+      "discTypeId": 1,
       "name": "Kahu",
       "speed": 13,
       "glide": 5,
@@ -9084,6 +9920,7 @@
     {
       "id": 819,
       "manufacturerId": 38,
+      "discTypeId": 1,
       "name": "Kahu OS",
       "speed": 13,
       "glide": 4.9,
@@ -9093,6 +9930,7 @@
     {
       "id": 820,
       "manufacturerId": 38,
+      "discTypeId": 1,
       "name": "Kahu XG",
       "speed": 13,
       "glide": 5.2,
@@ -9102,6 +9940,7 @@
     {
       "id": 821,
       "manufacturerId": 38,
+      "discTypeId": 1,
       "name": "Kiwi",
       "speed": 9.8,
       "glide": 4.1,
@@ -9111,6 +9950,7 @@
     {
       "id": 822,
       "manufacturerId": 38,
+      "discTypeId": 1,
       "name": "Kotare",
       "speed": 12,
       "glide": 4.9,
@@ -9120,6 +9960,7 @@
     {
       "id": 823,
       "manufacturerId": 38,
+      "discTypeId": 2,
       "name": "Huia",
       "speed": 7,
       "glide": 5,
@@ -9129,6 +9970,7 @@
     {
       "id": 824,
       "manufacturerId": 38,
+      "discTypeId": 1,
       "name": "Pekapeka",
       "speed": 9,
       "glide": 5.1,
@@ -9138,6 +9980,7 @@
     {
       "id": 825,
       "manufacturerId": 38,
+      "discTypeId": 1,
       "name": "Taniwha",
       "speed": 10,
       "glide": 5,
@@ -9147,6 +9990,7 @@
     {
       "id": 826,
       "manufacturerId": 38,
+      "discTypeId": 3,
       "name": "Kea",
       "speed": 4.8,
       "glide": 4.6,
@@ -9156,6 +10000,7 @@
     {
       "id": 827,
       "manufacturerId": 38,
+      "discTypeId": 3,
       "name": "Kotuku",
       "speed": 5,
       "glide": 4.9,
@@ -9165,6 +10010,7 @@
     {
       "id": 828,
       "manufacturerId": 38,
+      "discTypeId": 3,
       "name": "Piwakawaka",
       "speed": 4.5,
       "glide": 5.5,
@@ -9174,6 +10020,7 @@
     {
       "id": 829,
       "manufacturerId": 38,
+      "discTypeId": 4,
       "name": "TeMoko",
       "speed": 3,
       "glide": 4,
@@ -9183,6 +10030,7 @@
     {
       "id": 830,
       "manufacturerId": 38,
+      "discTypeId": 4,
       "name": "Ruru",
       "speed": 3,
       "glide": 3.1,
@@ -9192,6 +10040,7 @@
     {
       "id": 831,
       "manufacturerId": 38,
+      "discTypeId": 4,
       "name": "Tui",
       "speed": 3,
       "glide": 4.1,
@@ -9201,6 +10050,7 @@
     {
       "id": 832,
       "manufacturerId": 39,
+      "discTypeId": 2,
       "name": "Ptero",
       "speed": 7,
       "glide": 5,
@@ -9210,6 +10060,7 @@
     {
       "id": 833,
       "manufacturerId": 39,
+      "discTypeId": 2,
       "name": "Tyrant",
       "speed": 7.1,
       "glide": 3.2,
@@ -9219,6 +10070,7 @@
     {
       "id": 834,
       "manufacturerId": 39,
+      "discTypeId": 1,
       "name": "Velociraptor",
       "speed": 9,
       "glide": 4,
@@ -9228,6 +10080,7 @@
     {
       "id": 835,
       "manufacturerId": 39,
+      "discTypeId": 3,
       "name": "Gila",
       "speed": 5,
       "glide": 4,
@@ -9237,6 +10090,7 @@
     {
       "id": 836,
       "manufacturerId": 39,
+      "discTypeId": 4,
       "name": "Stego",
       "speed": 3,
       "glide": 1,
@@ -9246,6 +10100,7 @@
     {
       "id": 837,
       "manufacturerId": 39,
+      "discTypeId": 4,
       "name": "Scale",
       "speed": 2,
       "glide": 1.2,
@@ -9255,6 +10110,7 @@
     {
       "id": 838,
       "manufacturerId": 39,
+      "discTypeId": 4,
       "name": "Serpent",
       "speed": 2,
       "glide": 2,
@@ -9264,6 +10120,7 @@
     {
       "id": 839,
       "manufacturerId": 40,
+      "discTypeId": 1,
       "name": "Lucky 13",
       "speed": 10,
       "glide": 5,
@@ -9273,6 +10130,7 @@
     {
       "id": 840,
       "manufacturerId": 40,
+      "discTypeId": 1,
       "name": "Medusa",
       "speed": 10.9,
       "glide": 5,
@@ -9282,6 +10140,7 @@
     {
       "id": 841,
       "manufacturerId": 40,
+      "discTypeId": 4,
       "name": "Chainzilla",
       "speed": 2,
       "glide": 3,
@@ -9291,6 +10150,7 @@
     {
       "id": 842,
       "manufacturerId": 41,
+      "discTypeId": 1,
       "name": "Jet Stream",
       "speed": 12,
       "glide": 5,
@@ -9300,6 +10160,7 @@
     {
       "id": 843,
       "manufacturerId": 41,
+      "discTypeId": 1,
       "name": "Maelstrom",
       "speed": 11,
       "glide": 5,
@@ -9309,6 +10170,7 @@
     {
       "id": 844,
       "manufacturerId": 41,
+      "discTypeId": 2,
       "name": "Abyss",
       "speed": 8,
       "glide": 4,
@@ -9318,6 +10180,7 @@
     {
       "id": 845,
       "manufacturerId": 41,
+      "discTypeId": 3,
       "name": "Eye",
       "speed": 5.1,
       "glide": 5.1,
@@ -9327,6 +10190,7 @@
     {
       "id": 846,
       "manufacturerId": 41,
+      "discTypeId": 3,
       "name": "Wall Cloud",
       "speed": 5,
       "glide": 5,
@@ -9336,6 +10200,7 @@
     {
       "id": 847,
       "manufacturerId": 41,
+      "discTypeId": 4,
       "name": "Crater",
       "speed": 3,
       "glide": 2,
@@ -9345,6 +10210,7 @@
     {
       "id": 848,
       "manufacturerId": 41,
+      "discTypeId": 4,
       "name": "Radar",
       "speed": 2,
       "glide": 5,
@@ -9354,6 +10220,7 @@
     {
       "id": 849,
       "manufacturerId": 42,
+      "discTypeId": 4,
       "name": "Engine",
       "speed": 1,
       "glide": 1,
@@ -9363,6 +10230,7 @@
     {
       "id": 850,
       "manufacturerId": 42,
+      "discTypeId": 1,
       "name": "Flare",
       "speed": 9,
       "glide": 3.8,
@@ -9372,6 +10240,7 @@
     {
       "id": 851,
       "manufacturerId": 42,
+      "discTypeId": 1,
       "name": "Lift",
       "speed": 9,
       "glide": 5,
@@ -9381,6 +10250,7 @@
     {
       "id": 852,
       "manufacturerId": 42,
+      "discTypeId": 1,
       "name": "Trace",
       "speed": 11,
       "glide": 5,
@@ -9390,6 +10260,7 @@
     {
       "id": 853,
       "manufacturerId": 42,
+      "discTypeId": 2,
       "name": "Drift",
       "speed": 7,
       "glide": 5.1,
@@ -9399,6 +10270,7 @@
     {
       "id": 854,
       "manufacturerId": 42,
+      "discTypeId": 4,
       "name": "Jet",
       "speed": 1,
       "glide": 1,
@@ -9408,6 +10280,7 @@
     {
       "id": 855,
       "manufacturerId": 42,
+      "discTypeId": 4,
       "name": "Echo",
       "speed": 1,
       "glide": 1,
@@ -9417,6 +10290,7 @@
     {
       "id": 856,
       "manufacturerId": 42,
+      "discTypeId": 3,
       "name": "Runway",
       "speed": 5,
       "glide": 4,
@@ -9426,6 +10300,7 @@
     {
       "id": 857,
       "manufacturerId": 42,
+      "discTypeId": 4,
       "name": "Pilot",
       "speed": 2.1,
       "glide": 4.9,
@@ -9435,6 +10310,7 @@
     {
       "id": 858,
       "manufacturerId": 42,
+      "discTypeId": 4,
       "name": "Stabilizer",
       "speed": 3,
       "glide": 4,
@@ -9444,6 +10320,7 @@
     {
       "id": 859,
       "manufacturerId": 43,
+      "discTypeId": 1,
       "name": "Short Slacker",
       "speed": 10.9,
       "glide": 5,
@@ -9453,6 +10330,7 @@
     {
       "id": 860,
       "manufacturerId": 43,
+      "discTypeId": 2,
       "name": "Contrail",
       "speed": 6,
       "glide": 5,
@@ -9462,6 +10340,7 @@
     {
       "id": 861,
       "manufacturerId": 43,
+      "discTypeId": 2,
       "name": "Night Trooper",
       "speed": 7,
       "glide": 5.9,
@@ -9471,6 +10350,7 @@
     {
       "id": 862,
       "manufacturerId": 43,
+      "discTypeId": 4,
       "name": "Cirrus",
       "speed": 3,
       "glide": 3,
@@ -9480,6 +10360,7 @@
     {
       "id": 863,
       "manufacturerId": 43,
+      "discTypeId": 4,
       "name": "Mad Mission",
       "speed": 3,
       "glide": 3.1,
@@ -9489,6 +10370,7 @@
     {
       "id": 864,
       "manufacturerId": 43,
+      "discTypeId": 3,
       "name": "Silent Cruiser",
       "speed": 5.1,
       "glide": 4.9,
@@ -9498,6 +10380,7 @@
     {
       "id": 865,
       "manufacturerId": 43,
+      "discTypeId": 4,
       "name": "Cumulus",
       "speed": 2,
       "glide": 3,
@@ -9507,6 +10390,7 @@
     {
       "id": 866,
       "manufacturerId": 43,
+      "discTypeId": 4,
       "name": "Flow Motion",
       "speed": 2,
       "glide": 3.1,
@@ -9516,6 +10400,7 @@
     {
       "id": 867,
       "manufacturerId": 44,
+      "discTypeId": 1,
       "name": "Animus",
       "speed": 10.4,
       "glide": 4.6,
@@ -9525,6 +10410,7 @@
     {
       "id": 868,
       "manufacturerId": 44,
+      "discTypeId": 1,
       "name": "Mantra",
       "speed": 9.1,
       "glide": 5.9,
@@ -9534,6 +10420,7 @@
     {
       "id": 869,
       "manufacturerId": 44,
+      "discTypeId": 1,
       "name": "Votum",
       "speed": 9,
       "glide": 5,
@@ -9543,6 +10430,7 @@
     {
       "id": 870,
       "manufacturerId": 44,
+      "discTypeId": 3,
       "name": "Pathfinder",
       "speed": 4.9,
       "glide": 5,
@@ -9552,6 +10440,7 @@
     {
       "id": 871,
       "manufacturerId": 44,
+      "discTypeId": 4,
       "name": "Praxis",
       "speed": 3,
       "glide": 3,
@@ -9561,6 +10450,7 @@
     {
       "id": 872,
       "manufacturerId": 45,
+      "discTypeId": 1,
       "name": "Berserker",
       "speed": 10,
       "glide": 5.1,
@@ -9570,6 +10460,7 @@
     {
       "id": 873,
       "manufacturerId": 45,
+      "discTypeId": 4,
       "name": "Fenrir",
       "speed": 1,
       "glide": 1,
@@ -9579,6 +10470,7 @@
     {
       "id": 874,
       "manufacturerId": 45,
+      "discTypeId": 4,
       "name": "Odin",
       "speed": 1,
       "glide": 1,
@@ -9588,6 +10480,7 @@
     {
       "id": 875,
       "manufacturerId": 45,
+      "discTypeId": 1,
       "name": "Ragnarok",
       "speed": 11.2,
       "glide": 5,
@@ -9597,6 +10490,7 @@
     {
       "id": 876,
       "manufacturerId": 45,
+      "discTypeId": 1,
       "name": "Thunder God Thor",
       "speed": 14,
       "glide": 4.9,
@@ -9606,6 +10500,7 @@
     {
       "id": 877,
       "manufacturerId": 45,
+      "discTypeId": 1,
       "name": "Valhalla",
       "speed": 12,
       "glide": 5,
@@ -9615,6 +10510,7 @@
     {
       "id": 878,
       "manufacturerId": 45,
+      "discTypeId": 2,
       "name": "Barbarian",
       "speed": 7,
       "glide": 4.9,
@@ -9624,6 +10520,7 @@
     {
       "id": 879,
       "manufacturerId": 45,
+      "discTypeId": 2,
       "name": "Cosmos",
       "speed": 7,
       "glide": 5.1,
@@ -9633,6 +10530,7 @@
     {
       "id": 880,
       "manufacturerId": 45,
+      "discTypeId": 3,
       "name": "Axe",
       "speed": 4,
       "glide": 3,
@@ -9642,6 +10540,7 @@
     {
       "id": 881,
       "manufacturerId": 45,
+      "discTypeId": 3,
       "name": "Loki",
       "speed": 4,
       "glide": 2,
@@ -9651,6 +10550,7 @@
     {
       "id": 882,
       "manufacturerId": 45,
+      "discTypeId": 3,
       "name": "Nordic Warrior",
       "speed": 4,
       "glide": 4.1,
@@ -9660,6 +10560,7 @@
     {
       "id": 883,
       "manufacturerId": 45,
+      "discTypeId": 4,
       "name": "Knife",
       "speed": 2.8,
       "glide": 3.1,
@@ -9669,6 +10570,7 @@
     {
       "id": 884,
       "manufacturerId": 45,
+      "discTypeId": 4,
       "name": "Rune",
       "speed": 2,
       "glide": 4,
@@ -9678,6 +10580,7 @@
     {
       "id": 885,
       "manufacturerId": 46,
+      "discTypeId": 1,
       "name": "Boatman",
       "speed": 10.8,
       "glide": 5.1,
@@ -9687,6 +10590,7 @@
     {
       "id": 886,
       "manufacturerId": 46,
+      "discTypeId": 1,
       "name": "Catapult ",
       "speed": 13.8,
       "glide": 4.6,
@@ -9696,6 +10600,7 @@
     {
       "id": 887,
       "manufacturerId": 46,
+      "discTypeId": 1,
       "name": "Destiny",
       "speed": 13.7,
       "glide": 6,
@@ -9705,6 +10610,7 @@
     {
       "id": 888,
       "manufacturerId": 46,
+      "discTypeId": 1,
       "name": "Fortress",
       "speed": 10,
       "glide": 4,
@@ -9714,6 +10620,7 @@
     {
       "id": 889,
       "manufacturerId": 46,
+      "discTypeId": 1,
       "name": "Giant",
       "speed": 12.8,
       "glide": 4.5,
@@ -9723,6 +10630,7 @@
     {
       "id": 890,
       "manufacturerId": 46,
+      "discTypeId": 1,
       "name": "King",
       "speed": 13.6,
       "glide": 5.1,
@@ -9732,6 +10640,7 @@
     {
       "id": 891,
       "manufacturerId": 46,
+      "discTypeId": 1,
       "name": "Northman",
       "speed": 10,
       "glide": 5,
@@ -9741,6 +10650,7 @@
     {
       "id": 892,
       "manufacturerId": 46,
+      "discTypeId": 1,
       "name": "Queen",
       "speed": 13.7,
       "glide": 5.1,
@@ -9750,6 +10660,7 @@
     {
       "id": 893,
       "manufacturerId": 46,
+      "discTypeId": 1,
       "name": "Sampo",
       "speed": 9.9,
       "glide": 4.6,
@@ -9759,6 +10670,7 @@
     {
       "id": 894,
       "manufacturerId": 46,
+      "discTypeId": 1,
       "name": "Sorcerer",
       "speed": 12.9,
       "glide": 5.4,
@@ -9768,6 +10680,7 @@
     {
       "id": 895,
       "manufacturerId": 46,
+      "discTypeId": 1,
       "name": "Sword",
       "speed": 11.9,
       "glide": 5.1,
@@ -9777,6 +10690,7 @@
     {
       "id": 896,
       "manufacturerId": 46,
+      "discTypeId": 4,
       "name": "The Adder",
       "speed": 1,
       "glide": 1,
@@ -9786,6 +10700,7 @@
     {
       "id": 897,
       "manufacturerId": 46,
+      "discTypeId": 1,
       "name": "War Horse",
       "speed": 12.9,
       "glide": 4,
@@ -9795,6 +10710,7 @@
     {
       "id": 898,
       "manufacturerId": 46,
+      "discTypeId": 1,
       "name": "World",
       "speed": 13.9,
       "glide": 4,
@@ -9804,6 +10720,7 @@
     {
       "id": 899,
       "manufacturerId": 46,
+      "discTypeId": 1,
       "name": "Ahti",
       "speed": 9,
       "glide": 3,
@@ -9813,6 +10730,7 @@
     {
       "id": 900,
       "manufacturerId": 46,
+      "discTypeId": 1,
       "name": "Hatchet",
       "speed": 9,
       "glide": 5.9,
@@ -9822,6 +10740,7 @@
     {
       "id": 901,
       "manufacturerId": 46,
+      "discTypeId": 1,
       "name": "Longbowman",
       "speed": 8.7,
       "glide": 4,
@@ -9831,6 +10750,7 @@
     {
       "id": 902,
       "manufacturerId": 46,
+      "discTypeId": 2,
       "name": "Seer",
       "speed": 7,
       "glide": 5.1,
@@ -9840,6 +10760,7 @@
     {
       "id": 903,
       "manufacturerId": 46,
+      "discTypeId": 2,
       "name": "Stag",
       "speed": 8,
       "glide": 5.9,
@@ -9849,6 +10770,7 @@
     {
       "id": 904,
       "manufacturerId": 46,
+      "discTypeId": 2,
       "name": "Underworld",
       "speed": 7.1,
       "glide": 6,
@@ -9858,6 +10780,7 @@
     {
       "id": 905,
       "manufacturerId": 46,
+      "discTypeId": 3,
       "name": "Anvil",
       "speed": 4.1,
       "glide": 2.3,
@@ -9867,6 +10790,7 @@
     {
       "id": 906,
       "manufacturerId": 46,
+      "discTypeId": 3,
       "name": "Bard",
       "speed": 5,
       "glide": 3.9,
@@ -9876,6 +10800,7 @@
     {
       "id": 907,
       "manufacturerId": 46,
+      "discTypeId": 3,
       "name": "Gatekeeper",
       "speed": 4.1,
       "glide": 5,
@@ -9885,6 +10810,7 @@
     {
       "id": 908,
       "manufacturerId": 46,
+      "discTypeId": 3,
       "name": "Pine",
       "speed": 5,
       "glide": 4.4,
@@ -9894,6 +10820,7 @@
     {
       "id": 909,
       "manufacturerId": 46,
+      "discTypeId": 3,
       "name": "Sling",
       "speed": 4.5,
       "glide": 4.9,
@@ -9903,6 +10830,7 @@
     {
       "id": 910,
       "manufacturerId": 46,
+      "discTypeId": 3,
       "name": "Tursas",
       "speed": 5,
       "glide": 5.1,
@@ -9912,6 +10840,7 @@
     {
       "id": 911,
       "manufacturerId": 46,
+      "discTypeId": 2,
       "name": "Warship",
       "speed": 5.7,
       "glide": 5.5,
@@ -9921,6 +10850,7 @@
     {
       "id": 912,
       "manufacturerId": 46,
+      "discTypeId": 4,
       "name": "Crown",
       "speed": 3,
       "glide": 4,
@@ -9930,6 +10860,7 @@
     {
       "id": 913,
       "manufacturerId": 46,
+      "discTypeId": 3,
       "name": "Harp",
       "speed": 4,
       "glide": 3,
@@ -9939,6 +10870,7 @@
     {
       "id": 914,
       "manufacturerId": 46,
+      "discTypeId": 4,
       "name": "Maiden",
       "speed": 3,
       "glide": 3.8,
@@ -9948,6 +10880,7 @@
     {
       "id": 915,
       "manufacturerId": 46,
+      "discTypeId": 4,
       "name": "Shield",
       "speed": 3,
       "glide": 3,
@@ -9957,6 +10890,7 @@
     {
       "id": 916,
       "manufacturerId": 46,
+      "discTypeId": 4,
       "name": "Swan",
       "speed": 2.9,
       "glide": 2.9,
@@ -9966,6 +10900,7 @@
     {
       "id": 917,
       "manufacturerId": 46,
+      "discTypeId": 4,
       "name": "Swan 1 Reborn",
       "speed": 3,
       "glide": 3.1,
@@ -9975,6 +10910,7 @@
     {
       "id": 918,
       "manufacturerId": 47,
+      "discTypeId": 1,
       "name": "Orca",
       "speed": 12,
       "glide": 4.9,
@@ -9984,6 +10920,7 @@
     {
       "id": 919,
       "manufacturerId": 47,
+      "discTypeId": 2,
       "name": "Tasmanian Devil",
       "speed": 7,
       "glide": 4,
@@ -9993,6 +10930,7 @@
     {
       "id": 920,
       "manufacturerId": 47,
+      "discTypeId": 3,
       "name": "Addax",
       "speed": 5,
       "glide": 5,
@@ -10002,6 +10940,7 @@
     {
       "id": 921,
       "manufacturerId": 47,
+      "discTypeId": 4,
       "name": "Hummingbird",
       "speed": 2,
       "glide": 4,
@@ -10011,6 +10950,7 @@
     {
       "id": 922,
       "manufacturerId": 48,
+      "discTypeId": 1,
       "name": "Zion Driver",
       "speed": 10,
       "glide": 4.2,
@@ -10020,6 +10960,7 @@
     {
       "id": 923,
       "manufacturerId": 48,
+      "discTypeId": 2,
       "name": "Helios",
       "speed": 6,
       "glide": 5,
@@ -10029,6 +10970,7 @@
     {
       "id": 924,
       "manufacturerId": 48,
+      "discTypeId": 3,
       "name": "Eden",
       "speed": 5,
       "glide": 4,
@@ -10038,6 +10980,7 @@
     {
       "id": 925,
       "manufacturerId": 48,
+      "discTypeId": 3,
       "name": "Griffon",
       "speed": 5,
       "glide": 4.1,
@@ -10047,6 +10990,7 @@
     {
       "id": 926,
       "manufacturerId": 48,
+      "discTypeId": 4,
       "name": "Bennu",
       "speed": 3,
       "glide": 5,
@@ -10056,6 +11000,7 @@
     {
       "id": 927,
       "manufacturerId": 49,
+      "discTypeId": 1,
       "name": "DA'E",
       "speed": 12.9,
       "glide": 5,
@@ -10065,6 +11010,7 @@
     {
       "id": 928,
       "manufacturerId": 49,
+      "discTypeId": 1,
       "name": "Jun",
       "speed": 11,
       "glide": 4.9,
@@ -10074,6 +11020,7 @@
     {
       "id": 929,
       "manufacturerId": 49,
+      "discTypeId": 1,
       "name": "Luan",
       "speed": 13.9,
       "glide": 4.9,
@@ -10083,6 +11030,7 @@
     {
       "id": 930,
       "manufacturerId": 49,
+      "discTypeId": 1,
       "name": "QI",
       "speed": 13,
       "glide": 6,
@@ -10092,6 +11040,7 @@
     {
       "id": 931,
       "manufacturerId": 49,
+      "discTypeId": 1,
       "name": "Twin Swords",
       "speed": 11.9,
       "glide": 5,
@@ -10101,6 +11050,7 @@
     {
       "id": 932,
       "manufacturerId": 49,
+      "discTypeId": 1,
       "name": "Wei",
       "speed": 10.1,
       "glide": 5,
@@ -10110,6 +11060,7 @@
     {
       "id": 933,
       "manufacturerId": 49,
+      "discTypeId": 2,
       "name": "FU",
       "speed": 7,
       "glide": 5,
@@ -10119,6 +11070,7 @@
     {
       "id": 934,
       "manufacturerId": 49,
+      "discTypeId": 2,
       "name": "Gou",
       "speed": 8.2,
       "glide": 5.1,
@@ -10128,6 +11080,7 @@
     {
       "id": 935,
       "manufacturerId": 49,
+      "discTypeId": 1,
       "name": "Hu",
       "speed": 9,
       "glide": 4.9,
@@ -10137,6 +11090,7 @@
     {
       "id": 936,
       "manufacturerId": 49,
+      "discTypeId": 2,
       "name": "Jiao",
       "speed": 6,
       "glide": 5,
@@ -10146,6 +11100,7 @@
     {
       "id": 937,
       "manufacturerId": 49,
+      "discTypeId": 2,
       "name": "View",
       "speed": 6.8,
       "glide": 5.8,
@@ -10155,6 +11110,7 @@
     {
       "id": 938,
       "manufacturerId": 49,
+      "discTypeId": 2,
       "name": "Zhu",
       "speed": 7,
       "glide": 5,
@@ -10164,6 +11120,7 @@
     {
       "id": 939,
       "manufacturerId": 49,
+      "discTypeId": 3,
       "name": "Crossbow",
       "speed": 4,
       "glide": 2,
@@ -10173,6 +11130,7 @@
     {
       "id": 940,
       "manufacturerId": 49,
+      "discTypeId": 3,
       "name": "Kui",
       "speed": 5.2,
       "glide": 4.9,
@@ -10182,6 +11140,7 @@
     {
       "id": 941,
       "manufacturerId": 49,
+      "discTypeId": 3,
       "name": "Shu",
       "speed": 4,
       "glide": 5,
@@ -10191,6 +11150,7 @@
     {
       "id": 942,
       "manufacturerId": 49,
+      "discTypeId": 3,
       "name": "Tomahawk",
       "speed": 4.9,
       "glide": 6,
@@ -10200,6 +11160,7 @@
     {
       "id": 943,
       "manufacturerId": 49,
+      "discTypeId": 4,
       "name": "Wings",
       "speed": 3,
       "glide": 2.9,
@@ -10209,6 +11170,7 @@
     {
       "id": 944,
       "manufacturerId": 49,
+      "discTypeId": 4,
       "name": "Yan",
       "speed": 3,
       "glide": 6.1,
@@ -10218,6 +11180,7 @@
     {
       "id": 945,
       "manufacturerId": 49,
+      "discTypeId": 3,
       "name": "Yao",
       "speed": 4.1,
       "glide": 4,
@@ -10227,6 +11190,7 @@
     {
       "id": 946,
       "manufacturerId": 49,
+      "discTypeId": 4,
       "name": "Claws",
       "speed": 1,
       "glide": 2,
@@ -10236,6 +11200,7 @@
     {
       "id": 947,
       "manufacturerId": 49,
+      "discTypeId": 4,
       "name": "Gui",
       "speed": 2.1,
       "glide": 3,
@@ -10245,6 +11210,7 @@
     {
       "id": 948,
       "manufacturerId": 49,
+      "discTypeId": 4,
       "name": "Hammer (Chui)",
       "speed": 2,
       "glide": 2.9,
@@ -10254,6 +11220,7 @@
     {
       "id": 949,
       "manufacturerId": 49,
+      "discTypeId": 4,
       "name": "Meteor Hammer",
       "speed": 2.1,
       "glide": 3.1,
@@ -10263,6 +11230,7 @@
     {
       "id": 950,
       "manufacturerId": 49,
+      "discTypeId": 4,
       "name": "Xing",
       "speed": 2,
       "glide": 3.9,
