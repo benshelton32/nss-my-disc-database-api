@@ -1711,6 +1711,11 @@
       "id": 288,
       "name": "Tiger",
       "manufacturerId": 49
+    },
+    {
+      "id": 289,
+      "name": "VIP Ice",
+      "manufacturerId": 46
     }
   ],
   "discs": [
@@ -10270,113 +10275,132 @@
       "id": 1,
       "userId": 1,
       "discId": 446,
+      "plasticId": 2,
       "weight": 167
     },
     {
       "id": 2,
       "userId": 1,
       "discId": 405,
+      "plasticId": 2,
       "weight": 165
     },
     {
       "id": 3,
       "userId": 1,
       "discId": 471,
+      "plasticId": 2,
       "weight": 171
     },
     {
       "userId": 1,
       "discId": 416,
+      "plasticId": 6,
       "weight": 165,
       "id": 4
     },
     {
       "userId": 1,
       "discId": 418,
+      "plasticId": 2,
       "weight": 172,
       "id": 5
     },
     {
       "userId": 1,
       "discId": 392,
+      "plasticId": 13,
       "weight": 163,
       "id": 6
     },
     {
       "userId": 1,
       "discId": 400,
+      "plasticId": 6,
       "weight": 172,
       "id": 7
     },
     {
       "userId": 1,
       "discId": 398,
+      "plasticId": 15,
       "weight": 163,
       "id": 8
     },
     {
       "userId": 1,
       "discId": 453,
+      "plasticId": 2,
       "weight": 166,
       "id": 9
     },
     {
       "userId": 1,
       "discId": 225,
+      "plasticId": 76,
       "weight": 170,
       "id": 10
     },
     {
       "userId": 1,
       "discId": 395,
+      "plasticId": 15,
       "weight": 167,
       "id": 11
     },
     {
       "userId": 1,
       "discId": 483,
+      "plasticId": 15,
       "weight": 175,
       "id": 12
     },
     {
       "userId": 1,
       "discId": 487,
+      "plasticId": 13,
       "weight": 163,
       "id": 13
     },
     {
       "userId": 1,
       "discId": 562,
+      "plasticId": 96,
       "weight": 173,
       "id": 14
     },
     {
       "userId": 1,
       "discId": 564,
+      "plasticId": 92,
       "weight": 169,
       "id": 15
     },
     {
       "userId": 1,
       "discId": 910,
+      "plasticId": 289,
       "weight": 176,
       "id": 16
     },
     {
       "userId": 2,
       "discId": 399,
+      "plasticId": 2,
       "weight": 173,
       "id": 20
     },
     {
       "userId": 2,
       "discId": 413,
+      "plasticId": 2,
       "weight": 172,
       "id": 21
     },
     {
       "userId": 2,
       "discId": 400,
+      "plasticId": 6,
       "weight": 171,
       "id": 22
     }
