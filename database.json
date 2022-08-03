@@ -11244,133 +11244,171 @@
       "userId": 1,
       "discId": 446,
       "plasticId": 2,
-      "weight": 167
+      "weight": 167,
+      "discColor": "#ff8b4d",
+      "stampColor": "#15c118"
     },
     {
       "id": 2,
       "userId": 1,
       "discId": 405,
       "plasticId": 2,
-      "weight": 165
+      "weight": 165,
+      "discColor": "#f76900",
+      "stampColor": "#15c118"
     },
     {
       "id": 3,
       "userId": 1,
       "discId": 471,
       "plasticId": 2,
-      "weight": 171
+      "weight": 171,
+      "discColor": "#15f4cf",
+      "stampColor": "#15c118"
     },
     {
       "userId": 1,
       "discId": 416,
       "plasticId": 6,
       "weight": 165,
-      "id": 4
+      "id": 4,
+      "discColor": "#8751b3",
+      "stampColor": "#15c118"
     },
     {
       "userId": 1,
       "discId": 418,
       "plasticId": 2,
       "weight": 172,
-      "id": 5
+      "id": 5,
+      "discColor": "#c99bee",
+      "stampColor": "#15c118"
     },
     {
       "userId": 1,
       "discId": 392,
       "plasticId": 13,
       "weight": 163,
-      "id": 6
+      "id": 6,
+      "discColor": "#f8fb3c",
+      "stampColor": "#000000"
     },
     {
       "userId": 1,
       "discId": 400,
       "plasticId": 6,
       "weight": 172,
-      "id": 7
+      "id": 7,
+      "discColor": "#00f531",
+      "stampColor": "#148b04"
     },
     {
       "userId": 1,
       "discId": 398,
       "plasticId": 15,
       "weight": 163,
-      "id": 8
+      "id": 8,
+      "discColor": "#ff4763",
+      "stampColor": "#425eb3"
     },
     {
       "userId": 1,
       "discId": 453,
       "plasticId": 2,
       "weight": 166,
-      "id": 9
+      "id": 9,
+      "discColor": "#f381a3",
+      "stampColor": "#15c118"
     },
     {
       "userId": 1,
       "discId": 225,
       "plasticId": 76,
       "weight": 170,
-      "id": 10
+      "id": 10,
+      "discColor": "#597382",
+      "stampColor": "#050505"
     },
     {
       "userId": 1,
       "discId": 395,
       "plasticId": 15,
       "weight": 167,
-      "id": 11
+      "id": 11,
+      "discColor": "#ff5286",
+      "stampColor": "#cabfbf"
     },
     {
       "userId": 1,
       "discId": 483,
       "plasticId": 15,
       "weight": 175,
-      "id": 12
+      "id": 12,
+      "discColor": "#ff6694",
+      "stampColor": "#0099e6"
     },
     {
       "userId": 1,
       "discId": 487,
       "plasticId": 13,
       "weight": 163,
-      "id": 13
+      "id": 13,
+      "discColor": "#ff8200",
+      "stampColor": "#ffffff"
     },
     {
       "userId": 1,
       "discId": 562,
       "plasticId": 96,
       "weight": 173,
-      "id": 14
+      "id": 14,
+      "discColor": "#f7f0e9",
+      "stampColor": "#050505"
     },
     {
       "userId": 1,
       "discId": 564,
       "plasticId": 92,
       "weight": 169,
-      "id": 15
+      "id": 15,
+      "discColor": "#f37299",
+      "stampColor": "#f5cd05"
     },
     {
       "userId": 1,
       "discId": 910,
       "plasticId": 289,
       "weight": 176,
-      "id": 16
+      "id": 16,
+      "discColor": "#eefe71",
+      "stampColor": "#d6d6d6"
     },
     {
       "userId": 2,
       "discId": 399,
       "plasticId": 2,
       "weight": 173,
-      "id": 20
+      "id": 20,
+      "discColor": "#ffffff",
+      "stampColor": "#050505"
     },
     {
       "userId": 2,
       "discId": 413,
       "plasticId": 2,
       "weight": 172,
-      "id": 21
+      "id": 21,
+      "discColor": "#8ae2ff",
+      "stampColor": "#17ee4c"
     },
     {
       "userId": 2,
       "discId": 400,
       "plasticId": 6,
       "weight": 171,
-      "id": 22
+      "id": 22,
+      "discColor": "#0d7ca0",
+      "stampColor": "#050505"
     }
   ]
 }
