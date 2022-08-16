@@ -1716,6 +1716,11 @@
       "id": 289,
       "name": "VIP Ice",
       "manufacturerId": 46
+    },
+    {
+      "id": 290,
+      "name": "Cryztal Sparkle",
+      "manufacturerId": 11
     }
   ],
   "discTypes": [
@@ -11236,6 +11241,16 @@
       "glide": 3.9,
       "turn": 0,
       "fade": 1
+    },
+    {
+      "id": 951,
+      "manufacturerId": 14,
+      "discTypeId": 4,
+      "name": "Agent",
+      "speed": 2,
+      "glide": 3,
+      "turn": 0,
+      "fade": 1
     }
   ],
   "ownedDiscs": [
@@ -11409,6 +11424,42 @@
       "id": 22,
       "discColor": "#0d7ca0",
       "stampColor": "#050505"
+    },
+    {
+      "userId": 1,
+      "discId": 184,
+      "plasticId": 69,
+      "weight": 173,
+      "discColor": "#f20707",
+      "stampColor": "#39bcfe",
+      "id": 23
+    },
+    {
+      "userId": 1,
+      "discId": 951,
+      "plasticId": 118,
+      "weight": 175,
+      "discColor": "#adebff",
+      "stampColor": "#eb0000",
+      "id": 24
+    },
+    {
+      "userId": 12,
+      "discId": 202,
+      "plasticId": 69,
+      "weight": 171,
+      "discColor": "#2ce842",
+      "stampColor": "#f5ee2e",
+      "id": 25
+    },
+    {
+      "userId": 12,
+      "discId": 790,
+      "plasticId": 179,
+      "weight": 173,
+      "discColor": "#e1bcdb",
+      "stampColor": "#000000",
+      "id": 26
     }
   ]
 }
