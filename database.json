@@ -51,7 +51,7 @@
     {
       "id": 9,
       "firstName": "Anslee",
-      "lastName": "Swann",
+      "lastName": "Swift",
       "email": "anslee@anslee.com"
     },
     {
@@ -11460,6 +11460,42 @@
       "discColor": "#e1bcdb",
       "stampColor": "#000000",
       "id": 26
+    },
+    {
+      "userId": 1,
+      "discId": 470,
+      "plasticId": 2,
+      "weight": 173,
+      "discColor": "#ff6038",
+      "stampColor": "#315afc",
+      "id": 27
+    },
+    {
+      "userId": 1,
+      "discId": 477,
+      "plasticId": 6,
+      "weight": 171,
+      "discColor": "#e8fe7c",
+      "stampColor": "#ffffff",
+      "id": 28
+    },
+    {
+      "userId": 1,
+      "discId": 478,
+      "plasticId": 15,
+      "weight": 166,
+      "discColor": "#91def8",
+      "stampColor": "#ff881a",
+      "id": 29
+    },
+    {
+      "userId": 1,
+      "discId": 577,
+      "plasticId": 106,
+      "weight": 175,
+      "discColor": "#e97451",
+      "stampColor": "#d8d8d8",
+      "id": 30
     }
   ]
 }
