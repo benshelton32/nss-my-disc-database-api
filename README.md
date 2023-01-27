@@ -2,7 +2,7 @@
 
 ## Repository Information
 
-This repository is only the JSON file used for the API in the My Disc Database project. The application repository can be found at https://github.com/benshelton32/nss-my-disc-database. I will include the instructions to clone and run the application both below and on the application repository previously mentioned.
+This repository is <strong>ONLY</strong> the JSON file used for the API in the My Disc Database project. The application repository can be found at https://github.com/benshelton32/nss-my-disc-database. I will include the instructions to clone and run the application both below and on the application repository previously mentioned.
 
 ### Application Overview
 
